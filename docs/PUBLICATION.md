@@ -78,3 +78,12 @@ Windows-прогоны и чистый экспорт Git сохраняются
 
 Публикация не меняет `ready_for_hardware_deployment=false` и не делает старые
 ракурсы или контактный захват подтверждёнными.
+
+Для финальной публикации есть отдельный `publish-snapshot.yml`: он сверяет
+server-side SHA256 и размеры всех release assets с `RELEASE_ASSETS.json`,
+дожидается успешного pytest текущего commit и публикует существующий draft
+как prerelease. Готовый tag не переписывается. Отчёт сохраняется в
+`results/github_publication/REMOTE_PUBLICATION.json` отдельным bot commit.
+Это также позволяет завершить проверку на стороне GitHub при локальных
+сетевых сбоях API. Job ограничен main-веткой указанного приватного репозитория;
+credentials не входят в исходники или отчёт.

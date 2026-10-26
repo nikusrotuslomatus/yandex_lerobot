@@ -1,0 +1,59 @@
+{
+  "repository": "nikusrotuslomatus/yandex_lerobot",
+  "release_id": 424240168,
+  "tag": "v0.1.0-research-snapshot-2026-10-26",
+  "private": true,
+  "assets": [
+    {
+      "name": "experiment-results.zip",
+      "bytes": 742076016,
+      "sha256": "e1ee7bb7010d840a21a194ee10a58247ed71244cf9765e8a97da6d21cffcd15f"
+    },
+    {
+      "name": "planning-library.zip",
+      "bytes": 11844528,
+      "sha256": "7e8e464cf098995e01956c03c8a586484b14e256e91a687bb6da1676c6aa64ab"
+    },
+    {
+      "name": "presentation-working-files.zip",
+      "bytes": 1513740,
+      "sha256": "84182c855b1c29db365926d4cd6e1ff52645ac16895bde447e8a42bdffe29ba0"
+    },
+    {
+      "name": "artifact-inventory.json",
+      "bytes": 1015387,
+      "sha256": "b94c02847bdb8c90992c9c6b570cbff502a4e2f2b27d0fe0fd4c2c039c4ea52d"
+    },
+    {
+      "name": "ARTIFACTS.json",
+      "bytes": 1277,
+      "sha256": "85109d72f4ffca19520465db70182529d941cdfe34cb30bf27bd17afcb06fb80"
+    },
+    {
+      "name": "github-actions-pytest.xml",
+      "bytes": 20120,
+      "sha256": "1c3c434193fd31ca9bafdb80da56773fec65891e1ada2f23419944848fad938b"
+    },
+    {
+      "name": "CI_VALIDATION.json",
+      "bytes": 535,
+      "sha256": "d8998bf3cb809512045f527f0b9f5c17bd7c97734bf76535235a8be81a7e79bc"
+    },
+    {
+      "name": "github-actions-pytest-latest.xml",
+      "bytes": 20120,
+      "sha256": "3b9d846dea2b68dd2ea6eac73efbced916c6517953bebd21ec8b06b71324ec67"
+    },
+    {
+      "name": "CI_VALIDATION_latest.json",
+      "bytes": 475,
+      "sha256": "06d40b9aaed58cd8a6ca33693cec7a8e6ac15d56ca3375534b3b73da4b437cd4"
+    },
+    {
+      "name": "factory-cycle-ideal-B.mp4",
+      "bytes": 3028555,
+      "sha256": "d5866a77809b4f208e4f4a752d2e8cba8d9fe3b9331c715d8fd3e75463b1d67a"
+    }
+  ],
+  "hardware_acceptance": false
+}
