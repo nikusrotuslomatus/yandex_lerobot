@@ -1,9 +1,80 @@
 {
-  "success": false,
+  "success": true,
   "repository": "nikusrotuslomatus/yandex_lerobot",
-  "validation_commit": "8ce02f581dbfa423037037f88d655280efed13b3",
+  "validation_commit": "2ddff49c638b0992fe596265a005eeefb767069a",
   "tag": "v0.1.0-research-snapshot-2026-10-26",
-  "workflow_url": "https://github.com/nikusrotuslomatus/yandex_lerobot/actions/runs/40329321974",
+  "workflow_url": "https://github.com/nikusrotuslomatus/yandex_lerobot/actions/runs/40330188129",
   "hardware_acceptance": false,
-  "error": "RuntimeError: Repository visibility changed"
+  "expected_private": false,
+  "observed_private": false,
+  "assets": [
+    {
+      "name": "artifact-inventory.json",
+      "bytes": 1015387,
+      "digest": "sha256:b94c02847bdb8c90992c9c6b570cbff502a4e2f2b27d0fe0fd4c2c039c4ea52d",
+      "state": "uploaded"
+    },
+    {
+      "name": "ARTIFACTS.json",
+      "bytes": 1277,
+      "digest": "sha256:85109d72f4ffca19520465db70182529d941cdfe34cb30bf27bd17afcb06fb80",
+      "state": "uploaded"
+    },
+    {
+      "name": "CI_VALIDATION.json",
+      "bytes": 535,
+      "digest": "sha256:d8998bf3cb809512045f527f0b9f5c17bd7c97734bf76535235a8be81a7e79bc",
+      "state": "uploaded"
+    },
+    {
+      "name": "CI_VALIDATION_latest.json",
+      "bytes": 475,
+      "digest": "sha256:06d40b9aaed58cd8a6ca33693cec7a8e6ac15d56ca3375534b3b73da4b437cd4",
+      "state": "uploaded"
+    },
+    {
+      "name": "experiment-results.zip",
+      "bytes": 742076016,
+      "digest": "sha256:e1ee7bb7010d840a21a194ee10a58247ed71244cf9765e8a97da6d21cffcd15f",
+      "state": "uploaded"
+    },
+    {
+      "name": "factory-cycle-ideal-B.mp4",
+      "bytes": 3028555,
+      "digest": "sha256:d5866a77809b4f208e4f4a752d2e8cba8d9fe3b9331c715d8fd3e75463b1d67a",
+      "state": "uploaded"
+    },
+    {
+      "name": "github-actions-pytest-latest.xml",
+      "bytes": 20120,
+      "digest": "sha256:3b9d846dea2b68dd2ea6eac73efbced916c6517953bebd21ec8b06b71324ec67",
+      "state": "uploaded"
+    },
+    {
+      "name": "github-actions-pytest.xml",
+      "bytes": 20120,
+      "digest": "sha256:1c3c434193fd31ca9bafdb80da56773fec65891e1ada2f23419944848fad938b",
+      "state": "uploaded"
+    },
+    {
+      "name": "planning-library.zip",
+      "bytes": 11844528,
+      "digest": "sha256:7e8e464cf098995e01956c03c8a586484b14e256e91a687bb6da1676c6aa64ab",
+      "state": "uploaded"
+    },
+    {
+      "name": "presentation-working-files.zip",
+      "bytes": 1513740,
+      "digest": "sha256:84182c855b1c29db365926d4cd6e1ff52645ac16895bde447e8a42bdffe29ba0",
+      "state": "uploaded"
+    }
+  ],
+  "software_ci": {
+    "name": "pytest",
+    "conclusion": "success",
+    "url": "https://github.com/nikusrotuslomatus/yandex_lerobot/actions/runs/40330188101/job/121597247125"
+  },
+  "published": true,
+  "release_url": "https://github.com/nikusrotuslomatus/yandex_lerobot/releases/tag/v0.1.0-research-snapshot-2026-10-26",
+  "snapshot_commit": "2ddff49c638b0992fe596265a005eeefb767069a"
 }
