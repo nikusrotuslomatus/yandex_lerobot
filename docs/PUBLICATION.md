@@ -1,7 +1,8 @@
 # Публикация и полный архив работ
 
 Репозиторий: [nikusrotuslomatus/yandex_lerobot](https://github.com/nikusrotuslomatus/yandex_lerobot).
-Первый snapshot публикуется приватно, как research prerelease:
+Репозиторий был создан приватным; на этапе публикации GitHub сообщает Public.
+Публикация сохраняет текущую видимость. Research prerelease:
 [v0.1.0-research-snapshot-2026-10-26](https://github.com/nikusrotuslomatus/yandex_lerobot/releases/tag/v0.1.0-research-snapshot-2026-10-26).
 
 ## Разделение Git и Release
@@ -85,5 +86,5 @@ server-side SHA256 и размеры всех release assets с `RELEASE_ASSETS.
 как prerelease. Готовый tag не переписывается. Отчёт сохраняется в
 `results/github_publication/REMOTE_PUBLICATION.json` отдельным bot commit.
 Это также позволяет завершить проверку на стороне GitHub при локальных
-сетевых сбоях API. Job ограничен main-веткой указанного приватного репозитория;
+сетевых сбоях API. Job ограничен main-веткой указанного репозитория и сверяет текущую видимость;
 credentials не входят в исходники или отчёт.

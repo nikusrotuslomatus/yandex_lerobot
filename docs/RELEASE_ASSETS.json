@@ -2,7 +2,7 @@
   "repository": "nikusrotuslomatus/yandex_lerobot",
   "release_id": 424240168,
   "tag": "v0.1.0-research-snapshot-2026-10-26",
-  "private": true,
+  "private": false,
   "assets": [
     {
       "name": "experiment-results.zip",

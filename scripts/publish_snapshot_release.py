@@ -81,6 +81,8 @@ def main():
            'hardware_acceptance':False}
     try:
         metadata=api('repos/'+repo,token)
+        proof['expected_private']=expected['private']
+        proof['observed_private']=metadata['private']
         if metadata['private']!=expected['private']:raise RuntimeError('Repository visibility changed')
         release=api(f"repos/{repo}/releases/{expected['release_id']}",token)
         if release['tag_name']!=expected['tag']:raise RuntimeError('Unexpected release tag')
