@@ -1,0 +1,370 @@
+{
+  "runs": [
+    {
+      "success": true,
+      "failure": null,
+      "simulated_seconds": 37.998000000000474,
+      "planning_seconds": 3.3613634998328052,
+      "max_planning_call_seconds": 0.8650912999873981,
+      "tracking_max": 0.0020157689879762943,
+      "captures": 6,
+      "planning_library": {
+        "enabled": true,
+        "preparation_mode": false,
+        "fingerprint": "2de571108bb0e8aeaa7d8a59720b3031250414d760e996fbcfa123218460c990",
+        "hits": 64,
+        "misses": 4,
+        "build_seconds": 0.0,
+        "certificate_hits": 38,
+        "certificate_rechecks": 5
+      },
+      "coverage": {
+        "binary_coverage": 0.9953703703703703,
+        "any_visibility": 1.0,
+        "quality_weighted": 0.6785398563760685,
+        "multiview_coverage": 0.7476851851851852,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.44004333160621073
+          },
+          "-X": {
+            "binary": 1.0,
+            "quality": 0.813893067782706
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.824778309976732
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.8602307666648801
+          },
+          "+Z": {
+            "binary": 0.9722222222222222,
+            "quality": 0.608431997922833
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.5238616643030489
+          }
+        }
+      },
+      "initial_offset_m": [
+        0,
+        0
+      ],
+      "total_process_wall_seconds": 23.101528899976984,
+      "first_capture_sim_seconds": 7.795999999999363,
+      "first_capture_planning_seconds": 0.6275837998837233,
+      "min_visible_pixels": 8691.0,
+      "min_visible_fraction": 0.8904177375616513
+    },
+    {
+      "success": true,
+      "failure": null,
+      "simulated_seconds": 37.998000000000474,
+      "planning_seconds": 3.4088010999839753,
+      "max_planning_call_seconds": 0.9998848999966867,
+      "tracking_max": 0.0020157689879762943,
+      "captures": 6,
+      "planning_library": {
+        "enabled": true,
+        "preparation_mode": false,
+        "fingerprint": "2de571108bb0e8aeaa7d8a59720b3031250414d760e996fbcfa123218460c990",
+        "hits": 64,
+        "misses": 4,
+        "build_seconds": 0.0,
+        "certificate_hits": 38,
+        "certificate_rechecks": 5
+      },
+      "coverage": {
+        "binary_coverage": 0.9953703703703703,
+        "any_visibility": 1.0,
+        "quality_weighted": 0.6785398563760685,
+        "multiview_coverage": 0.7476851851851852,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.44004333160621073
+          },
+          "-X": {
+            "binary": 1.0,
+            "quality": 0.813893067782706
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.824778309976732
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.8602307666648801
+          },
+          "+Z": {
+            "binary": 0.9722222222222222,
+            "quality": 0.608431997922833
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.5238616643030489
+          }
+        }
+      },
+      "initial_offset_m": [
+        0,
+        0
+      ],
+      "total_process_wall_seconds": 23.239135099982377,
+      "first_capture_sim_seconds": 7.795999999999363,
+      "first_capture_planning_seconds": 0.4990345000405796,
+      "min_visible_pixels": 8691.0,
+      "min_visible_fraction": 0.8904177375616513
+    },
+    {
+      "success": true,
+      "failure": null,
+      "simulated_seconds": 37.998000000000474,
+      "planning_seconds": 3.0724463999504223,
+      "max_planning_call_seconds": 0.908087500021793,
+      "tracking_max": 0.0020157689879762943,
+      "captures": 6,
+      "planning_library": {
+        "enabled": true,
+        "preparation_mode": false,
+        "fingerprint": "2de571108bb0e8aeaa7d8a59720b3031250414d760e996fbcfa123218460c990",
+        "hits": 64,
+        "misses": 4,
+        "build_seconds": 0.0,
+        "certificate_hits": 38,
+        "certificate_rechecks": 5
+      },
+      "coverage": {
+        "binary_coverage": 0.9953703703703703,
+        "any_visibility": 1.0,
+        "quality_weighted": 0.6785398563760685,
+        "multiview_coverage": 0.7476851851851852,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.44004333160621073
+          },
+          "-X": {
+            "binary": 1.0,
+            "quality": 0.813893067782706
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.824778309976732
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.8602307666648801
+          },
+          "+Z": {
+            "binary": 0.9722222222222222,
+            "quality": 0.608431997922833
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.5238616643030489
+          }
+        }
+      },
+      "initial_offset_m": [
+        0,
+        0
+      ],
+      "total_process_wall_seconds": 20.528551099996548,
+      "first_capture_sim_seconds": 7.795999999999363,
+      "first_capture_planning_seconds": 0.539527699991595,
+      "min_visible_pixels": 8691.0,
+      "min_visible_fraction": 0.8904177375616513
+    },
+    {
+      "success": true,
+      "failure": null,
+      "simulated_seconds": 37.974000000000444,
+      "planning_seconds": 4.029861200193409,
+      "max_planning_call_seconds": 0.9867347000399604,
+      "tracking_max": 0.002015768984473165,
+      "captures": 6,
+      "planning_library": {
+        "enabled": true,
+        "preparation_mode": false,
+        "fingerprint": "2de571108bb0e8aeaa7d8a59720b3031250414d760e996fbcfa123218460c990",
+        "hits": 61,
+        "misses": 36,
+        "build_seconds": 0.0,
+        "certificate_hits": 34,
+        "certificate_rechecks": 38
+      },
+      "coverage": {
+        "binary_coverage": 0.9953703703703703,
+        "any_visibility": 1.0,
+        "quality_weighted": 0.6785397625096189,
+        "multiview_coverage": 0.7476851851851852,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.44004298488000754
+          },
+          "-X": {
+            "binary": 1.0,
+            "quality": 0.8138930675983076
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.8247783049661523
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.8602305987701652
+          },
+          "+Z": {
+            "binary": 0.9722222222222222,
+            "quality": 0.6084320008242721
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.5238616180188084
+          }
+        }
+      },
+      "initial_offset_m": [
+        0.001,
+        0
+      ],
+      "total_process_wall_seconds": 21.2366742999875,
+      "first_capture_sim_seconds": 7.771999999999366,
+      "first_capture_planning_seconds": 1.3372052001068369,
+      "min_visible_pixels": 8691.0,
+      "min_visible_fraction": 0.8904174604406359
+    },
+    {
+      "success": true,
+      "failure": null,
+      "simulated_seconds": 37.92000000000038,
+      "planning_seconds": 4.38252849993296,
+      "max_planning_call_seconds": 0.8677077000029385,
+      "tracking_max": 0.0020157682317185144,
+      "captures": 6,
+      "planning_library": {
+        "enabled": true,
+        "preparation_mode": false,
+        "fingerprint": "2de571108bb0e8aeaa7d8a59720b3031250414d760e996fbcfa123218460c990",
+        "hits": 55,
+        "misses": 42,
+        "build_seconds": 0.0,
+        "certificate_hits": 18,
+        "certificate_rechecks": 54
+      },
+      "coverage": {
+        "binary_coverage": 0.9953703703703703,
+        "any_visibility": 1.0,
+        "quality_weighted": 0.6785943823149583,
+        "multiview_coverage": 0.7476851851851852,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.4401631347040101
+          },
+          "-X": {
+            "binary": 1.0,
+            "quality": 0.8138978018222454
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.824801793347873
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.8603697212531112
+          },
+          "+Z": {
+            "binary": 0.9722222222222222,
+            "quality": 0.6084259657065134
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.5239078770559971
+          }
+        }
+      },
+      "initial_offset_m": [
+        -0.001,
+        0.001
+      ],
+      "total_process_wall_seconds": 22.467092300008517,
+      "first_capture_sim_seconds": 7.771999999999366,
+      "first_capture_planning_seconds": 1.3912535999552347,
+      "min_visible_pixels": 8694.0,
+      "min_visible_fraction": 0.8903500709398999
+    },
+    {
+      "success": true,
+      "failure": null,
+      "simulated_seconds": 38.03000000000051,
+      "planning_seconds": 5.022104799747467,
+      "max_planning_call_seconds": 0.9854650000343099,
+      "tracking_max": 0.0020157696573737255,
+      "captures": 6,
+      "planning_library": {
+        "enabled": true,
+        "preparation_mode": false,
+        "fingerprint": "2de571108bb0e8aeaa7d8a59720b3031250414d760e996fbcfa123218460c990",
+        "hits": 57,
+        "misses": 40,
+        "build_seconds": 0.0,
+        "certificate_hits": 26,
+        "certificate_rechecks": 46
+      },
+      "coverage": {
+        "binary_coverage": 0.9953703703703703,
+        "any_visibility": 1.0,
+        "quality_weighted": 0.6784880011874508,
+        "multiview_coverage": 0.7476851851851852,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.43993079223043524
+          },
+          "-X": {
+            "binary": 1.0,
+            "quality": 0.813889498888249
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.8247541707593873
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.8600921974493457
+          },
+          "+Z": {
+            "binary": 0.9722222222222222,
+            "quality": 0.6084360016134087
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.523825346183878
+          }
+        }
+      },
+      "initial_offset_m": [
+        0,
+        -0.001
+      ],
+      "total_process_wall_seconds": 23.37968119996367,
+      "first_capture_sim_seconds": 7.769999999999366,
+      "first_capture_planning_seconds": 1.7437781998305582,
+      "min_visible_pixels": 8693.0,
+      "min_visible_fraction": 0.890774088342609
+    }
+  ],
+  "successes": 6,
+  "total": 6,
+  "planning_min_seconds": 3.0724463999504223,
+  "planning_median_seconds": 3.719331150088692,
+  "planning_max_seconds": 5.022104799747467,
+  "note": "Six MuJoCo B scenarios are a regression check, not hardware reliability qualification."
+}

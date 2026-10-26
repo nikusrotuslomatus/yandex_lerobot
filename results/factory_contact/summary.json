@@ -1,0 +1,191 @@
+{
+  "success": false,
+  "failure": {
+    "code": "TEST_LIFT_FAILED",
+    "details": {
+      "lift": 0.00017708468874426397,
+      "slip": 0.009824265831686716,
+      "angle": 0.0012249057096810631,
+      "source": "simulation_ground_truth"
+    }
+  },
+  "fsm": "FAILED",
+  "simulation_level": "C",
+  "task_scope": "pick_and_hold",
+  "stages": {},
+  "captures": 0,
+  "regrasps": 0,
+  "coverage": {
+    "binary_coverage": 0.0,
+    "any_visibility": 0.0,
+    "quality_weighted": 0.0,
+    "multiview_coverage": 0.0,
+    "per_face": {
+      "+X": {
+        "binary": 0.0,
+        "quality": 0.0
+      },
+      "-X": {
+        "binary": 0.0,
+        "quality": 0.0
+      },
+      "+Y": {
+        "binary": 0.0,
+        "quality": 0.0
+      },
+      "-Y": {
+        "binary": 0.0,
+        "quality": 0.0
+      },
+      "+Z": {
+        "binary": 0.0,
+        "quality": 0.0
+      },
+      "-Z": {
+        "binary": 0.0,
+        "quality": 0.0
+      }
+    }
+  },
+  "simulated_seconds": 5.957999999999566,
+  "wall_seconds": 2.666650999977719,
+  "planning_seconds": 0.49659020005492494,
+  "planning_breakdown": {
+    "grasp_geometry": 0.0007765000336803496,
+    "grasp_search": 0.39359130000229925,
+    "joint_paths": 0.0004673000075854361,
+    "test_lift_path": 0.1017551000113599
+  },
+  "sim_plus_planning_seconds": 6.454590200054491,
+  "planning_calls": [
+    {
+      "kind": "grasp_geometry",
+      "seconds": 0.0007765000336803496,
+      "simulation_time": 0.0
+    },
+    {
+      "kind": "grasp_search",
+      "seconds": 0.39359130000229925,
+      "simulation_time": 0.0
+    },
+    {
+      "kind": "joint_paths",
+      "seconds": 0.0004673000075854361,
+      "simulation_time": 0.0
+    },
+    {
+      "kind": "test_lift_path",
+      "seconds": 0.1017551000113599,
+      "simulation_time": 5.417999999999625
+    }
+  ],
+  "max_planning_call_seconds": 0.39359130000229925,
+  "planning_library": {
+    "enabled": true,
+    "preparation_mode": false,
+    "fingerprint": "2de571108bb0e8aeaa7d8a59720b3031250414d760e996fbcfa123218460c990",
+    "hits": 8,
+    "misses": 15,
+    "build_seconds": 0.0,
+    "certificate_hits": 2,
+    "certificate_rechecks": 15
+  },
+  "motion_segments": 4,
+  "joint_path_length": 3.5151873286446977,
+  "tracking_max": 0.0016229249372293753,
+  "tracking_rms": 0.00048591140953386586,
+  "measured_velocity_max": [
+    1.2396596628599172,
+    0.6488696987114274,
+    1.347299606013499,
+    1.568294534338714,
+    0.08440653363812127
+  ],
+  "measured_acceleration_max": [
+    3.6117518973230456,
+    2.6072418252524736,
+    3.925738797380285,
+    6.018125567984048,
+    0.33853609102121524
+  ],
+  "actuator_force_max": [
+    1.4342578905173013,
+    1.1407060225343457,
+    0.9952372010721433,
+    0.9686390459069685,
+    0.06069407767551446,
+    0.25
+  ],
+  "force_saturation_fraction": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.31789191003692513
+  ],
+  "stop_result": {
+    "method": "already_stationary",
+    "duration": 0.0,
+    "final_velocity": [
+      -2.061130974717676e-08,
+      1.0254314498804622e-05,
+      1.6462622009668858e-05,
+      -3.524142902379114e-05,
+      4.163141494774627e-07
+    ]
+  },
+  "forbidden_collision_steps": 0,
+  "settling_seconds": [
+    0.11999999999998678,
+    0.11999999999998723,
+    0.11999999999998678
+  ],
+  "weld_active_final": false,
+  "selected_grasps": [
+    {
+      "grasp_id": "fit_0_axis_0_rotation_3",
+      "contact_axis": 0,
+      "predicted_T_G_O": [
+        [
+          0.9887710779360419,
+          -7.885169514923926e-19,
+          -0.14943813247359916,
+          3.469446951953614e-17
+        ],
+        [
+          -8.322566893596537e-19,
+          0.9999999999999997,
+          -2.301580714099903e-19,
+          1.7347234759768061e-18
+        ],
+        [
+          0.14943813247359913,
+          -3.519445297603038e-19,
+          0.988771077936042,
+          -1.3877787807814457e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pregrasp_q": [
+        -0.001127120376735423,
+        -0.13414179598948905,
+        0.2404609593857525,
+        1.614477064634661,
+        0.04756859484683985
+      ],
+      "grasp_q": [
+        -0.001105169132702743,
+        -0.015041685010707951,
+        0.45547904455780114,
+        1.2803588415932783,
+        0.04759016109592694
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "release": "v0.1.0-research-snapshot-2026-10-26",
+  "repository": "nikusrotuslomatus/yandex_lerobot",
+  "archives": [
+    {
+      "name": "experiment-results.zip",
+      "bytes": 742076016,
+      "sha256": "e1ee7bb7010d840a21a194ee10a58247ed71244cf9765e8a97da6d21cffcd15f",
+      "entries": 3270,
+      "uncompressed_bytes": 1603313163,
+      "crc_valid": true
+    },
+    {
+      "name": "planning-library.zip",
+      "bytes": 11844528,
+      "sha256": "7e8e464cf098995e01956c03c8a586484b14e256e91a687bb6da1676c6aa64ab",
+      "entries": 734,
+      "uncompressed_bytes": 13277725,
+      "crc_valid": true
+    },
+    {
+      "name": "presentation-working-files.zip",
+      "bytes": 1513740,
+      "sha256": "84182c855b1c29db365926d4cd6e1ff52645ac16895bde447e8a42bdffe29ba0",
+      "entries": 29,
+      "uncompressed_bytes": 1646930,
+      "crc_valid": true
+    },
+    {
+      "name": "artifact-inventory.json",
+      "bytes": 1015387,
+      "sha256": "b94c02847bdb8c90992c9c6b570cbff502a4e2f2b27d0fe0fd4c2c039c4ea52d",
+      "entries": 4033
+    }
+  ],
+  "omitted_regenerable_directories": [
+    ".venv",
+    "__pycache__",
+    ".pytest_cache",
+    "third_party/menagerie_source"
+  ],
+  "hardware_acceptance": false
+}

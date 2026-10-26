@@ -1,0 +1,4109 @@
+{
+  "cases": [
+    {
+      "frames": 24,
+      "statuses": {
+        "RELOCALIZING": 1,
+        "TRACKING": 23
+      },
+      "tracking_fraction": 0.9583333333333334,
+      "position_error_mm": {
+        "p50": 1.0889950552083336,
+        "p95": 1.1975479544877894,
+        "p99": 1.1982990398693394,
+        "max": 1.1983988775687862
+      },
+      "rotation_error_deg": {
+        "p50": 0.5834091094351679,
+        "p95": 0.8584342041321696,
+        "p99": 0.8819249377731072,
+        "max": 0.885678336058216
+      },
+      "processing_ms": {
+        "p50": 67.56880000466481,
+        "p95": 82.55242008599453,
+        "p99": 84.67943797819316,
+        "max": 85.27269994374365
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 718.6839500209317,
+        "p95": 788.0229149828665,
+        "p99": 796.5288049727678,
+        "max": 798.5220999689773
+      },
+      "position_envelope_coverage": 1.0,
+      "angle_envelope_coverage": 0.9565217391304348,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "nominal",
+      "seed": 10001,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.5660000000000001
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.3895
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.42074999999999996
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388"
+      },
+      "noise_profile": {
+        "name": "d455_engineering_nominal",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "c8365e5c81195dbda7188caa1555d953c021955136bef2e4c09b234dc443b965"
+      },
+      "error_budget": {
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "RELOCALIZING": 1,
+        "TRACKING": 23
+      },
+      "tracking_fraction": 0.9583333333333334,
+      "position_error_mm": {
+        "p50": 3.216286911643027,
+        "p95": 3.4679143787039117,
+        "p99": 3.9660024238283142,
+        "max": 4.105136388311941
+      },
+      "rotation_error_deg": {
+        "p50": 0.8045897556047912,
+        "p95": 1.2899112174512686,
+        "p99": 1.6517826445425743,
+        "max": 1.7487437297211463
+      },
+      "processing_ms": {
+        "p50": 54.55454997718334,
+        "p95": 70.99724002182484,
+        "p99": 90.64026403008027,
+        "max": 96.41400002874434
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 707.4836500105448,
+        "p95": 773.2829349988606,
+        "p99": 777.5215859827586,
+        "max": 778.4488999750465
+      },
+      "position_envelope_coverage": 1.0,
+      "angle_envelope_coverage": 0.7391304347826086,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "nominal",
+      "seed": 10998,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.62
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.46
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.48
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5"
+      },
+      "noise_profile": {
+        "name": "d455_engineering_nominal",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "c8365e5c81195dbda7188caa1555d953c021955136bef2e4c09b234dc443b965"
+      },
+      "error_budget": {
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "RELOCALIZING": 1,
+        "TRACKING": 23
+      },
+      "tracking_fraction": 0.9583333333333334,
+      "position_error_mm": {
+        "p50": 2.9009752846203143,
+        "p95": 3.161796527584944,
+        "p99": 3.263034083508272,
+        "max": 3.2906903730394714
+      },
+      "rotation_error_deg": {
+        "p50": 1.2022556450988187,
+        "p95": 2.003375252922086,
+        "p99": 2.129336784316528,
+        "max": 2.153566665197107
+      },
+      "processing_ms": {
+        "p50": 50.01644999720156,
+        "p95": 66.48004505550487,
+        "p99": 71.45159799838439,
+        "max": 72.77119997888803
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 706.3448000117205,
+        "p95": 781.3721549813636,
+        "p99": 789.1404770547524,
+        "max": 790.9690000815317
+      },
+      "position_envelope_coverage": 1.0,
+      "angle_envelope_coverage": 0.8260869565217391,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "nominal",
+      "seed": 11995,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.6739999999999999
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.5305
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.5392499999999999
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559"
+      },
+      "noise_profile": {
+        "name": "d455_engineering_nominal",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "c8365e5c81195dbda7188caa1555d953c021955136bef2e4c09b234dc443b965"
+      },
+      "error_budget": {
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "RELOCALIZING": 1,
+        "TRACKING": 23
+      },
+      "tracking_fraction": 0.9583333333333334,
+      "position_error_mm": {
+        "p50": 1.140745628702924,
+        "p95": 1.343437213136376,
+        "p99": 1.46014070085385,
+        "max": 1.4927793619340102
+      },
+      "rotation_error_deg": {
+        "p50": 0.5210730268204306,
+        "p95": 0.822170311286583,
+        "p99": 0.9161681311319865,
+        "max": 0.9424195619090914
+      },
+      "processing_ms": {
+        "p50": 53.256049985066056,
+        "p95": 73.40857497183606,
+        "p99": 102.93953602551481,
+        "max": 111.75010004080832
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 690.1776999584399,
+        "p95": 741.1001100321299,
+        "p99": 748.3221680414863,
+        "max": 748.9198000403121
+      },
+      "position_envelope_coverage": 1.0,
+      "angle_envelope_coverage": 0.8695652173913043,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "nominal",
+      "seed": 12992,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.5660000000000001
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.3895
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.42074999999999996
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388"
+      },
+      "noise_profile": {
+        "name": "d455_engineering_nominal",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "c8365e5c81195dbda7188caa1555d953c021955136bef2e4c09b234dc443b965"
+      },
+      "error_budget": {
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "RELOCALIZING": 1,
+        "TRACKING": 23
+      },
+      "tracking_fraction": 0.9583333333333334,
+      "position_error_mm": {
+        "p50": 2.240003178329425,
+        "p95": 2.4973288681815733,
+        "p99": 2.538820454462444,
+        "max": 2.5503843773918438
+      },
+      "rotation_error_deg": {
+        "p50": 0.6312359329582249,
+        "p95": 1.2543962050132904,
+        "p99": 1.2989117289998695,
+        "max": 1.3089651026896265
+      },
+      "processing_ms": {
+        "p50": 57.19009996391833,
+        "p95": 90.52326999953945,
+        "p99": 95.35727498470806,
+        "max": 96.19389998260885
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 701.3519500615075,
+        "p95": 749.3915649713017,
+        "p99": 777.2691780538298,
+        "max": 785.0366000784561
+      },
+      "position_envelope_coverage": 1.0,
+      "angle_envelope_coverage": 0.8260869565217391,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "nominal",
+      "seed": 13989,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.62
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.46
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.48
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5"
+      },
+      "noise_profile": {
+        "name": "d455_engineering_nominal",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "c8365e5c81195dbda7188caa1555d953c021955136bef2e4c09b234dc443b965"
+      },
+      "error_budget": {
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "RELOCALIZING": 1,
+        "TRACKING": 23
+      },
+      "tracking_fraction": 0.9583333333333334,
+      "position_error_mm": {
+        "p50": 1.376137748243708,
+        "p95": 1.7371877235128197,
+        "p99": 1.9741681099255601,
+        "max": 2.0408506846910632
+      },
+      "rotation_error_deg": {
+        "p50": 0.9407114270312907,
+        "p95": 1.8274759779798255,
+        "p99": 1.957214394521703,
+        "max": 1.9919373589267508
+      },
+      "processing_ms": {
+        "p50": 48.372099932748824,
+        "p95": 63.40751491952687,
+        "p99": 67.91646294761449,
+        "max": 69.1450999584049
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 710.0335000432096,
+        "p95": 740.3019199438859,
+        "p99": 741.3590609002858,
+        "max": 741.6072998894379
+      },
+      "position_envelope_coverage": 1.0,
+      "angle_envelope_coverage": 0.6956521739130435,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "nominal",
+      "seed": 14986,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.6739999999999999
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.5305
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.5392499999999999
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559"
+      },
+      "noise_profile": {
+        "name": "d455_engineering_nominal",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "c8365e5c81195dbda7188caa1555d953c021955136bef2e4c09b234dc443b965"
+      },
+      "error_budget": {
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "DEGENERATE": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 33.14820001833141,
+        "p95": 46.42148499260656,
+        "p99": 49.239632989047095,
+        "max": 49.90039998665452
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 695.6841499777511,
+        "p95": 758.5198199551087,
+        "p99": 763.7301549653057,
+        "max": 764.3215999705717
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "adverse",
+      "seed": 10001,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.5660000000000001
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.3895
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.42074999999999996
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388"
+      },
+      "noise_profile": {
+        "name": "d455_adverse_assumed",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.14,
+        "disparity_correlated_px": 0.1,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.001,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0015,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.006,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0015,
+        "extrinsic_rotation_std_rad": 0.003,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.08,
+        "cluster_dropout_probability": 0.04,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.6,
+        "edge_flying_probability": 0.18,
+        "edge_width_px": 2,
+        "texture_quality": 0.35,
+        "specular_fraction": 0.08,
+        "exposure_s": 0.012,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "75d6e05eb81f29f5f337933da64afdfed3cbd5e3176f8d84232ebd001a7a0ed0"
+      },
+      "error_budget": {
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "CALIBRATION_INVALID": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 692.8551499731839,
+        "p95": 742.7927349228412,
+        "p99": 749.9798320175614,
+        "max": 752.0548000466079
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "adverse",
+      "seed": 10998,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.62
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.46
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.48
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5"
+      },
+      "noise_profile": {
+        "name": "d455_adverse_assumed",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.14,
+        "disparity_correlated_px": 0.1,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.001,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0015,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.006,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0015,
+        "extrinsic_rotation_std_rad": 0.003,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.08,
+        "cluster_dropout_probability": 0.04,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.6,
+        "edge_flying_probability": 0.18,
+        "edge_width_px": 2,
+        "texture_quality": 0.35,
+        "specular_fraction": 0.08,
+        "exposure_s": 0.012,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "75d6e05eb81f29f5f337933da64afdfed3cbd5e3176f8d84232ebd001a7a0ed0"
+      },
+      "error_budget": {
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": "Table/extrinsic mismatch; recalibrate camera",
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "DEGENERATE": 23,
+        "LOST": 1
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 34.48019997449592,
+        "p95": 53.298874926986166,
+        "p99": 54.28989996784367,
+        "max": 54.47159998584539
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 686.6732999915257,
+        "p95": 741.1518349312246,
+        "p99": 749.897960035596,
+        "max": 752.4551000678912
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "adverse",
+      "seed": 11995,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.6739999999999999
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.5305
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.5392499999999999
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559"
+      },
+      "noise_profile": {
+        "name": "d455_adverse_assumed",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.14,
+        "disparity_correlated_px": 0.1,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.001,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0015,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.006,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0015,
+        "extrinsic_rotation_std_rad": 0.003,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.08,
+        "cluster_dropout_probability": 0.04,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.6,
+        "edge_flying_probability": 0.18,
+        "edge_width_px": 2,
+        "texture_quality": 0.35,
+        "specular_fraction": 0.08,
+        "exposure_s": 0.012,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "75d6e05eb81f29f5f337933da64afdfed3cbd5e3176f8d84232ebd001a7a0ed0"
+      },
+      "error_budget": {
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "DEGENERATE": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 36.97690000990406,
+        "p95": 59.79858502978458,
+        "p99": 68.50432807463221,
+        "max": 71.02660008240491
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 705.4812999558635,
+        "p95": 788.3718500263057,
+        "p99": 798.9891970774624,
+        "max": 800.0670000910759
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "adverse",
+      "seed": 12992,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.5660000000000001
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.3895
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.42074999999999996
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388"
+      },
+      "noise_profile": {
+        "name": "d455_adverse_assumed",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.14,
+        "disparity_correlated_px": 0.1,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.001,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0015,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.006,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0015,
+        "extrinsic_rotation_std_rad": 0.003,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.08,
+        "cluster_dropout_probability": 0.04,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.6,
+        "edge_flying_probability": 0.18,
+        "edge_width_px": 2,
+        "texture_quality": 0.35,
+        "specular_fraction": 0.08,
+        "exposure_s": 0.012,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "75d6e05eb81f29f5f337933da64afdfed3cbd5e3176f8d84232ebd001a7a0ed0"
+      },
+      "error_budget": {
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "CALIBRATION_INVALID": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 702.0826999796554,
+        "p95": 800.4532400285825,
+        "p99": 813.5484460054431,
+        "max": 816.6741000022739
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "adverse",
+      "seed": 13989,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.62
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.46
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.48
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5"
+      },
+      "noise_profile": {
+        "name": "d455_adverse_assumed",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.14,
+        "disparity_correlated_px": 0.1,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.001,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0015,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.006,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0015,
+        "extrinsic_rotation_std_rad": 0.003,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.08,
+        "cluster_dropout_probability": 0.04,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.6,
+        "edge_flying_probability": 0.18,
+        "edge_width_px": 2,
+        "texture_quality": 0.35,
+        "specular_fraction": 0.08,
+        "exposure_s": 0.012,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "75d6e05eb81f29f5f337933da64afdfed3cbd5e3176f8d84232ebd001a7a0ed0"
+      },
+      "error_budget": {
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": "Table/extrinsic mismatch; recalibrate camera",
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "CALIBRATION_INVALID": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 688.4554999414831,
+        "p95": 729.6949000156019,
+        "p99": 737.5955820712261,
+        "max": 739.890200085938
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "adverse",
+      "seed": 14986,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.6739999999999999
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.5305
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.5392499999999999
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559"
+      },
+      "noise_profile": {
+        "name": "d455_adverse_assumed",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.14,
+        "disparity_correlated_px": 0.1,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.001,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0015,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.006,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0015,
+        "extrinsic_rotation_std_rad": 0.003,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.08,
+        "cluster_dropout_probability": 0.04,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.6,
+        "edge_flying_probability": 0.18,
+        "edge_width_px": 2,
+        "texture_quality": 0.35,
+        "specular_fraction": 0.08,
+        "exposure_s": 0.012,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "75d6e05eb81f29f5f337933da64afdfed3cbd5e3176f8d84232ebd001a7a0ed0"
+      },
+      "error_budget": {
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": "Table/extrinsic mismatch; recalibrate camera",
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "CALIBRATION_INVALID": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 676.0057500214316,
+        "p95": 745.0986899377313,
+        "p99": 750.6058670184575,
+        "max": 752.0542000420392
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "spec_limit",
+      "seed": 10001,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.5660000000000001
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.3895
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.42074999999999996
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388"
+      },
+      "noise_profile": {
+        "name": "d455_2pct_scale_sensitivity_not_gaussian_spec",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.001,
+        "offset_session_std_m": 0.0,
+        "depth_scale_error": 0.02,
+        "scale_session_std": 0.0,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.002,
+        "extrinsic_rotation_std_rad": 0.004,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "352c41293280dc297fd039121782c8f0f97df39065fcb2907eda795881c3a210"
+      },
+      "error_budget": {
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": "Table/extrinsic mismatch; recalibrate camera",
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "RELOCALIZING": 1,
+        "TRACKING": 23
+      },
+      "tracking_fraction": 0.9583333333333334,
+      "position_error_mm": {
+        "p50": 17.618250292971595,
+        "p95": 17.97548209578701,
+        "p99": 17.9825153311443,
+        "max": 17.984020391425695
+      },
+      "rotation_error_deg": {
+        "p50": 1.073427562111571,
+        "p95": 1.4444675336839807,
+        "p99": 1.6034025342701401,
+        "max": 1.6449178972936314
+      },
+      "processing_ms": {
+        "p50": 57.64779995661229,
+        "p95": 89.1151100164279,
+        "p99": 97.44863995816559,
+        "max": 99.42939993925393
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 702.8896499541588,
+        "p95": 748.2283750083297,
+        "p99": 750.6121760222595,
+        "max": 750.630300026387
+      },
+      "position_envelope_coverage": 1.0,
+      "angle_envelope_coverage": 0.6956521739130435,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "spec_limit",
+      "seed": 10998,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.62
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.46
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.48
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5"
+      },
+      "noise_profile": {
+        "name": "d455_2pct_scale_sensitivity_not_gaussian_spec",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.001,
+        "offset_session_std_m": 0.0,
+        "depth_scale_error": 0.02,
+        "scale_session_std": 0.0,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.002,
+        "extrinsic_rotation_std_rad": 0.004,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "352c41293280dc297fd039121782c8f0f97df39065fcb2907eda795881c3a210"
+      },
+      "error_budget": {
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "CALIBRATION_INVALID": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 674.4481499772519,
+        "p95": 736.2960999831557,
+        "p99": 741.7253629968036,
+        "max": 742.2179999994114
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "spec_limit",
+      "seed": 11995,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.6739999999999999
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.5305
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.5392499999999999
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559"
+      },
+      "noise_profile": {
+        "name": "d455_2pct_scale_sensitivity_not_gaussian_spec",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.001,
+        "offset_session_std_m": 0.0,
+        "depth_scale_error": 0.02,
+        "scale_session_std": 0.0,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.002,
+        "extrinsic_rotation_std_rad": 0.004,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "352c41293280dc297fd039121782c8f0f97df39065fcb2907eda795881c3a210"
+      },
+      "error_budget": {
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": "Table/extrinsic mismatch; recalibrate camera",
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "CALIBRATION_INVALID": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 689.8908999864943,
+        "p95": 725.4319100058638,
+        "p99": 759.5343100477476,
+        "max": 769.6389000630006
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "spec_limit",
+      "seed": 12992,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.5660000000000001
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.3895
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.42074999999999996
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388"
+      },
+      "noise_profile": {
+        "name": "d455_2pct_scale_sensitivity_not_gaussian_spec",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.001,
+        "offset_session_std_m": 0.0,
+        "depth_scale_error": 0.02,
+        "scale_session_std": 0.0,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.002,
+        "extrinsic_rotation_std_rad": 0.004,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "352c41293280dc297fd039121782c8f0f97df39065fcb2907eda795881c3a210"
+      },
+      "error_budget": {
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": "Table/extrinsic mismatch; recalibrate camera",
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "CALIBRATION_INVALID": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 685.9733499586582,
+        "p95": 730.8769099414349,
+        "p99": 741.803876934573,
+        "max": 744.6558999363333
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "spec_limit",
+      "seed": 13989,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.62
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.46
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.48
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5"
+      },
+      "noise_profile": {
+        "name": "d455_2pct_scale_sensitivity_not_gaussian_spec",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.001,
+        "offset_session_std_m": 0.0,
+        "depth_scale_error": 0.02,
+        "scale_session_std": 0.0,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.002,
+        "extrinsic_rotation_std_rad": 0.004,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "352c41293280dc297fd039121782c8f0f97df39065fcb2907eda795881c3a210"
+      },
+      "error_budget": {
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": "Table/extrinsic mismatch; recalibrate camera",
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "CALIBRATION_INVALID": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 675.583350006491,
+        "p95": 728.9849900116678,
+        "p99": 733.0741840868723,
+        "max": 734.2056001070887
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "spec_limit",
+      "seed": 14986,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.6739999999999999
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.5305
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.5392499999999999
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559"
+      },
+      "noise_profile": {
+        "name": "d455_2pct_scale_sensitivity_not_gaussian_spec",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.001,
+        "offset_session_std_m": 0.0,
+        "depth_scale_error": 0.02,
+        "scale_session_std": 0.0,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.002,
+        "extrinsic_rotation_std_rad": 0.004,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "352c41293280dc297fd039121782c8f0f97df39065fcb2907eda795881c3a210"
+      },
+      "error_budget": {
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": "Table/extrinsic mismatch; recalibrate camera",
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "STALE": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.016799953300505877,
+        "p95": 0.03468503127805888,
+        "p99": 0.03900406416505575,
+        "max": 0.04020007327198982
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 692.97390000429,
+        "p95": 752.0008800143842,
+        "p99": 801.5809009701479,
+        "max": 816.2712999619544
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "timing_fault",
+      "seed": 10001,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.5660000000000001
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.3895
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.42074999999999996
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388"
+      },
+      "noise_profile": {
+        "name": "clock_and_transport_fault",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.1,
+        "transport_jitter_s": 0.02,
+        "clock_offset_s": -0.06,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.06,
+        "profile_id": "2edec3d38cb43f147b43909577a0358c15c4cc5110bb642236704f083b36308b"
+      },
+      "error_budget": {
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "STALE": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.016000005416572094,
+        "p95": 0.028334982926025983,
+        "p99": 0.02911598887294531,
+        "max": 0.02929999027401209
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 692.6083500147797,
+        "p95": 755.3793399827555,
+        "p99": 780.730852013221,
+        "max": 787.7959000179544
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "timing_fault",
+      "seed": 10998,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.62
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.46
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.48
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5"
+      },
+      "noise_profile": {
+        "name": "clock_and_transport_fault",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.1,
+        "transport_jitter_s": 0.02,
+        "clock_offset_s": -0.06,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.06,
+        "profile_id": "2edec3d38cb43f147b43909577a0358c15c4cc5110bb642236704f083b36308b"
+      },
+      "error_budget": {
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "STALE": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.018950027879327536,
+        "p95": 0.0377349555492401,
+        "p99": 0.04788601538166403,
+        "max": 0.050600036047399044
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 677.7433500392362,
+        "p95": 742.769430030603,
+        "p99": 753.5560760670342,
+        "max": 755.7592000812292
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "timing_fault",
+      "seed": 11995,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.6739999999999999
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.5305
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.5392499999999999
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559"
+      },
+      "noise_profile": {
+        "name": "clock_and_transport_fault",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.1,
+        "transport_jitter_s": 0.02,
+        "clock_offset_s": -0.06,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.06,
+        "profile_id": "2edec3d38cb43f147b43909577a0358c15c4cc5110bb642236704f083b36308b"
+      },
+      "error_budget": {
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "STALE": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.017599959392100573,
+        "p95": 0.04035997553728521,
+        "p99": 0.04414198687300086,
+        "max": 0.045199994929134846
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 652.6217000209726,
+        "p95": 713.3679650374688,
+        "p99": 734.0144579822663,
+        "max": 740.1336999610066
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "timing_fault",
+      "seed": 12992,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.5660000000000001
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.3895
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.42074999999999996
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388"
+      },
+      "noise_profile": {
+        "name": "clock_and_transport_fault",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.1,
+        "transport_jitter_s": 0.02,
+        "clock_offset_s": -0.06,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.06,
+        "profile_id": "2edec3d38cb43f147b43909577a0358c15c4cc5110bb642236704f083b36308b"
+      },
+      "error_budget": {
+        "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "STALE": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.025099958293139935,
+        "p95": 0.03852506051771343,
+        "p99": 0.04237300017848611,
+        "max": 0.04349998198449612
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 657.5718000531197,
+        "p95": 702.0145349786617,
+        "p99": 705.4180760576855,
+        "max": 706.2550000846386
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "timing_fault",
+      "seed": 13989,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.62
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.46
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.48
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5"
+      },
+      "noise_profile": {
+        "name": "clock_and_transport_fault",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.1,
+        "transport_jitter_s": 0.02,
+        "clock_offset_s": -0.06,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.06,
+        "profile_id": "2edec3d38cb43f147b43909577a0358c15c4cc5110bb642236704f083b36308b"
+      },
+      "error_budget": {
+        "calibration_id": "388fd293458fb74678991558b7ac86e8d379e8c51241c24bc11922d253e1efb5",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "STALE": 24
+      },
+      "tracking_fraction": 0.0,
+      "position_error_mm": null,
+      "rotation_error_deg": null,
+      "processing_ms": {
+        "p50": 0.01575000351294875,
+        "p95": 0.033765024272724986,
+        "p99": 0.03559394855983555,
+        "max": 0.03609992563724518
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 670.1085499371402,
+        "p95": 729.4289249926805,
+        "p99": 737.2517349373084,
+        "max": 739.3942999187857
+      },
+      "position_envelope_coverage": null,
+      "angle_envelope_coverage": null,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "timing_fault",
+      "seed": 14986,
+      "calibration": {
+        "width": 848,
+        "height": 480,
+        "K": [
+          [
+            446.80277311912806,
+            0.0,
+            423.5
+          ],
+          [
+            0.0,
+            446.80277311912806,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.7875050010075859,
+            0.354074791553987,
+            -0.504447138334675,
+            0.6739999999999999
+          ],
+          [
+            0.6163082616581106,
+            -0.45242890031898353,
+            0.6445713434276404,
+            -0.5305
+          ],
+          [
+            0.0,
+            -0.8184980953808969,
+            -0.5745092408811577,
+            0.5392499999999999
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.35,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+        "provenance": "synthetic",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.46,
+          -0.22,
+          0.22,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559"
+      },
+      "noise_profile": {
+        "name": "clock_and_transport_fault",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.1,
+        "transport_jitter_s": 0.02,
+        "clock_offset_s": -0.06,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.06,
+        "profile_id": "2edec3d38cb43f147b43909577a0358c15c4cc5110bb642236704f083b36308b"
+      },
+      "error_budget": {
+        "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559",
+        "qualified": false,
+        "evidence_sha256": "",
+        "provenance": "engineering_bounds_require_bench_validation",
+        "depth_scale_bound": 0.02,
+        "depth_bias_bound_m": 0.001,
+        "extrinsic_translation_bound_m": 0.002,
+        "extrinsic_rotation_bound_rad": 0.003,
+        "intrinsic_relative_bound": 0.003,
+        "pixel_calibration_bound_px": 0.5,
+        "disparity_std_px": 0.1,
+        "baseline_m": 0.095,
+        "correlation_length_px": 3.0,
+        "max_effective_samples": 20,
+        "motion_speed_bound_m_s": 0.5,
+        "motion_acceleration_bound_m_s2": 15.0,
+        "unknown_exposure_bound_s": 0.033,
+        "relative_motion_bound_m": 0.03,
+        "tool_position_bound_m": 0.002
+      },
+      "scene_reference_failure": null,
+      "reference_frames": 10
+    },
+    {
+      "frames": 24,
+      "statuses": {
+        "RELOCALIZING": 1,
+        "TRACKING": 23
+      },
+      "tracking_fraction": 0.9583333333333334,
+      "position_error_mm": {
+        "p50": 1.4222184683091996,
+        "p95": 1.5893652971786902,
+        "p99": 1.6075975051497244,
+        "max": 1.6125190619145344
+      },
+      "rotation_error_deg": {
+        "p50": 0.7803609916299273,
+        "p95": 1.0864587260657137,
+        "p99": 1.1765061438017457,
+        "max": 1.2009298066901657
+      },
+      "processing_ms": {
+        "p50": 38.69319998193532,
+        "p95": 54.497455037198954,
+        "p99": 65.27942401356995,
+        "max": 68.38700000662357
+      },
+      "generation_ms_excluded_from_processing": {
+        "p50": 334.3979499768466,
+        "p95": 366.8961150397081,
+        "p99": 949.5808060176201,
+        "max": 1123.4258000040427
+      },
+      "position_envelope_coverage": 1.0,
+      "angle_envelope_coverage": 0.5217391304347826,
+      "control_refusals": 24,
+      "all_control_requests_refused": true,
+      "kind": "mujoco_nominal",
+      "seed": 654321,
+      "calibration": {
+        "width": 640,
+        "height": 480,
+        "K": [
+          [
+            492.0729219790311,
+            0.0,
+            319.5
+          ],
+          [
+            0.0,
+            492.0729219790311,
+            239.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "T_B_C": [
+          [
+            0.6031082748717462,
+            0.4898827073507802,
+            -0.6295040443237012,
+            0.65
+          ],
+          [
+            0.797659331281987,
+            -0.3703991201920531,
+            0.4759664725374327,
+            -0.35
+          ],
+          [
+            5.551115123125783e-17,
+            -0.7891890931833911,
+            -0.6141502871450742,
+            0.48
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "depth_scale": 0.001,
+        "min_depth": 0.32,
+        "max_depth": 1.2,
+        "serial": "unassigned",
+        "profile": "rectified-depth",
+        "provenance": "mujoco",
+        "table_z": 0.0,
+        "workspace": [
+          0.08,
+          0.48,
+          -0.25,
+          0.25,
+          0.003,
+          0.35
+        ],
+        "distortion_model": "none",
+        "calibration_id": "1967687a3fb8fe99e33c01f799d5179011c277e35038fdf35400153a808e08ea"
+      },
+      "noise_profile": {
+        "name": "d455_engineering_nominal",
+        "provenance": "engineering_assumption_not_device_calibration",
+        "baseline_m": 0.095,
+        "disparity_white_px": 0.07,
+        "disparity_correlated_px": 0.045,
+        "correlation_length_px": 2.0,
+        "temporal_correlation": 0.65,
+        "temporal_reference_dt_s": 0.03333333333333333,
+        "fixed_pattern_m": 0.00035,
+        "depth_offset_m": 0.0,
+        "offset_session_std_m": 0.0005,
+        "depth_scale_error": 0.0,
+        "scale_session_std": 0.0015,
+        "thermal_drift_m_per_s": 3e-06,
+        "thermal_time_constant_s": 120.0,
+        "focal_relative_std": 0.0008,
+        "principal_point_std_px": 0.2,
+        "residual_radial_k1": 0.0005,
+        "extrinsic_translation_std_m": 0.0006,
+        "extrinsic_rotation_std_rad": 0.0009,
+        "vibration_translation_m": 8e-05,
+        "vibration_rotation_rad": 0.00015,
+        "vibration_hz": 18.0,
+        "lateral_std_px": 0.12,
+        "rgb_alignment_px": 0.3,
+        "rgb_read_noise_dn": 1.5,
+        "rgb_shot_noise_scale": 0.15,
+        "dropout_probability": 0.025,
+        "cluster_dropout_probability": 0.015,
+        "outlier_probability": 0.003,
+        "edge_dropout_probability": 0.25,
+        "edge_flying_probability": 0.08,
+        "edge_width_px": 2,
+        "texture_quality": 0.85,
+        "specular_fraction": 0.0,
+        "exposure_s": 0.004,
+        "transport_delay_s": 0.018,
+        "transport_jitter_s": 0.004,
+        "clock_offset_s": 0.0,
+        "clock_jitter_s": 0.0003,
+        "clock_drift_ppm": 10.0,
+        "reported_time_uncertainty_s": 0.01,
+        "profile_id": "c8365e5c81195dbda7188caa1555d953c021955136bef2e4c09b234dc443b965"
+      },
+      "joint_noise_profile": {
+        "encoder_step_rad": 0.0015339807878856412,
+        "white_std_rad": 0.0008,
+        "zero_std_rad": 0.002,
+        "backlash_rad": 0.005,
+        "drift_rad_s": 1e-05,
+        "timestamp_offset_s": 0.002,
+        "timestamp_jitter_s": 0.0005,
+        "transport_delay_s": 0.006,
+        "provenance": "engineering_scenario_not_measured_SO101"
+      },
+      "robot_mask_link_position_bound_m": 0.004
+    }
+  ],
+  "software_gates": {
+    "nominal_tracking_at_least_85pct": true,
+    "nominal_p95_position_under_6mm": true,
+    "nominal_p95_angle_under_5deg": true,
+    "conditional_position_envelope": true,
+    "unqualified_control_always_refused": true,
+    "source_unchanged_during_run": true
+  },
+  "software_pass": true,
+  "wall_seconds": 552.1681659999304,
+  "hardware_devices": [],
+  "hardware_accuracy_validated": false,
+  "robot_acceptance": false,
+  "design_qualified_for_4mm_slip_detection": false,
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "mujoco": "3.16.0",
+      "open3d": "0.19.0",
+      "opencv-python-headless": "4.14.0.94",
+      "pyrealsense2": "2.59.1.11053"
+    }
+  },
+  "parameter_status": "physics-informed engineering scenarios; no D455 serial/profile was fitted",
+  "latency_scope": "CPU localization; excludes noise generator, sensor, USB, rendering, disk and fusion",
+  "source_sha256": {
+    "src\\active_scan\\perception\\calibration.py": "3d85869f350d2d984b568520ae781917e8b92307237e391f4a4f2c45be0059ca",
+    "src\\active_scan\\perception\\cli.py": "41521f85125491078dc69b69c70e5c34248e143cde378b51abee0cdf0ed10b94",
+    "src\\active_scan\\perception\\feedback_noise.py": "bc32749b6df38c54f85d15c24bd60181cd93c7a1dc4403f17905a1c524914eea",
+    "src\\active_scan\\perception\\localizer.py": "9578983de32cb39fc44257299ef457780130cb78ec6b1bcbda6d7997610e9369",
+    "src\\active_scan\\perception\\mapping.py": "fe76607d9aee850d745330d692697d665dcd22a51986ad5252f9d9b604fab4b5",
+    "src\\active_scan\\perception\\noise_fit.py": "8ff20579c6dec75d8e362a42f6b76d9756ff8fca9abca44f54ed8faf77792b2d",
+    "src\\active_scan\\perception\\pipeline.py": "91c5c5af414dd454c013afd7d3dcebe2a0bf17be8efad75c9398cc25632f5106",
+    "src\\active_scan\\perception\\realsense.py": "a4422ab63fe998b921638b6f2d9f6affcf19c429c824b60d27fab947fa94e81a",
+    "src\\active_scan\\perception\\recording.py": "e5ec27f00a4f4e4f72667db0f3ec90fbf4d750eab1bc4d271cbb31c2c84e6a1c",
+    "src\\active_scan\\perception\\robot_mask.py": "9045ae656597046636ec2b4fcf9322e9088ebd1f8ae54c710ddfca485e81cf54",
+    "src\\active_scan\\perception\\runtime.py": "c3ddd9c3d5d998380bfd76ef9b9899ed36b3399a83f46c5dd2177e6ca52fbc86",
+    "src\\active_scan\\perception\\scene.py": "a741aba7069e65e56cb544cdcf33ad77180a85d4f6fbb7ea3f36540b2fafb470",
+    "src\\active_scan\\perception\\sensor_noise.py": "cd4ede121d5a060544a5c5db7e2cf108d0cb3abd393ff55a191e12a3dc86a370",
+    "src\\active_scan\\perception\\sim_source.py": "00120706b7d49a3052a0c3dbe6dbb9536894f1f6dcb05d0ebd6cfaa6368f429f",
+    "src\\active_scan\\perception\\snapshot.py": "a0821a2f89a86e553513a2b94980f52bc3183a7d2cb503982fe9c8b1f6af1ff9",
+    "src\\active_scan\\perception\\sync.py": "f3a328394b848bfb5daab2f0e779905decfedc4ae47729b68e59ebb4b1d86204",
+    "src\\active_scan\\perception\\synthetic.py": "5767a7be065860785c403ace8443911359f5ae68aba4bd3b3f075e925be0bf69",
+    "src\\active_scan\\perception\\types.py": "4f9e319f4a235ecd43f83175f5a0d0a2eed5cc2e7fb5d07f196a4d95c54f5619",
+    "src\\active_scan\\perception\\uncertainty.py": "3130956054a2b0097779b62e5f0d70aec2a11b72872f2493f441bfe9432407ba",
+    "src\\active_scan\\perception\\__init__.py": "d071172db7bd41a4f1c23bc28ac2455c779f92478c67db78e7c184f03e34261b",
+    "C:\\Users\\user\\Downloads\\yandex_lerobot\\scripts\\validate_realistic_perception.py": "22f13e06fa3056fd857307a026a612e87bd0518bba55f1041dda5ecf372b2b0f",
+    "src\\active_scan\\grasp.py": "d51b2f713f6292af889af04d6539037673205f15e6ab76f506f7b54a1aec5d06"
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "frames": 24,
+  "statuses": {
+    "CALIBRATION_INVALID": 24
+  },
+  "tracking_fraction": 0.0,
+  "position_error_mm": null,
+  "rotation_error_deg": null,
+  "processing_ms": {
+    "p50": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "max": 0.0
+  },
+  "generation_ms_excluded_from_processing": {
+    "p50": 689.8908999864943,
+    "p95": 725.4319100058638,
+    "p99": 759.5343100477476,
+    "max": 769.6389000630006
+  },
+  "position_envelope_coverage": null,
+  "angle_envelope_coverage": null,
+  "control_refusals": 24,
+  "all_control_requests_refused": true,
+  "detail": [
+    {
+      "sequence": 10,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 697.8254000423476,
+      "valid_depth_fraction": 0.6282576650943397
+    },
+    {
+      "sequence": 11,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 681.2900999793783,
+      "valid_depth_fraction": 0.6284345518867924
+    },
+    {
+      "sequence": 12,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 629.3149000266567,
+      "valid_depth_fraction": 0.6261079992138365
+    },
+    {
+      "sequence": 13,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 673.2366000069305,
+      "valid_depth_fraction": 0.6286138954402516
+    },
+    {
+      "sequence": 14,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 697.3053000401706,
+      "valid_depth_fraction": 0.6257075471698114
+    },
+    {
+      "sequence": 15,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 725.705899996683,
+      "valid_depth_fraction": 0.6277638561320755
+    },
+    {
+      "sequence": 16,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 689.5015999907628,
+      "valid_depth_fraction": 0.6298078812893082
+    },
+    {
+      "sequence": 17,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 686.5467000752687,
+      "valid_depth_fraction": 0.6275550314465409
+    },
+    {
+      "sequence": 18,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 643.5822000494227,
+      "valid_depth_fraction": 0.6265109080188679
+    },
+    {
+      "sequence": 19,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 671.4298999868333,
+      "valid_depth_fraction": 0.6306751179245284
+    },
+    {
+      "sequence": 20,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 642.700600088574,
+      "valid_depth_fraction": 0.6276533018867925
+    },
+    {
+      "sequence": 21,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 708.9794999919832,
+      "valid_depth_fraction": 0.626316823899371
+    },
+    {
+      "sequence": 22,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 699.4868000037968,
+      "valid_depth_fraction": 0.6280463836477987
+    },
+    {
+      "sequence": 23,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 696.3046999881044,
+      "valid_depth_fraction": 0.62836330581761
+    },
+    {
+      "sequence": 24,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 679.8960000742227,
+      "valid_depth_fraction": 0.6266165487421383
+    },
+    {
+      "sequence": 25,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 706.7103000590578,
+      "valid_depth_fraction": 0.6274641312893082
+    },
+    {
+      "sequence": 26,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 677.6853000046685,
+      "valid_depth_fraction": 0.6285966981132075
+    },
+    {
+      "sequence": 27,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 690.2801999822259,
+      "valid_depth_fraction": 0.6275034394654088
+    },
+    {
+      "sequence": 28,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 711.2551000900567,
+      "valid_depth_fraction": 0.629092963836478
+    },
+    {
+      "sequence": 29,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 769.6389000630006,
+      "valid_depth_fraction": 0.6271054441823899
+    },
+    {
+      "sequence": 30,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 701.0011000093073,
+      "valid_depth_fraction": 0.6283018867924528
+    },
+    {
+      "sequence": 31,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 656.2921000877395,
+      "valid_depth_fraction": 0.6275255503144654
+    },
+    {
+      "sequence": 32,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 682.0602999068797,
+      "valid_depth_fraction": 0.6295228970125786
+    },
+    {
+      "sequence": 33,
+      "status": "CALIBRATION_INVALID",
+      "metrics": {
+        "reason": "Table/extrinsic mismatch; recalibrate camera",
+        "processing_ms": 0.0
+      },
+      "generation_ms": 723.879300057888,
+      "valid_depth_fraction": 0.6278473860062893
+    }
+  ],
+  "kind": "spec_limit",
+  "seed": 12992,
+  "calibration": {
+    "width": 848,
+    "height": 480,
+    "K": [
+      [
+        446.80277311912806,
+        0.0,
+        423.5
+      ],
+      [
+        0.0,
+        446.80277311912806,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_B_C": [
+      [
+        0.7875050010075859,
+        0.354074791553987,
+        -0.504447138334675,
+        0.5660000000000001
+      ],
+      [
+        0.6163082616581106,
+        -0.45242890031898353,
+        0.6445713434276404,
+        -0.3895
+      ],
+      [
+        0.0,
+        -0.8184980953808969,
+        -0.5745092408811577,
+        0.42074999999999996
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "depth_scale": 0.001,
+    "min_depth": 0.35,
+    "max_depth": 1.2,
+    "serial": "unassigned",
+    "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+    "provenance": "synthetic",
+    "table_z": 0.0,
+    "workspace": [
+      0.08,
+      0.46,
+      -0.22,
+      0.22,
+      0.003,
+      0.35
+    ],
+    "distortion_model": "none",
+    "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388"
+  },
+  "noise_profile": {
+    "name": "d455_2pct_scale_sensitivity_not_gaussian_spec",
+    "provenance": "engineering_assumption_not_device_calibration",
+    "baseline_m": 0.095,
+    "disparity_white_px": 0.07,
+    "disparity_correlated_px": 0.045,
+    "correlation_length_px": 2.0,
+    "temporal_correlation": 0.65,
+    "temporal_reference_dt_s": 0.03333333333333333,
+    "fixed_pattern_m": 0.00035,
+    "depth_offset_m": 0.001,
+    "offset_session_std_m": 0.0,
+    "depth_scale_error": 0.02,
+    "scale_session_std": 0.0,
+    "thermal_drift_m_per_s": 3e-06,
+    "thermal_time_constant_s": 120.0,
+    "focal_relative_std": 0.0008,
+    "principal_point_std_px": 0.2,
+    "residual_radial_k1": 0.0005,
+    "extrinsic_translation_std_m": 0.002,
+    "extrinsic_rotation_std_rad": 0.004,
+    "vibration_translation_m": 8e-05,
+    "vibration_rotation_rad": 0.00015,
+    "vibration_hz": 18.0,
+    "lateral_std_px": 0.12,
+    "rgb_alignment_px": 0.3,
+    "rgb_read_noise_dn": 1.5,
+    "rgb_shot_noise_scale": 0.15,
+    "dropout_probability": 0.025,
+    "cluster_dropout_probability": 0.015,
+    "outlier_probability": 0.003,
+    "edge_dropout_probability": 0.25,
+    "edge_flying_probability": 0.08,
+    "edge_width_px": 2,
+    "texture_quality": 0.85,
+    "specular_fraction": 0.0,
+    "exposure_s": 0.004,
+    "transport_delay_s": 0.018,
+    "transport_jitter_s": 0.004,
+    "clock_offset_s": 0.0,
+    "clock_jitter_s": 0.0003,
+    "clock_drift_ppm": 10.0,
+    "reported_time_uncertainty_s": 0.01,
+    "profile_id": "352c41293280dc297fd039121782c8f0f97df39065fcb2907eda795881c3a210"
+  },
+  "error_budget": {
+    "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+    "qualified": false,
+    "evidence_sha256": "",
+    "provenance": "engineering_bounds_require_bench_validation",
+    "depth_scale_bound": 0.02,
+    "depth_bias_bound_m": 0.001,
+    "extrinsic_translation_bound_m": 0.002,
+    "extrinsic_rotation_bound_rad": 0.003,
+    "intrinsic_relative_bound": 0.003,
+    "pixel_calibration_bound_px": 0.5,
+    "disparity_std_px": 0.1,
+    "baseline_m": 0.095,
+    "correlation_length_px": 3.0,
+    "max_effective_samples": 20,
+    "motion_speed_bound_m_s": 0.5,
+    "motion_acceleration_bound_m_s2": 15.0,
+    "unknown_exposure_bound_s": 0.033,
+    "relative_motion_bound_m": 0.03,
+    "tool_position_bound_m": 0.002
+  },
+  "scene_reference_failure": "Table/extrinsic mismatch; recalibrate camera",
+  "reference_frames": 10
+}

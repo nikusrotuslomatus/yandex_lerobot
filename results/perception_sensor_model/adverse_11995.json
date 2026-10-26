@@ -1,0 +1,568 @@
+{
+  "frames": 24,
+  "statuses": {
+    "DEGENERATE": 23,
+    "LOST": 1
+  },
+  "tracking_fraction": 0.0,
+  "position_error_mm": null,
+  "rotation_error_deg": null,
+  "processing_ms": {
+    "p50": 34.48019997449592,
+    "p95": 53.298874926986166,
+    "p99": 54.28989996784367,
+    "max": 54.47159998584539
+  },
+  "generation_ms_excluded_from_processing": {
+    "p50": 686.6732999915257,
+    "p95": 741.1518349312246,
+    "p99": 749.897960035596,
+    "max": 752.4551000678912
+  },
+  "position_envelope_coverage": null,
+  "angle_envelope_coverage": null,
+  "control_refusals": 24,
+  "all_control_requests_refused": true,
+  "detail": [
+    {
+      "sequence": 10,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 196,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 53.68159990757704
+      },
+      "generation_ms": 740.1019999524578,
+      "valid_depth_fraction": 0.39378193789308175
+    },
+    {
+      "sequence": 11,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 208,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 30.839300015941262
+      },
+      "generation_ms": 720.6863999599591,
+      "valid_depth_fraction": 0.39419467374213835
+    },
+    {
+      "sequence": 12,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 196,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 31.40659991186112
+      },
+      "generation_ms": 665.4220999917015,
+      "valid_depth_fraction": 0.3932439072327044
+    },
+    {
+      "sequence": 13,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 199,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 34.3332999618724
+      },
+      "generation_ms": 667.8994999965653,
+      "valid_depth_fraction": 0.39394408411949683
+    },
+    {
+      "sequence": 14,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 192,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 43.01959997974336
+      },
+      "generation_ms": 694.6359999710694,
+      "valid_depth_fraction": 0.3971280463836478
+    },
+    {
+      "sequence": 15,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 183,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 32.54679997917265
+      },
+      "generation_ms": 703.7107000360265,
+      "valid_depth_fraction": 0.3999778891509434
+    },
+    {
+      "sequence": 16,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 224,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 35.25519999675453
+      },
+      "generation_ms": 678.8297999883071,
+      "valid_depth_fraction": 0.3915733097484277
+    },
+    {
+      "sequence": 17,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 182,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 32.06070000305772
+      },
+      "generation_ms": 656.319799949415,
+      "valid_depth_fraction": 0.39688728380503147
+    },
+    {
+      "sequence": 18,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 189,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 51.13010003697127
+      },
+      "generation_ms": 693.9001999562606,
+      "valid_depth_fraction": 0.40029972484276727
+    },
+    {
+      "sequence": 19,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 184,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 31.526300008408725
+      },
+      "generation_ms": 672.9051999282092,
+      "valid_depth_fraction": 0.39746462264150945
+    },
+    {
+      "sequence": 20,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 207,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 33.200399950146675
+      },
+      "generation_ms": 653.0045999679714,
+      "valid_depth_fraction": 0.39484325864779873
+    },
+    {
+      "sequence": 21,
+      "status": "LOST",
+      "metrics": {
+        "reason": "no_geometric_candidate",
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 35.619799979031086
+      },
+      "generation_ms": 661.7941000731662,
+      "valid_depth_fraction": 0.39426837657232705
+    },
+    {
+      "sequence": 22,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 189,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 31.89300000667572
+      },
+      "generation_ms": 694.1173999803141,
+      "valid_depth_fraction": 0.39456318789308176
+    },
+    {
+      "sequence": 23,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 177,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 34.382799989543855
+      },
+      "generation_ms": 690.315300016664,
+      "valid_depth_fraction": 0.39786998820754715
+    },
+    {
+      "sequence": 24,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 178,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 32.19699999317527
+      },
+      "generation_ms": 701.8836999777704,
+      "valid_depth_fraction": 0.3953370676100629
+    },
+    {
+      "sequence": 25,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 201,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 35.38839996326715
+      },
+      "generation_ms": 676.1491000652313,
+      "valid_depth_fraction": 0.39261497641509435
+    },
+    {
+      "sequence": 26,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 190,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 54.47159998584539
+      },
+      "generation_ms": 741.3370999274775,
+      "valid_depth_fraction": 0.3996830778301887
+    },
+    {
+      "sequence": 27,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 190,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 35.44999996665865
+      },
+      "generation_ms": 706.2721999827772,
+      "valid_depth_fraction": 0.396501572327044
+    },
+    {
+      "sequence": 28,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 197,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 35.43049993459135
+      },
+      "generation_ms": 660.0504999514669,
+      "valid_depth_fraction": 0.40095076650943395
+    },
+    {
+      "sequence": 29,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 101,
+        "visible_planes": 0,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 29.1948999511078
+      },
+      "generation_ms": 622.0960000064224,
+      "valid_depth_fraction": 0.39846698113207546
+    },
+    {
+      "sequence": 30,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 178,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 37.3377000214532
+      },
+      "generation_ms": 752.4551000678912,
+      "valid_depth_fraction": 0.3982753537735849
+    },
+    {
+      "sequence": 31,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 174,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 32.35090000089258
+      },
+      "generation_ms": 690.5940000433475,
+      "valid_depth_fraction": 0.39456073113207546
+    },
+    {
+      "sequence": 32,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 181,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 36.09309997409582
+      },
+      "generation_ms": 683.0312999663875,
+      "valid_depth_fraction": 0.3970862814465409
+    },
+    {
+      "sequence": 33,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 185,
+        "visible_planes": 1,
+        "size_prior_m": 0.06,
+        "scene_anchor": {
+          "observable": true,
+          "drift_detected": false,
+          "background_median_delta_m": 0.0
+        },
+        "processing_ms": 34.57759995944798
+      },
+      "generation_ms": 649.2695999331772,
+      "valid_depth_fraction": 0.39812549135220127
+    }
+  ],
+  "kind": "adverse",
+  "seed": 11995,
+  "calibration": {
+    "width": 848,
+    "height": 480,
+    "K": [
+      [
+        446.80277311912806,
+        0.0,
+        423.5
+      ],
+      [
+        0.0,
+        446.80277311912806,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_B_C": [
+      [
+        0.7875050010075859,
+        0.354074791553987,
+        -0.504447138334675,
+        0.6739999999999999
+      ],
+      [
+        0.6163082616581106,
+        -0.45242890031898353,
+        0.6445713434276404,
+        -0.5305
+      ],
+      [
+        0.0,
+        -0.8184980953808969,
+        -0.5745092408811577,
+        0.5392499999999999
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "depth_scale": 0.001,
+    "min_depth": 0.35,
+    "max_depth": 1.2,
+    "serial": "unassigned",
+    "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+    "provenance": "synthetic",
+    "table_z": 0.0,
+    "workspace": [
+      0.08,
+      0.46,
+      -0.22,
+      0.22,
+      0.003,
+      0.35
+    ],
+    "distortion_model": "none",
+    "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559"
+  },
+  "noise_profile": {
+    "name": "d455_adverse_assumed",
+    "provenance": "engineering_assumption_not_device_calibration",
+    "baseline_m": 0.095,
+    "disparity_white_px": 0.14,
+    "disparity_correlated_px": 0.1,
+    "correlation_length_px": 2.0,
+    "temporal_correlation": 0.65,
+    "temporal_reference_dt_s": 0.03333333333333333,
+    "fixed_pattern_m": 0.001,
+    "depth_offset_m": 0.0,
+    "offset_session_std_m": 0.0015,
+    "depth_scale_error": 0.0,
+    "scale_session_std": 0.006,
+    "thermal_drift_m_per_s": 3e-06,
+    "thermal_time_constant_s": 120.0,
+    "focal_relative_std": 0.0008,
+    "principal_point_std_px": 0.2,
+    "residual_radial_k1": 0.0005,
+    "extrinsic_translation_std_m": 0.0015,
+    "extrinsic_rotation_std_rad": 0.003,
+    "vibration_translation_m": 8e-05,
+    "vibration_rotation_rad": 0.00015,
+    "vibration_hz": 18.0,
+    "lateral_std_px": 0.12,
+    "rgb_alignment_px": 0.3,
+    "rgb_read_noise_dn": 1.5,
+    "rgb_shot_noise_scale": 0.15,
+    "dropout_probability": 0.08,
+    "cluster_dropout_probability": 0.04,
+    "outlier_probability": 0.003,
+    "edge_dropout_probability": 0.6,
+    "edge_flying_probability": 0.18,
+    "edge_width_px": 2,
+    "texture_quality": 0.35,
+    "specular_fraction": 0.08,
+    "exposure_s": 0.012,
+    "transport_delay_s": 0.018,
+    "transport_jitter_s": 0.004,
+    "clock_offset_s": 0.0,
+    "clock_jitter_s": 0.0003,
+    "clock_drift_ppm": 10.0,
+    "reported_time_uncertainty_s": 0.01,
+    "profile_id": "75d6e05eb81f29f5f337933da64afdfed3cbd5e3176f8d84232ebd001a7a0ed0"
+  },
+  "error_budget": {
+    "calibration_id": "220258a48c57a3bc5fe0e14f834d574303a98d39428a118259ea074339299559",
+    "qualified": false,
+    "evidence_sha256": "",
+    "provenance": "engineering_bounds_require_bench_validation",
+    "depth_scale_bound": 0.02,
+    "depth_bias_bound_m": 0.001,
+    "extrinsic_translation_bound_m": 0.002,
+    "extrinsic_rotation_bound_rad": 0.003,
+    "intrinsic_relative_bound": 0.003,
+    "pixel_calibration_bound_px": 0.5,
+    "disparity_std_px": 0.1,
+    "baseline_m": 0.095,
+    "correlation_length_px": 3.0,
+    "max_effective_samples": 20,
+    "motion_speed_bound_m_s": 0.5,
+    "motion_acceleration_bound_m_s2": 15.0,
+    "unknown_exposure_bound_s": 0.033,
+    "relative_motion_bound_m": 0.03,
+    "tool_position_bound_m": 0.002
+  },
+  "scene_reference_failure": null,
+  "reference_frames": 10
+}

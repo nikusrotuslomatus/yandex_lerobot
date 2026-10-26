@@ -1,0 +1,14 @@
+{"time": 0.0, "kind": "transition", "source": "INITIALIZE", "target": "READ_STATE"}
+{"time": 0.0, "kind": "gripper_compatibility", "audit": {"checked": 828, "valid_fits": 57, "best_min_distance": 0.008299281910078903, "selected": {"g": 1.0499999999999998, "gripper_body_cube_center": [0.022, 0, -0.083], "tilt": -0.15, "clearance": 0.00017675059142027277}, "status": "geometric_fit_only"}}
+{"time": 0.0, "kind": "transition", "source": "READ_STATE", "target": "PLAN_TASK"}
+{"time": 0.0, "kind": "grasp_search", "counts": {"library_hit": 1}}
+{"time": 0.0, "kind": "selected_grasp", "grasp_id": "fit_0_axis_0_rotation_3", "contact_axis": 0, "predicted_T_G_O": [[0.9887710779360419, -7.885169514923926e-19, -0.14943813247359916, 3.469446951953614e-17], [-8.322566893596537e-19, 0.9999999999999997, -2.301580714099903e-19, 1.7347234759768061e-18], [0.14943813247359913, -3.519445297603038e-19, 0.988771077936042, -1.3877787807814457e-17], [0.0, 0.0, 0.0, 1.0]], "pregrasp_q": [-0.001127120376735423, -0.13414179598948905, 0.2404609593857525, 1.614477064634661, 0.04756859484683985], "grasp_q": [-0.001105169132702743, -0.015041685010707951, 0.45547904455780114, 1.2803588415932783, 0.04759016109592694]}
+{"time": 0.0, "kind": "transition", "source": "PLAN_TASK", "target": "MOVE_PREGRASP"}
+{"time": 3.211999999999868, "kind": "transition", "source": "MOVE_PREGRASP", "target": "APPROACH"}
+{"time": 4.0639999999997745, "kind": "transition", "source": "APPROACH", "target": "CLOSE_GRIPPER"}
+{"time": 5.417999999999625, "kind": "closure_feedback_verified", "feedback": "position_stall", "gripper": 0.9960812422438952, "simulated_bilateral_contact": true}
+{"time": 5.417999999999625, "kind": "transition", "source": "CLOSE_GRIPPER", "target": "VERIFY_GRASP"}
+{"time": 5.957999999999566, "kind": "stop_result", "trigger": "TEST_LIFT_FAILED", "method": "already_stationary", "duration": 0.0, "final_velocity": [-2.061130974717676e-08, 1.0254314498804622e-05, 1.6462622009668858e-05, -3.524142902379114e-05, 4.163141494774627e-07]}
+{"time": 5.957999999999566, "kind": "transition", "source": "VERIFY_GRASP", "target": "RECOVERY", "failure": {"code": "TEST_LIFT_FAILED", "details": {"lift": 0.00017708468874426397, "slip": 0.009824265831686716, "angle": 0.0012249057096810631, "source": "simulation_ground_truth"}}}
+{"time": 5.957999999999566, "kind": "recovery_state", "q": [-0.0011320766151378292, -0.046625662792850374, 0.412408695161422, 1.3531328305819867, 0.04758075038421984], "cube_pose": [[0.9999999998979273, -1.4287893690794876e-05, 2.3512788328387876e-09, 0.21984388259626547], [1.4287893690790478e-05, 0.9999999998979273, 1.87001278310674e-09, 6.103856180684319e-05], [-2.351305551142634e-09, -1.8699791880938633e-09, 0.9999999999999992, 0.029892245020426894], [0.0, 0.0, 0.0, 1.0]]}
+{"time": 5.957999999999566, "kind": "transition", "source": "RECOVERY", "target": "FAILED"}

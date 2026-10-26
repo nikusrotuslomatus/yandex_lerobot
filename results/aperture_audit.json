@@ -1,0 +1,4066 @@
+[
+  {
+    "g": -0.025210384444444428,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014367712928817325,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": -0.025210384444444428,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014381983103087645,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": -0.025210384444444428,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.01437202349265307,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": -0.0038785822222222044,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014351153107204171,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": -0.0038785822222222044,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014365534520381484,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": -0.0038785822222222044,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.0143555771206193,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.01745322000000002,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014339196481275575,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.01745322000000002,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014353684334469758,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.01745322000000002,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014343724705344962,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.01745322000000002,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013288122320747827,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.01745322000000002,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013298253016404842,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.01745322000000002,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.013288075084761836,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.03878502222222224,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014331827360481726,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.03878502222222224,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.01434641708817353,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.03878502222222224,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014336450784651705,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.03878502222222224,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013281961341909915,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.03878502222222224,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013292106266272835,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.03878502222222224,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.013281929206848996,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.03878502222222224,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.01133241880858459,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.03878502222222224,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.01133256198830772,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.03878502222222224,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.0113305634533278,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.06011682444444447,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014329035196128857,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.06011682444444447,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014343722425414705,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.06011682444444447,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014333744987576615,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.06011682444444447,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013279406515087027,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.06011682444444447,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.01328956904005109,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.06011682444444447,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.01327938714614425,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.06011682444444447,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.011261737071773954,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.06011682444444447,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.011261879267443035,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.06011682444444447,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.011256199804394004,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.08144862666666669,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.01433081455905872,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.08144862666666669,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014345595069737677,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.08144862666666669,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014335602012812861,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.08144862666666669,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.01328045310764028,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.08144862666666669,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013290636637281802,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.08144862666666669,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.013280444184398823,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.08144862666666669,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.01062259489329973,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.08144862666666669,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.010606581553088641,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.08144862666666669,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.010605576741282447,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014337165114837977,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014352034799944204,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014342021604209162,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013285097915051898,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013295305890056156,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.013285097119826107,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.008576398955075247,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.008574838163295913,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.008575007185297304,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.006038097061958632,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.006162914600377795,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.10278042888888889,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.005971097672210953,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014348091596256322,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.01436304642264059,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.01435300852312572,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013293339210354194,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013303575112581397,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.013293344216421955,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.007119321143079256,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.0071201267058768666,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.007117959144085852,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.0059882446536854185,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.0061183348039099885,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.12411223111111114,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.0059201747784437654,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014363603772578375,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014378639741136677,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014368572517084163,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013305176662126644,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013315444019321752,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.013305185121747744,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.005938932163249227,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.005939821383651968,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.0059376282511240976,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.005925115329020112,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.006061992911809803,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.1454440333333334,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.005855596642340437,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.01438371641462648,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014398829519761893,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014388728283719872,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013320611219442242,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013330913610095092,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.013320620751553396,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.004909905517711041,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.0049105656055797985,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.004908715658457697,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.005848799744193387,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.005993935635749979,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.16677583555555558,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.005777166737252209,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014408449254377825,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014423635442263378,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014413495428917494,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013339644961354877,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013349986019717349,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.013339653138826355,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.003971583472958897,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.003971733378228755,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.0039704782833057265,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.0011769363876113319,
+    "left_geom": "robot_geom_038",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.0011724148677184293,
+    "left_geom": "robot_geom_038",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.18810763777777778,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.0011678933478255433,
+    "left_geom": "robot_geom_038",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014437826937327685,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014453082062512477,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.01444289841706425,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013362280907669572,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013372664328936953,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.013362285244001149,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.0030898002644399233,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.003089797022100683,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.0030893777954210146,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.0008352456422294938,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.0008397606171875079,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.20943944000000003,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.000844275592145508,
+    "left_geom": "moving_jaw_box3",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014471878965385591,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014487198745253423,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.01447696651119772,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013388522786802222,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013398952332465765,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.01338852072212659,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.03574903609546357,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.035749036101814256,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.03574903610816493,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.034442437884984814,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.0344424378849848,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.23077124222222228,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.0344424378849848,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014510639627518768,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014526019594066554,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.01451573370042384,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.013418374755490892,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.013428854258868618,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.013418363641741366,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.03709835528963989,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.037098355296025495,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.0370983553024111,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.036006752704886784,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.03600675270488677,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.2521030444444445,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.03600675270488677,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014554147914716462,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014569583363068557,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014559238610942568,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.03735264688529956,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.03734211346640765,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.03735266970520386,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.038458900642586266,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.03845890064901013,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.03845890065543398,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.03758348844252306,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.037583488442523044,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.2734348466666667,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.037583488442523044,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014602447415100325,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.014617933348112355,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014607524396481398,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.03849212059154234,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.038481529309422884,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.03849215808519024,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.039922496160890164,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.039922496151315934,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.03992249614385082,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.039174308882866694,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.039174308882866674,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.2947666488888889,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.039174308882866674,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.014655586184121718,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.01467111725235263,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.014660638602993884,
+    "left_geom": "robot_geom_037",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.0396423778093464,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.03963172458010719,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.0396424329891585,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.04110446618910593,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.04110446618910593,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.04110446618910593,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.040780941856900586,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.040780941856900566,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.3160984511111112,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.040780941856900566,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.03730426803224156,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.03728869755018053,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.03729925152176465,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.04080469609570897,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.04079397673960908,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.04080477213340741,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.041700825745741014,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.04170082574574102,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.04170082574574102,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.04291054799960666,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.04160416954196863,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.3374302533333334,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.04160416954196863,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.03823857439302838,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.038222970799521735,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.038233606001770025,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.041980409552839264,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.041969619787791686,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.04198050980120489,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.042309162849816166,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.04230916284981617,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.04230916284981617,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.04446538503057637,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.042322464177645805,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.35876205555555557,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.042322464177645805,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.03918377234988,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.039168142470546424,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.039178864974106706,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.043170915690558406,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.04316005112543637,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.04317104370729189,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.043518917634863985,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.04351891763486399,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.04351891763486399,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.046030810780826444,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.04356042247259186,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.38009385777777777,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.04356042247259186,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.040141005891739454,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.04012535720886916,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.04013617331296409,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.04437768291985125,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.04436673904760438,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.04437784249385638,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.04495813217348785,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.044958132173487854,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.044958132173487854,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.04760832639563169,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.04523015884141508,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.4014256600000001,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.04523015884141508,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.041111478989412385,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.04109581973977862,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.041106735993541324,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.04560225876872344,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.04559123095931492,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.04560245394917723,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.046418513280506044,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.046418513280506044,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.04641851328050605,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.0491994719979145,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.04692427732088795,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.42275746222222227,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.04692427732088794,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.042096462565893125,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.04208080185012489,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.0420918250756829,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.04684627892453466,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.04683516241771703,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.04684651405316377,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.047902010172762806,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.04790201017276281,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.04790201017276281,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.05080583280434203,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.0486450342169735,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.44408926444444446,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.0486450342169735,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.04309730218914965,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.04308165009450522,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.043092787412027454,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.048111477222331535,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.04810026712028681,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.04811175696937918,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.04941068894881027,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.049410688948810275,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.04941068894881027,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.05032711964541388,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_sph_tip2"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.05039482082276574,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.46542106666666677,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.05039482082276574,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.04411542659297336,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.04409979433165541,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.04411105318660491,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.049399696716841884,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.04938838797672239,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.04940002612128694,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.050946745785100486,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.0509467457851005,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.0509467457851005,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.051768659476192434,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_sph_tip2"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.052176178679084056,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.48675286888888897,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.052176178679084056,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.04515235714792634,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.04513675721343948,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.04514814540630708,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.05071290199727148,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.05070148942369073,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.050713286511952706,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.052512521613565184,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.05251252161356519,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.05251252161356519,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.05382027218024825,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_sph_tip2"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.05399181654707542,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.5080846711111111,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.05399181654707542,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.04620971842391866,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.04619416476840127,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.04620569048723307,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.052053192929537806,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.05204167116707781,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.05205363847194601,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.05411051850075547,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.054110518500755475,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.054110518500755475,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.05741708396288586,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.05584462934736148,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.5294164733333333,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.05584462934736148,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.04728925000916033,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.04727375824513998,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.047285430101215775,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.0534228200409209,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.05341118356674318,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.053423333050552496,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.055743417984911774,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.05574341798491178,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.05574341798491178,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.05912929690385531,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.057737719362104464,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.5507482755555555,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.057737719362104464,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.048392819777942436,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.04837740740858738,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.048389234475658655,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.05482420179833458,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.054812444915009306,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.054824789301657156,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.057414101670543526,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.05741410167054353,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.05741410167054353,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.060873420765016964,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.05967442004631576,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.5720800777777779,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.05967442004631576,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.04952243883288901,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.04950712551558131,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.04951911737313772,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.05625994407480503,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.056248060903506245,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.05626061375907476,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.05912567443185444,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.059125674431854444,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.059125674431854444,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.095,
+    "y": -0.004,
+    "gap": 0.06267512342907497,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.061275306487105,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_sph_tip1"
+  },
+  {
+    "g": 0.5934118800000001,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.061658322854552,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.05068027838720006,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.050665086236168486,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.05067725301727318,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.05773286215087582,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.05772084662513402,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.057733622448275054,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.06088149063854397,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.06088149063854398,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.060881490638543964,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.0636933075610398,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.6147436822222223,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.0636933075610398,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.051868688900499,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.0518536428353608,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.05186599527967862,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.05924600566053215,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.05923385152078969,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.0592468658443726,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.06268518389253332,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.06268518389253332,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.06268518389253332,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.06578357663798165,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.6360754844444445,
+    "z": -0.095,
+    "y": 0.004,
+    "gap": 0.06578357663798165,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.6574072866666667,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.05309022184012342,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6574072866666667,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.05307534998854076,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6574072866666667,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.05308789950128256,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6574072866666667,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.06080268696736055,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6574072866666667,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.06079038775664485,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6574072866666667,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.06080365726243517,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6574072866666667,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.06454070085499046,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6574072866666667,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.06454070085499046,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6574072866666667,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.06454070085499047,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6574072866666667,
+    "z": -0.095,
+    "y": 0.0,
+    "gap": 0.06811409052483863,
+    "left_geom": "fixed_jaw_box4",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.6787390888888889,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.054347654510463625,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6787390888888889,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.05433298867478421,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6787390888888889,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.054345772457726794,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6787390888888889,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.062406513549187505,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6787390888888889,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.06239406261030461,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6787390888888889,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.06240760525876633,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.6787390888888889,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.06645233985344441,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6787390888888889,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.06645233985344443,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.6787390888888889,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.06645233985344443,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7000708911111111,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.055644018479337976,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7000708911111111,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.055629594679139874,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7000708911111111,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.05564264384081451,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7000708911111111,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.06406142508239766,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7000708911111111,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.06405034570021315,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7000708911111111,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.06406265073486957,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7000708911111111,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.06842479509357205,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7000708911111111,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.06842479509357205,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7000708911111111,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.06842479509357205,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7214026933333333,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.056982632236302885,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7214026933333333,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.05696849134129857,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7214026933333333,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.056981824623517946,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7214026933333333,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.06577369146747464,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7214026933333333,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.06577369147576273,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7214026933333333,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.06577369148405084,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7214026933333333,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.07081657156116936,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.7214026933333333,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.06898286426724674,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.7214026933333333,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.06898286426724674,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.7427344955555557,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.058367377117230806,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7427344955555557,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.05835332731916531,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7427344955555557,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.05836696502373598,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7427344955555557,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.06717262906449982,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7427344955555557,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.06717262906449982,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7427344955555557,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.06717262906449982,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7427344955555557,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.07257890912669462,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.7427344955555557,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.06985812624883234,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.7427344955555557,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.06985812624883234,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.7640662977777779,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.059802294990866464,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7640662977777779,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.05978812029812927,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7640662977777779,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.05980208447679941,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7640662977777779,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.06746331701345097,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7640662977777779,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.06746331701345097,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7640662977777779,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.06746331701345099,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7640662977777779,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.07240095778301975,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_sph_tip2"
+  },
+  {
+    "g": 0.7640662977777779,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.07199108826476323,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.7640662977777779,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.07199108826476322,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.7853981000000001,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.06129171499908281,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7853981000000001,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.06127730777878014,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7853981000000001,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.06129162245175434,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.7853981000000001,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.06873359468841335,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7853981000000001,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.06873359468841336,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7853981000000001,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.06873359468841336,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.7853981000000001,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.07366214721403137,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_sph_tip2"
+  },
+  {
+    "g": 0.7853981000000001,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.07420516647503335,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.7853981000000001,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.07420516647503335,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.8067299022222223,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.06284045779406884,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8067299022222223,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.0628258063285215,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8067299022222223,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.06284049773684784,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8067299022222223,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.07066243275112258,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8067299022222223,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.07066243275112258,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8067299022222223,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.07066243275112258,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8067299022222223,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.07815177408553825,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.8067299022222223,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.07650768959292588,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.8067299022222223,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.07650768959292589,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.8280617044444445,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.06445398899287497,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8280617044444445,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.06443908100053955,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8280617044444445,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.0644541778988444,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8280617044444445,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.0726721888925963,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8280617044444445,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.0726721888925963,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8280617044444445,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.0726721888925963,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8280617044444445,
+    "z": -0.085,
+    "y": -0.004,
+    "gap": 0.08015385582312667,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.8280617044444445,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.0787064801870078,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_sph_tip1"
+  },
+  {
+    "g": 0.8280617044444445,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.07890680447952153,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.8493935066666667,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.06613840441205808,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8493935066666667,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.06612322702621368,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8493935066666667,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.06613876102373369,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8493935066666667,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.07477047545050994,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8493935066666667,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.07477047545050994,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8493935066666667,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.07477047545050995,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8493935066666667,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.08141159803729897,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.8493935066666667,
+    "z": -0.085,
+    "y": 0.004,
+    "gap": 0.08141159803729899,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.8707253088888889,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.06790052664827963,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8707253088888889,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.0678850664000596,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8707253088888889,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.06790107235978607,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8707253088888889,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.07696581299936195,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8707253088888889,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.07696581299936195,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8707253088888889,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.07696581299936195,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8707253088888889,
+    "z": -0.085,
+    "y": 0.0,
+    "gap": 0.08421826953259723,
+    "left_geom": "fixed_jaw_box5",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.8920571111111111,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.06974801982632825,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8920571111111111,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.06973226263437235,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8920571111111111,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.06974877914250378,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.8920571111111111,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.07926777381095895,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8920571111111111,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.07926777381095895,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.8920571111111111,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.07926777381095895,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.9133889133333333,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.07168952664104987,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.9133889133333333,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.07167345781091167,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.9133889133333333,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.07169052773186647,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.9133889133333333,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.08168715320216777,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.9133889133333333,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.08168715320216775,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.9133889133333333,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.08168715320216777,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.9347207155555555,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.07373483292603408,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.9347207155555555,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.07371843716366255,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.9347207155555555,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.0737361082998618,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.9347207155555555,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.08466186152967428,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.9347207155555555,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.08309938919347741,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.9347207155555555,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.08309938919347742,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.9560525177777779,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.07589506643360625,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.9560525177777779,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.07587832787886317,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.9560525177777779,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.07589665375965604,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_037"
+  },
+  {
+    "g": 0.9560525177777779,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.08669397553611075,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.9560525177777779,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.08346103025704107,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.9560525177777779,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.08346103025704107,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.9773843200000001,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.07842595789035985,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.9773843200000001,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.07842595789035986,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.9773843200000001,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.07842595789035986,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.9773843200000001,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.08606564522618207,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_sph_tip2"
+  },
+  {
+    "g": 0.9773843200000001,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.08620415058839165,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.9773843200000001,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.08620415058839166,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.9987161222222223,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.07865480319501932,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.9987161222222223,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.07865480319501932,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.9987161222222223,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.07865480319501932,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 0.9987161222222223,
+    "z": -0.075,
+    "y": -0.004,
+    "gap": 0.09101638293789788,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 0.9987161222222223,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.08911613353518616,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 0.9987161222222223,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.08911613353518616,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 1.0200479244444445,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.07975566638995343,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.0200479244444445,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.07975566638995343,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.0200479244444445,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.07975566638995345,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.0200479244444445,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.09157919206220688,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_sph_tip1"
+  },
+  {
+    "g": 1.0200479244444445,
+    "z": -0.075,
+    "y": 0.004,
+    "gap": 0.09221700420344536,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 1.0413797266666667,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.082400042421184,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.0413797266666667,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.08240004242118398,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.0413797266666667,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.08240004242118401,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.0413797266666667,
+    "z": -0.075,
+    "y": 0.0,
+    "gap": 0.09569370157865495,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 1.0627115288888889,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.08523491968021712,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.0627115288888889,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.08523491968021712,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.0627115288888889,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.08523491968021712,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.084043331111111,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.08828566284592868,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.084043331111111,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.08828566284592868,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.084043331111111,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.08828566284592868,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box3"
+  },
+  {
+    "g": 1.1053751333333335,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.09236987656498102,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 1.1053751333333335,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.09137771439620415,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 1.1053751333333335,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.09137771439620417,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 1.1267069355555557,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.09476192088543392,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "robot_geom_038"
+  },
+  {
+    "g": 1.1267069355555557,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.0916413240639805,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 1.1267069355555557,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.09164132406398051,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 1.1480387377777779,
+    "z": -0.065,
+    "y": -0.004,
+    "gap": 0.09403641819913769,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_sph_tip2"
+  },
+  {
+    "g": 1.1480387377777779,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.0941884896143004,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 1.1480387377777779,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.09418848961430039,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  },
+  {
+    "g": 1.16937054,
+    "z": -0.065,
+    "y": 0.0,
+    "gap": 0.0981808527256602,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_sph_tip1"
+  },
+  {
+    "g": 1.16937054,
+    "z": -0.065,
+    "y": 0.004,
+    "gap": 0.09822399936728657,
+    "left_geom": "fixed_jaw_box6",
+    "right_geom": "moving_jaw_box2"
+  }
+]

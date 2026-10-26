@@ -1,0 +1,2447 @@
+{
+  "frames": 24,
+  "statuses": {
+    "RELOCALIZING": 1,
+    "TRACKING": 23
+  },
+  "tracking_fraction": 0.9583333333333334,
+  "position_error_mm": {
+    "p50": 1.4222184683091996,
+    "p95": 1.5893652971786902,
+    "p99": 1.6075975051497244,
+    "max": 1.6125190619145344
+  },
+  "rotation_error_deg": {
+    "p50": 0.7803609916299273,
+    "p95": 1.0864587260657137,
+    "p99": 1.1765061438017457,
+    "max": 1.2009298066901657
+  },
+  "processing_ms": {
+    "p50": 38.69319998193532,
+    "p95": 54.497455037198954,
+    "p99": 65.27942401356995,
+    "max": 68.38700000662357
+  },
+  "generation_ms_excluded_from_processing": {
+    "p50": 334.3979499768466,
+    "p95": 366.8961150397081,
+    "p99": 949.5808060176201,
+    "max": 1123.4258000040427
+  },
+  "position_envelope_coverage": 1.0,
+  "angle_envelope_coverage": 0.5217391304347826,
+  "control_refusals": 24,
+  "all_control_requests_refused": true,
+  "detail": [
+    {
+      "sequence": 0,
+      "status": "RELOCALIZING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.056427001953125,
+          0.05876554548740387,
+          0.05800078064203262
+        ],
+        "surface_rmse_m": 0.0008490988148596244,
+        "inlier_fraction": 0.9977777777777778,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02741808065766234,
+        "relative_error_bound_m": 0.008929592800892188,
+        "angular_error_bound_rad": 0.013509322907715355,
+        "systematic_position_bound_m": 0.01976848785677015,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00018986426696406287,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "processing_ms": 34.72720005083829
+      },
+      "generation_ms": 1123.4258000040427,
+      "valid_depth_fraction": 0.5558658854166667
+    },
+    {
+      "sequence": 1,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05766214430332184,
+          0.05808746814727783,
+          0.058503441512584686
+        ],
+        "surface_rmse_m": 0.0008579244413751206,
+        "inlier_fraction": 0.9977777777777778,
+        "evaluations": 6,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027424510464913784,
+        "relative_error_bound_m": 0.00893551321114199,
+        "angular_error_bound_rad": 0.013607996411878726,
+        "systematic_position_bound_m": 0.01976899725377179,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019183773704733027,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00036925458314350344,
+        "angular_jump_rad": 0.007564274869001546,
+        "velocity_B": [
+          -0.002896282078070732,
+          0.009147579461370873,
+          0.0052747476373075025,
+          -0.1113986053057896,
+          0.09969343528379061,
+          0.16722062845408325
+        ],
+        "processing_ms": 50.60740001499653
+      },
+      "generation_ms": 320.01379993744195,
+      "valid_depth_fraction": 0.5544921875,
+      "position_error_mm": 1.4066633103632549,
+      "rotation_error_deg": 1.0899131571973468,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.15506857821661527,
+          0.9752943203839708,
+          -0.15733620612850677,
+          0.24915201895638114
+        ],
+        [
+          -0.11373269748155904,
+          0.17582820070245922,
+          0.9778288718198854,
+          -0.09956904824258211
+        ],
+        [
+          0.9813351295322965,
+          -0.13373627063641788,
+          0.13818828518360707,
+          0.07896370351676578
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9781927955314379,
+          -0.1514122741001397,
+          0.14217305659728582,
+          0.25
+        ],
+        [
+          0.1697287312048425,
+          0.9772730449995012,
+          -0.12700217841044115,
+          -0.1
+        ],
+        [
+          -0.11971220728891938,
+          0.1483634684456634,
+          0.9816604650574391,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 2,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05774322897195816,
+          0.05831499397754669,
+          0.05829058587551117
+        ],
+        "surface_rmse_m": 0.0009241955938581554,
+        "inlier_fraction": 0.9977777777777778,
+        "evaluations": 6,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02748901427404863,
+        "relative_error_bound_m": 0.008979969251711786,
+        "angular_error_bound_rad": 0.014348930421375326,
+        "systematic_position_bound_m": 0.019789045022336842,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00020665641723726226,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00017816581555899164,
+        "angular_jump_rad": 0.006416019389875797,
+        "velocity_B": [
+          -0.000377639445952477,
+          -0.004595696919093339,
+          -0.0028118910793291643,
+          0.12977409393091502,
+          -0.03584160381674559,
+          0.1403647379973827
+        ],
+        "processing_ms": 52.353500039316714
+      },
+      "generation_ms": 321.6063999570906,
+      "valid_depth_fraction": 0.5546028645833333,
+      "position_error_mm": 1.446774540827248,
+      "rotation_error_deg": 0.9404444104633548,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.15444317397544355,
+          0.9746254245479511,
+          -0.16202658406982826,
+          0.24913956133274537
+        ],
+        [
+          -0.11721656176439653,
+          0.18091106962135023,
+          0.976489345188179,
+          -0.09972065174474741
+        ],
+        [
+          0.9810237432419839,
+          -0.13181992044001534,
+          0.14218272776493118,
+          0.0788709444547914
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9776244273814783,
+          -0.15465303694888055,
+          0.14259353824604054,
+          0.25
+        ],
+        [
+          0.17297244408590529,
+          0.9767654372433849,
+          -0.12652989446643642,
+          -0.1
+        ],
+        [
+          -0.11971220728891936,
+          0.1483634684456634,
+          0.981660465057439,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 3,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05660076439380646,
+          0.05782896280288696,
+          0.05806536227464676
+        ],
+        "surface_rmse_m": 0.0009399276716024085,
+        "inlier_fraction": 0.9988888888888889,
+        "evaluations": 6,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027479372002665273,
+        "relative_error_bound_m": 0.008990522650290825,
+        "angular_error_bound_rad": 0.014524820397692633,
+        "systematic_position_bound_m": 0.019768849352374447,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.0002101742167636084,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 9.508734394180396e-05,
+        "angular_jump_rad": 0.00567759527919455,
+        "velocity_B": [
+          -0.00041530170517636156,
+          -0.0028261944381244124,
+          -5.144937595422601e-05,
+          0.08288497133086582,
+          0.05981278850412569,
+          0.13657751173483682
+        ],
+        "processing_ms": 41.337599977850914
+      },
+      "generation_ms": 285.09889997076243,
+      "valid_depth_fraction": 0.5582291666666667,
+      "position_error_mm": 1.4412838148043026,
+      "rotation_error_deg": 1.0052538942102134,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.1569328297625249,
+          0.973528313620609,
+          -0.16617667027220476,
+          0.24912573920511297
+        ],
+        [
+          -0.11921424086739352,
+          0.18570444690512727,
+          0.9753469976678252,
+          -0.09981471353103637
+        ],
+        [
+          0.9803876877322324,
+          -0.13325333862442762,
+          0.14520156005481558,
+          0.07886923210968859
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9770795685491179,
+          -0.1577021578941667,
+          0.14298792298440072,
+          0.25
+        ],
+        [
+          0.17602415785875647,
+          0.9762777835361696,
+          -0.12608404032160306,
+          -0.1
+        ],
+        [
+          -0.11971220728891933,
+          0.14836346844566337,
+          0.9816604650574391,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 4,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05741105228662491,
+          0.05755363404750824,
+          0.0588066503405571
+        ],
+        "surface_rmse_m": 0.0009086436079314525,
+        "inlier_fraction": 0.9972222222222222,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027457863267305087,
+        "relative_error_bound_m": 0.008969536662396619,
+        "angular_error_bound_rad": 0.014175053932789186,
+        "systematic_position_bound_m": 0.01976832660490847,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00020317888746553946,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.0004287853341560336,
+        "angular_jump_rad": 0.008716171610921912,
+        "velocity_B": [
+          0.004377664920254761,
+          0.010793264064694053,
+          0.005865086537115909,
+          0.040546168748106876,
+          -0.26125608534281924,
+          0.019260486708468673
+        ],
+        "processing_ms": 51.13599996548146
+      },
+      "generation_ms": 309.250200050883,
+      "valid_depth_fraction": 0.552958984375,
+      "position_error_mm": 1.3056995479605675,
+      "rotation_error_deg": 0.5852075655977929,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.14858188440469147,
+          0.9745181952540921,
+          -0.16804102446615984,
+          0.24926968011316653
+        ],
+        [
+          -0.12042531441024999,
+          0.18649322156244652,
+          0.9750477375640122,
+          -0.09945982290815071
+        ],
+        [
+          0.9815401976131624,
+          -0.12463804204007685,
+          0.14506618087043957,
+          0.0790620805568274
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9765606261350315,
+          -0.16055650653163808,
+          0.14335603124079377,
+          0.25
+        ],
+        [
+          0.17888077288733464,
+          0.9758124253365135,
+          -0.12566534784936184,
+          -0.1
+        ],
+        [
+          -0.11971220728891933,
+          0.1483634684456634,
+          0.981660465057439,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 5,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05747077614068985,
+          0.05818919837474823,
+          0.05805153399705887
+        ],
+        "surface_rmse_m": 0.000889305503093943,
+        "inlier_fraction": 0.9983333333333333,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02744439028797652,
+        "relative_error_bound_m": 0.008956564267304812,
+        "angular_error_bound_rad": 0.013958847347925744,
+        "systematic_position_bound_m": 0.01976782602067171,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.0001988547557682706,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.0003688848787843237,
+        "angular_jump_rad": 0.0036388042588222963,
+        "velocity_B": [
+          -0.0015039994773410567,
+          -0.010779062696948338,
+          -0.0019232307771342393,
+          0.03317820583730698,
+          0.10315222906325798,
+          0.012022870923284627
+        ],
+        "processing_ms": 43.7801000662148
+      },
+      "generation_ms": 303.05890005547553,
+      "valid_depth_fraction": 0.555927734375,
+      "position_error_mm": 1.2829582490191525,
+      "rotation_error_deg": 0.5857520365944721,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.1520086449344065,
+          0.9740086700867948,
+          -0.16792992779122137,
+          0.24921948128970767
+        ],
+        [
+          -0.12145158330724859,
+          0.18702394086195906,
+          0.9748186715672426,
+          -0.09981959448621847
+        ],
+        [
+          0.9808888022345293,
+          -0.12778551248201747,
+          0.14672415231287989,
+          0.0789978890968525
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9760698915026554,
+          -0.1632131657299446,
+          0.14369770156270528,
+          0.25
+        ],
+        [
+          0.18153940158546705,
+          0.9753715926574766,
+          -0.1252745062205724,
+          -0.1
+        ],
+        [
+          -0.11971220728891935,
+          0.1483634684456634,
+          0.9816604650574392,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 6,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05675322562456131,
+          0.05885577201843262,
+          0.058423615992069244
+        ],
+        "surface_rmse_m": 0.0009257336791102634,
+        "inlier_fraction": 0.9983333333333333,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027469505834615063,
+        "relative_error_bound_m": 0.008981001030665459,
+        "angular_error_bound_rad": 0.014366126737269842,
+        "systematic_position_bound_m": 0.019768504803949604,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.0002070003435551526,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00014299609578048041,
+        "angular_jump_rad": 0.006378444765159524,
+        "velocity_B": [
+          -9.625787440257102e-05,
+          0.003724928374185315,
+          -0.002002012056249522,
+          -0.16319368538813547,
+          0.06473368309869257,
+          0.06911856830654364
+        ],
+        "processing_ms": 35.25620000436902
+      },
+      "generation_ms": 346.1488999892026,
+      "valid_depth_fraction": 0.5563346354166666,
+      "position_error_mm": 1.3610983306130369,
+      "rotation_error_deg": 0.8192374919905656,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.1544325976612954,
+          0.9732867241953659,
+          -0.16989257092536236,
+          0.24921622722611578
+        ],
+        [
+          -0.11568123205534989,
+          0.18858524946586147,
+          0.9752196551000923,
+          -0.09969367072278545
+        ],
+        [
+          0.9812076637151185,
+          -0.1309523132096462,
+          0.14171472220543574,
+          0.07893020970352287
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9756095303498973,
+          -0.16566943216725244,
+          0.1440127894870222,
+          0.25
+        ],
+        [
+          0.18399736877593664,
+          0.9749573941850757,
+          -0.12491216036631178,
+          -0.1
+        ],
+        [
+          -0.11971220728891938,
+          0.14836346844566342,
+          0.9816604650574392,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 7,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.056821249425411224,
+          0.058315813541412354,
+          0.058474622666835785
+        ],
+        "surface_rmse_m": 0.0008600627790379488,
+        "inlier_fraction": 0.9983333333333333,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02742486133385749,
+        "relative_error_bound_m": 0.00893694765165387,
+        "angular_error_bound_rad": 0.013631903753743384,
+        "systematic_position_bound_m": 0.019767913682203618,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019231588388462346,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00010615160353849069,
+        "angular_jump_rad": 0.005679506895846557,
+        "velocity_B": [
+          0.0001828650699465151,
+          -0.0013719944280700938,
+          0.0028767548733903254,
+          0.054067465339826364,
+          -0.0398237465313412,
+          0.15705268460610533
+        ],
+        "processing_ms": 41.25430004205555
+      },
+      "generation_ms": 349.759400007315,
+      "valid_depth_fraction": 0.5558170572916666,
+      "position_error_mm": 1.2734649919368572,
+      "rotation_error_deg": 0.7996690397781655,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.15373990966007992,
+          0.9724603466187968,
+          -0.1751710087303835,
+          0.24922230770363252
+        ],
+        [
+          -0.1166405880712999,
+          0.1938997647298903,
+          0.9740625977946578,
+          -0.09973929114266888
+        ],
+        [
+          0.9812028649432954,
+          -0.12932022672409238,
+          0.14323848501957723,
+          0.07902586516869146
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9751815733451833,
+          -0.16792281669897613,
+          0.1443011664536883,
+          0.25
+        ],
+        [
+          0.18625221189029617,
+          0.9745718079560145,
+          -0.12457890954458345,
+          -0.1
+        ],
+        [
+          -0.11971220728891936,
+          0.1483634684456634,
+          0.9816604650574391,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 8,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.056743234395980835,
+          0.05782625079154968,
+          0.05837102234363556
+        ],
+        "surface_rmse_m": 0.000864692235405338,
+        "inlier_fraction": 1.0,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027428101865418858,
+        "relative_error_bound_m": 0.008940053185394776,
+        "angular_error_bound_rad": 0.013683662649425145,
+        "systematic_position_bound_m": 0.019768048680024082,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019335106179825862,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.0002092721888976791,
+        "angular_jump_rad": 0.006595749488430701,
+        "velocity_B": [
+          -0.002381888915423019,
+          -0.005572085922469023,
+          -0.00200221551804241,
+          0.1750928461799497,
+          -0.08431441873247383,
+          -0.051897950857825385
+        ],
+        "processing_ms": 36.110299988649786
+      },
+      "generation_ms": 285.3870999533683,
+      "valid_depth_fraction": 0.5592903645833334,
+      "position_error_mm": 1.3489374032691757,
+      "rotation_error_deg": 0.4384247775591456,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.15082398495704982,
+          0.9731418037735834,
+          -0.17391690307887342,
+          0.2491442036337347
+        ],
+        [
+          -0.12253250911201576,
+          0.1929758329544986,
+          0.9735224958152704,
+          -0.09992200436054698
+        ],
+        [
+          0.9809372699685173,
+          -0.12552006138403948,
+          0.14834689336427825,
+          0.07896021089751237
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9747879073648823,
+          -0.16997104458312723,
+          0.14456271877117755,
+          0.25
+        ],
+        [
+          0.18830168103659828,
+          0.9742166726319631,
+          -0.12427530601329448,
+          -0.1
+        ],
+        [
+          -0.11971220728891935,
+          0.14836346844566342,
+          0.9816604650574392,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 9,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05684422701597214,
+          0.057668283581733704,
+          0.05809922516345978
+        ],
+        "surface_rmse_m": 0.0008326303890603886,
+        "inlier_fraction": 0.9988888888888889,
+        "evaluations": 8,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.0274074036735475,
+        "relative_error_bound_m": 0.008918545445021337,
+        "angular_error_bound_rad": 0.013325200309867842,
+        "systematic_position_bound_m": 0.019768858228526164,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.0001861818150071126,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.0005358195347238954,
+        "angular_jump_rad": 0.003864236188942467,
+        "velocity_B": [
+          -0.002587520680275708,
+          0.014508580198389175,
+          0.006309092973749216,
+          0.0014286054560705929,
+          -0.03127401747751144,
+          -0.11129468823107874
+        ],
+        "processing_ms": 48.17179997917265
+      },
+      "generation_ms": 340.6984000466764,
+      "valid_depth_fraction": 0.5586360677083333,
+      "position_error_mm": 1.3754560211396571,
+      "rotation_error_deg": 0.2787688998826576,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.1493416008545284,
+          0.9739836451147155,
+          -0.17044934424509883,
+          0.24905771942615998
+        ],
+        [
+          -0.12313764316129742,
+          0.18936028971704397,
+          0.9741559514292608,
+          -0.09943707565212852
+        ],
+        [
+          0.9810882536368414,
+          -0.12449328902012392,
+          0.14821341106452762,
+          0.0791710833788453
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9744302673664418,
+          -0.17181205558880389,
+          0.14479734664183064,
+          0.25
+        ],
+        [
+          0.1901437389612908,
+          0.9738936794050582,
+          -0.12400185381153822,
+          -0.1
+        ],
+        [
+          -0.11971220728891935,
+          0.1483634684456634,
+          0.981660465057439,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 10,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05769924819469452,
+          0.057983607053756714,
+          0.05794195830821991
+        ],
+        "surface_rmse_m": 0.0008752845376239952,
+        "inlier_fraction": 0.9988888888888889,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02743558011735105,
+        "relative_error_bound_m": 0.008947158717734518,
+        "angular_error_bound_rad": 0.013802088188420839,
+        "systematic_position_bound_m": 0.019768421399616532,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019571957257817253,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.0005929068345713144,
+        "angular_jump_rad": 0.007715334648253504,
+        "velocity_B": [
+          0.0018653560517157093,
+          -0.015135059693202377,
+          -0.008480732168558965,
+          -0.15828038634525077,
+          0.12270019076824586,
+          0.10699820925797382
+        ],
+        "processing_ms": 38.128199987113476
+      },
+      "generation_ms": 345.93409998342395,
+      "valid_depth_fraction": 0.5565852864583334,
+      "position_error_mm": 1.4222184683091996,
+      "rotation_error_deg": 0.6304719806662542,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.15386916162476943,
+          0.9727603731356271,
+          -0.17338289643129873,
+          0.24912110263608558
+        ],
+        [
+          -0.1173098582482872,
+          0.19221597370279697,
+          0.9743159145721372,
+          -0.099951352090071
+        ],
+        [
+          0.9811027959002075,
+          -0.12957764482354284,
+          0.14369049397100844,
+          0.07888291532274246
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9741102289288172,
+          -0.17344400401219723,
+          0.14500496325458867,
+          0.25
+        ],
+        [
+          0.19177656093032458,
+          0.9736043645665264,
+          -0.1237590076509502,
+          -0.1
+        ],
+        [
+          -0.11971220728891935,
+          0.14836346844566342,
+          0.9816604650574391,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 11,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05589225888252258,
+          0.05813369154930115,
+          0.058319851756095886
+        ],
+        "surface_rmse_m": 0.0008839114492200114,
+        "inlier_fraction": 0.9994444444444445,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027442060694720556,
+        "relative_error_bound_m": 0.00895294582596389,
+        "angular_error_bound_rad": 0.013898539992243705,
+        "systematic_position_bound_m": 0.019769114868756668,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019764860865462987,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.0004641480380501979,
+        "angular_jump_rad": 0.005540413797487962,
+        "velocity_B": [
+          -3.7478097005454026e-05,
+          0.013739853111685756,
+          0.003910132830433095,
+          0.04521837694505411,
+          0.08804906157942204,
+          -0.1388535518588545
+        ],
+        "processing_ms": 37.4974999576807
+      },
+      "generation_ms": 335.7986999908462,
+      "valid_depth_fraction": 0.5557454427083334,
+      "position_error_mm": 1.4141698559247873,
+      "rotation_error_deg": 0.7770704125691673,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.15614095810673673,
+          0.9732437919661149,
+          -0.16857219487205533,
+          0.24911988493666964
+        ],
+        [
+          -0.1194501442815279,
+          0.18801849423751169,
+          0.9748747940545878,
+          -0.09950493104828861
+        ],
+        [
+          0.9804854452936063,
+          -0.13208189043769378,
+          0.14561149469582735,
+          0.07900995929893932
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9738292014889307,
+          -0.1748652586230789,
+          0.14518549395210115,
+          0.25
+        ],
+        [
+          0.19319853455305158,
+          0.9733501027674764,
+          -0.12354717191865204,
+          -0.1
+        ],
+        [
+          -0.11971220728891938,
+          0.14836346844566342,
+          0.9816604650574392,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 12,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.057596951723098755,
+          0.058097004890441895,
+          0.05861131101846695
+        ],
+        "surface_rmse_m": 0.0008668152997183678,
+        "inlier_fraction": 0.9977777777777778,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027429804749743488,
+        "relative_error_bound_m": 0.008941477380232137,
+        "angular_error_bound_rad": 0.013707399230047837,
+        "systematic_position_bound_m": 0.01976832736951135,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019382579341071246,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00020015899668187267,
+        "angular_jump_rad": 0.004582489563445098,
+        "velocity_B": [
+          0.0028322949927136495,
+          -0.005052208821554099,
+          -0.0009048660841837042,
+          -0.02836642359526037,
+          -0.011149315554303676,
+          0.13070421905472937
+        ],
+        "processing_ms": 37.28489996865392
+      },
+      "generation_ms": 354.9267000053078,
+      "valid_depth_fraction": 0.555859375,
+      "position_error_mm": 1.326684016102324,
+      "rotation_error_deg": 0.7376656759036718,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.15629705740921424,
+          0.9724455375410562,
+          -0.17297668639143454,
+          0.24921659069167884
+        ],
+        [
+          -0.11780324606372558,
+          0.19223222870153278,
+          0.9742531730323528,
+          -0.09967743344292244
+        ],
+        [
+          0.9806598059222994,
+          -0.13189570497562453,
+          0.14460257587632494,
+          0.07897906359136708
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9735884223000394,
+          -0.17607440256306933,
+          0.14533887547858118,
+          0.25
+        ],
+        [
+          0.19440825957076807,
+          0.9731321009980254,
+          -0.1233666997930723,
+          -0.1
+        ],
+        [
+          -0.11971220728891933,
+          0.1483634684456634,
+          0.9816604650574391,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 13,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05730748176574707,
+          0.05795848369598389,
+          0.05876409262418747
+        ],
+        "surface_rmse_m": 0.0008574063627688917,
+        "inlier_fraction": 0.9994444444444445,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027424859048782217,
+        "relative_error_bound_m": 0.008935165673447626,
+        "angular_error_bound_rad": 0.013602204116972647,
+        "systematic_position_bound_m": 0.01976969337533459,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019172189114920866,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.0003194044904672534,
+        "angular_jump_rad": 0.005402982764019629,
+        "velocity_B": [
+          -0.0035691924538721513,
+          -0.003997173162248998,
+          -0.00798413570187115,
+          -0.11996044985803651,
+          -0.0659317152065442,
+          -0.08786493956956754
+        ],
+        "processing_ms": 37.84879995509982
+      },
+      "generation_ms": 313.2718000560999,
+      "valid_depth_fraction": 0.5560319010416667,
+      "position_error_mm": 1.582317827661954,
+      "rotation_error_deg": 0.8321359107530478,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.15380971990624073,
+          0.9732890002335819,
+          -0.1704436793163488,
+          0.24909803371694655
+        ],
+        [
+          -0.11434653775918928,
+          0.1888699789873871,
+          0.9753219201310521,
+          -0.0998102065460044
+        ],
+        [
+          0.9814618737755767,
+          -0.13052436158104114,
+          0.1403422672522277,
+          0.07871385654890599
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9733889511349533,
+          -0.17707023321509865,
+          0.14546505531414114,
+          0.25
+        ],
+        [
+          0.19540454762980916,
+          0.9729513933079716,
+          -0.12321789247372483,
+          -0.1
+        ],
+        [
+          -0.11971220728891938,
+          0.1483634684456634,
+          0.9816604650574391,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 14,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05750337988138199,
+          0.05723485350608826,
+          0.05844879895448685
+        ],
+        "surface_rmse_m": 0.000816916372664715,
+        "inlier_fraction": 0.9983333333333333,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02739712399055259,
+        "relative_error_bound_m": 0.008908004162363255,
+        "angular_error_bound_rad": 0.01314951226556648,
+        "systematic_position_bound_m": 0.019769119828189335,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00018266805412108536,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.0004605975814147868,
+        "angular_jump_rad": 0.01059328967725123,
+        "velocity_B": [
+          0.0024200751366333733,
+          0.010805424283081245,
+          0.008086312168574663,
+          0.14652692694795838,
+          0.17930294263054872,
+          0.21406785850085894
+        ],
+        "processing_ms": 35.20200005732477
+      },
+      "generation_ms": 308.4708999376744,
+      "valid_depth_fraction": 0.5576106770833333,
+      "position_error_mm": 1.417137561117244,
+      "rotation_error_deg": 0.9163720639315626,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.16055231752076649,
+          0.9711024229534336,
+          -0.17658740724670843,
+          0.2491793296469948
+        ],
+        [
+          -0.11804347940147877,
+          0.19651570158869358,
+          0.9733691029609641,
+          -0.099447227313103
+        ],
+        [
+          0.9799432163626471,
+          -0.13543167777297255,
+          0.14618335607557445,
+          0.0789854945069403
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9732316657541061,
+          -0.1778517620613691,
+          0.14556399110066265,
+          0.25
+        ],
+        [
+          0.19618642205693654,
+          0.9728088362892467,
+          -0.12310099852583954,
+          -0.1
+        ],
+        [
+          -0.11971220728891935,
+          0.14836346844566334,
+          0.9816604650574389,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 15,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05775246024131775,
+          0.058183953166007996,
+          0.05888225883245468
+        ],
+        "surface_rmse_m": 0.0008475334165810823,
+        "inlier_fraction": 0.9961111111111111,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027416977533349596,
+        "relative_error_bound_m": 0.008928542699803383,
+        "angular_error_bound_rad": 0.013491821222901948,
+        "systematic_position_bound_m": 0.019768434833546213,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00018951423326779473,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.0005953922624066227,
+        "angular_jump_rad": 0.003246197996019461,
+        "velocity_B": [
+          0.0016035980501859217,
+          -0.01635936891064277,
+          -0.0072566472282916015,
+          0.07979232078572003,
+          -0.053804857088434105,
+          0.018322116469839524
+        ],
+        "processing_ms": 36.42469993792474
+      },
+      "generation_ms": 318.66119999904186,
+      "valid_depth_fraction": 0.5561979166666666,
+      "position_error_mm": 1.471103912225329,
+      "rotation_error_deg": 0.7803609916299273,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.15887767047898607,
+          0.9712222588423515,
+          -0.17744083311860512,
+          0.24923246602938093
+        ],
+        [
+          -0.1205374184595133,
+          0.19746041262725741,
+          0.9728721247498741,
+          -0.0999893068460202
+        ],
+        [
+          0.9799125525241326,
+          -0.13317938106288313,
+          0.14844067019654908,
+          0.07874504024727151
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9731172581554951,
+          -0.17841821454484913,
+          0.1456356501635488,
+          0.25
+        ],
+        [
+          0.19675311765241787,
+          0.9727051053373786,
+          -0.12301621334057143,
+          -0.1
+        ],
+        [
+          -0.11971220728891935,
+          0.1483634684456634,
+          0.981660465057439,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 16,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.056972406804561615,
+          0.058274686336517334,
+          0.05835815519094467
+        ],
+        "surface_rmse_m": 0.0008544094887229567,
+        "inlier_fraction": 0.9994444444444445,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02742225123994181,
+        "relative_error_bound_m": 0.008933155309221612,
+        "angular_error_bound_rad": 0.013568698046539068,
+        "systematic_position_bound_m": 0.0197690959307202,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019105176974053712,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.0003021417794535038,
+        "angular_jump_rad": 0.0014041404172784652,
+        "velocity_B": [
+          -0.0025545649240854137,
+          0.00800838824750677,
+          0.003210003056514088,
+          -0.0004462883614914811,
+          -0.03290233860636915,
+          0.025803979568592116
+        ],
+        "processing_ms": 38.24889997486025
+      },
+      "generation_ms": 332.99719996284693,
+      "valid_depth_fraction": 0.5570279947916666,
+      "position_error_mm": 1.456820269966524,
+      "rotation_error_deg": 0.7214447214294634,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.15789931244298816,
+          0.9711973047099604,
+          -0.1784476105572667,
+          0.24914668698525202
+        ],
+        [
+          -0.12038550031895776,
+          0.19829992976295446,
+          0.972720127108029,
+          -0.09972039534472797
+        ],
+        [
+          0.9800893596320572,
+          -0.13210934262527518,
+          0.14822948883278803,
+          0.0788528280710385
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9730462316205069,
+          -0.17876902994688232,
+          0.14568000913296877,
+          0.25
+        ],
+        [
+          0.19710408051368689,
+          0.9726406917061529,
+          -0.12296367871136053,
+          -0.1
+        ],
+        [
+          -0.11971220728891938,
+          0.14836346844566342,
+          0.9816604650574391,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 17,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.057628512382507324,
+          0.057425931096076965,
+          0.05904459208250046
+        ],
+        "surface_rmse_m": 0.0008820571243448205,
+        "inlier_fraction": 0.9988888888888889,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.0274407638606981,
+        "relative_error_bound_m": 0.008951701907021901,
+        "angular_error_bound_rad": 0.01387780800987723,
+        "systematic_position_bound_m": 0.019769061953676198,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019723396900730032,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 7.808647773223341e-05,
+        "angular_jump_rad": 0.004383455957286213,
+        "velocity_B": [
+          -0.0008046726677293406,
+          -0.0022367350108890597,
+          -0.00036079461528763047,
+          -0.05234250842409889,
+          -0.11251820708760721,
+          0.05306741304474349
+        ],
+        "processing_ms": 34.91849999409169
+      },
+      "generation_ms": 326.2363000540063,
+      "valid_depth_fraction": 0.5581966145833334,
+      "position_error_mm": 1.4694506376817016,
+      "rotation_error_deg": 0.5748556521955995,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.15452211843452043,
+          0.9713312594047975,
+          -0.18066152824081103,
+          0.2491205529434244
+        ],
+        [
+          -0.11844947363913531,
+          0.19975208334180605,
+          0.9726607169438557,
+          -0.09979303969898057
+        ],
+        [
+          0.9808631979378505,
+          -0.12889834503781533,
+          0.1459197948884495,
+          0.07884111023601656
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9730188985666329,
+          -0.1789038612909207,
+          0.14569705366744998,
+          0.25
+        ],
+        [
+          0.1972389678998336,
+          0.9726159003666206,
+          -0.12294348252687805,
+          -0.1
+        ],
+        [
+          -0.11971220728891936,
+          0.14836346844566345,
+          0.9816604650574392,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 18,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05676044523715973,
+          0.05785861611366272,
+          0.05810569226741791
+        ],
+        "surface_rmse_m": 0.0008726724263355478,
+        "inlier_fraction": 0.9994444444444445,
+        "evaluations": 6,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02743521385405683,
+        "relative_error_bound_m": 0.00894540646021279,
+        "angular_error_bound_rad": 0.013772883896392026,
+        "systematic_position_bound_m": 0.01976980739384404,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019513548673759625,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00014021230868289225,
+        "angular_jump_rad": 0.0018460846024489237,
+        "velocity_B": [
+          -0.003540428488923799,
+          -0.001017145270900012,
+          -0.0020089862243295393,
+          0.01589384137927491,
+          0.044751560214521695,
+          -0.028224146137340027
+        ],
+        "processing_ms": 41.38429998420179
+      },
+      "generation_ms": 355.61659990344197,
+      "valid_depth_fraction": 0.5588899739583333,
+      "position_error_mm": 1.5901483493472166,
+      "rotation_error_deg": 0.6275674944513372,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.15587671385827825,
+          0.971325427980334,
+          -0.17952529827376618,
+          0.24900224308291613
+        ],
+        [
+          -0.11911673845022025,
+          0.19890477197979864,
+          0.9727528444528443,
+          -0.09982702945911646
+        ],
+        [
+          0.9805680305424249,
+          -0.13024503967439335,
+          0.14670573190580455,
+          0.07877397630555955
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9730353792150487,
+          -0.17882257527971093,
+          0.1456867782818978,
+          0.25
+        ],
+        [
+          0.19715764814442663,
+          0.9726308486785236,
+          -0.12295565858086285,
+          -0.1
+        ],
+        [
+          -0.11971220728891935,
+          0.14836346844566342,
+          0.9816604650574392,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 19,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05769479274749756,
+          0.057780563831329346,
+          0.05850239843130112
+        ],
+        "surface_rmse_m": 0.0008482053555548956,
+        "inlier_fraction": 0.9994444444444445,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02741915415040527,
+        "relative_error_bound_m": 0.008928993450170038,
+        "angular_error_bound_rad": 0.013499333729012838,
+        "systematic_position_bound_m": 0.019770160700235233,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00018966448339001254,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00034600855470510647,
+        "angular_jump_rad": 0.0032041665653684123,
+        "velocity_B": [
+          -0.002631224240217188,
+          0.008218964387982126,
+          0.005461996752272889,
+          -0.07576822731633033,
+          0.032945182946464785,
+          -0.04602904573102334
+        ],
+        "processing_ms": 68.38700000662357
+      },
+      "generation_ms": 336.21079998556525,
+      "valid_depth_fraction": 0.556650390625,
+      "position_error_mm": 1.5712303618827927,
+      "rotation_error_deg": 0.7350548690293265,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": true,
+      "estimated_pose": [
+        [
+          0.1567872608125591,
+          0.9714878996500192,
+          -0.1778454081534531,
+          0.2489131004149163
+        ],
+        [
+          -0.11684330279779327,
+          0.19705358401271195,
+          0.9734051610888335,
+          -0.09954858097018042
+        ],
+        [
+          0.9806963933446046,
+          -0.1318374694374066,
+          0.14440734276200012,
+          0.07895902209362353
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9730956010779925,
+          -0.17852525227050112,
+          0.1456491862813349,
+          0.25
+        ],
+        [
+          0.1968602006213441,
+          0.9726854658791438,
+          -0.12300018649903571,
+          -0.1
+        ],
+        [
+          -0.11971220728891938,
+          0.1483634684456634,
+          0.9816604650574393,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 20,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.057730525732040405,
+          0.058050721883773804,
+          0.05885319411754608
+        ],
+        "surface_rmse_m": 0.000876797890257262,
+        "inlier_fraction": 0.9988888888888889,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02743796898124771,
+        "relative_error_bound_m": 0.008948173905543092,
+        "angular_error_bound_rad": 0.013819007985230402,
+        "systematic_position_bound_m": 0.01976979507570462,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019605796851436384,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00041090495386055437,
+        "angular_jump_rad": 0.003800353522574098,
+        "velocity_B": [
+          0.002202939049827749,
+          -0.010363335888050674,
+          -0.006256398858384843,
+          0.0012373711674197982,
+          0.0983815536868158,
+          -0.05718110788418907
+        ],
+        "processing_ms": 54.87580003682524
+      },
+      "generation_ms": 363.03209990728647,
+      "valid_depth_fraction": 0.5579622395833334,
+      "position_error_mm": 1.6125190619145344,
+      "rotation_error_deg": 0.9020292811104139,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.15978502176008524,
+          0.9714240747348741,
+          -0.17551082768442638,
+          0.24898666846460313
+        ],
+        [
+          -0.11718607543939005,
+          0.19520402066345152,
+          0.973736604822971,
+          -0.09989466880660652
+        ],
+        [
+          0.980171519935978,
+          -0.1350210862165382,
+          0.1450280594233179,
+          0.07875008709739188
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9731992992678442,
+          -0.17801218629003082,
+          0.14558428980085852,
+          0.25
+        ],
+        [
+          0.1963469157654171,
+          0.9727794933914963,
+          -0.12307699178316063,
+          -0.1
+        ],
+        [
+          -0.11971220728891935,
+          0.1483634684456634,
+          0.9816604650574391,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 21,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05783814936876297,
+          0.058424726128578186,
+          0.05863146483898163
+        ],
+        "surface_rmse_m": 0.0008654752717525935,
+        "inlier_fraction": 0.9983333333333333,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.02743059049979655,
+        "relative_error_bound_m": 0.00894057846214517,
+        "angular_error_bound_rad": 0.013692417261931725,
+        "systematic_position_bound_m": 0.01977001203765138,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019352615404839024,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00031798685401766456,
+        "angular_jump_rad": 0.008238602128266534,
+        "velocity_B": [
+          0.0007154586944811722,
+          0.008811756483086623,
+          0.003360084384790258,
+          -0.09673672826412542,
+          0.09140714740873354,
+          -0.20574270293961924
+        ],
+        "processing_ms": 39.137499989010394
+      },
+      "generation_ms": 352.76779998093843,
+      "valid_depth_fraction": 0.558701171875,
+      "position_error_mm": 1.5596742080249075,
+      "rotation_error_deg": 1.2009298066901657,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.1619937408955614,
+          0.9723291383044176,
+          -0.16832763510116125,
+          0.24901072348574213
+        ],
+        [
+          -0.11511121858735072,
+          0.1880360538935046,
+          0.9753931905955285,
+          -0.09959840154462839
+        ],
+        [
+          0.9800548025878618,
+          -0.13863118798479326,
+          0.14238665365654146,
+          0.07886305923894028
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9733460176267611,
+          -0.17728388508824264,
+          0.1454921099515158,
+          0.25
+        ],
+        [
+          0.19561829514679854,
+          0.9729124859507107,
+          -0.12318594597221143,
+          -0.1
+        ],
+        [
+          -0.11971220728891935,
+          0.1483634684456634,
+          0.9816604650574392,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 22,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05707290768623352,
+          0.05787287652492523,
+          0.05802600830793381
+        ],
+        "surface_rmse_m": 0.0008500886417757072,
+        "inlier_fraction": 0.9983333333333333,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027418702255730565,
+        "relative_error_bound_m": 0.008930256796973284,
+        "angular_error_bound_rad": 0.013520389509066956,
+        "systematic_position_bound_m": 0.01976844545875728,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00019008559899109486,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00023883058792819353,
+        "angular_jump_rad": 0.003714998351875608,
+        "velocity_B": [
+          0.005961574792864473,
+          -0.003529587571346836,
+          0.0024620520337299634,
+          -0.004996819395365966,
+          -0.06111425909688842,
+          0.09654151717952308
+        ],
+        "processing_ms": 41.59339994657785
+      },
+      "generation_ms": 320.5013999249786,
+      "valid_depth_fraction": 0.5604622395833333,
+      "position_error_mm": 1.3537144657192106,
+      "rotation_error_deg": 1.0553688458810162,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.1604077794485846,
+          0.9720079937541661,
+          -0.17166776330539218,
+          0.2492043713325183
+        ],
+        [
+          -0.11444661222441929,
+          0.1910623579324773,
+          0.9748831792612245,
+          -0.09971305196116217
+        ],
+        [
+          0.9803934735653358,
+          -0.13673204678010245,
+          0.1418909051175447,
+          0.07894303325445601
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.9735351106726788,
+          -0.17634107022683634,
+          0.14537267707099974,
+          0.25
+        ],
+        [
+          0.19467505159508755,
+          0.9730838135443559,
+          -0.12332686692048649,
+          -0.1
+        ],
+        [
+          -0.11971220728891936,
+          0.1483634684456634,
+          0.9816604650574391,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "sequence": 23,
+      "status": "TRACKING",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05664275586605072,
+          0.05778421461582184,
+          0.058667488396167755
+        ],
+        "surface_rmse_m": 0.0008310607695819205,
+        "inlier_fraction": 0.9983333333333333,
+        "evaluations": 5,
+        "uncertainty_model": "conditional_engineering_envelope_not_coverage_guarantee",
+        "position_error_bound_m": 0.027406447923638957,
+        "relative_error_bound_m": 0.008917492512265538,
+        "angular_error_bound_rad": 0.013307651430604531,
+        "systematic_position_bound_m": 0.01976895541137342,
+        "timing_error_bound_m": 0.00708,
+        "random_position_sigma_m": 0.00018583083742184636,
+        "quantization_bound_m": 0.0005,
+        "effective_samples": 20.0,
+        "error_budget_qualified": false,
+        "error_budget_provenance": "engineering_bounds_require_bench_validation",
+        "tool_position_bound_m": 0.002,
+        "translation_jump_m": 0.00027441217218277366,
+        "angular_jump_rad": 0.0024548997363401073,
+        "velocity_B": [
+          -0.004447584903519426,
+          -0.006326572621619499,
+          -0.0028785241544873955,
+          -0.00783527082769571,
+          -0.05621165695196692,
+          -0.04720588418695187
+        ],
+        "processing_ms": 37.621399969793856
+      },
+      "generation_ms": 367.5780000630766,
+      "valid_depth_fraction": 0.556181640625,
+      "position_error_mm": 1.4915802303956731,
+      "rotation_error_deg": 0.9779861954324292,
+      "position_inside_conditional_envelope": true,
+      "angle_inside_conditional_envelope": false,
+      "estimated_pose": [
+        [
+          0.1583951543938421,
+          0.9725606880423584,
+          -0.17040183660184893,
+          0.24905646792150155
+        ],
+        [
+          -0.11444134152828561,
+          0.18950065654695034,
+          0.9751885951126591,
+          -0.09992344067573
+        ],
+        [
+          0.9807212288348092,
+          -0.13496413491821346,
+          0.1413171410080841,
+          0.07884730859705691
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evaluator_truth_pose": [
+        [
+          0.973765746354465,
+          -0.1751846771960172,
+          0.14522603107728124,
+          0.25
+        ],
+        [
+          0.19351810936640274,
+          0.9732926641593989,
+          -0.1234995191923965,
+          -0.1
+        ],
+        [
+          -0.11971220728891938,
+          0.14836346844566342,
+          0.9816604650574393,
+          0.08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "kind": "mujoco_nominal",
+  "seed": 654321,
+  "calibration": {
+    "width": 640,
+    "height": 480,
+    "K": [
+      [
+        492.0729219790311,
+        0.0,
+        319.5
+      ],
+      [
+        0.0,
+        492.0729219790311,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_B_C": [
+      [
+        0.6031082748717462,
+        0.4898827073507802,
+        -0.6295040443237012,
+        0.65
+      ],
+      [
+        0.797659331281987,
+        -0.3703991201920531,
+        0.4759664725374327,
+        -0.35
+      ],
+      [
+        5.551115123125783e-17,
+        -0.7891890931833911,
+        -0.6141502871450742,
+        0.48
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "depth_scale": 0.001,
+    "min_depth": 0.32,
+    "max_depth": 1.2,
+    "serial": "unassigned",
+    "profile": "rectified-depth",
+    "provenance": "mujoco",
+    "table_z": 0.0,
+    "workspace": [
+      0.08,
+      0.48,
+      -0.25,
+      0.25,
+      0.003,
+      0.35
+    ],
+    "distortion_model": "none",
+    "calibration_id": "1967687a3fb8fe99e33c01f799d5179011c277e35038fdf35400153a808e08ea"
+  },
+  "noise_profile": {
+    "name": "d455_engineering_nominal",
+    "provenance": "engineering_assumption_not_device_calibration",
+    "baseline_m": 0.095,
+    "disparity_white_px": 0.07,
+    "disparity_correlated_px": 0.045,
+    "correlation_length_px": 2.0,
+    "temporal_correlation": 0.65,
+    "temporal_reference_dt_s": 0.03333333333333333,
+    "fixed_pattern_m": 0.00035,
+    "depth_offset_m": 0.0,
+    "offset_session_std_m": 0.0005,
+    "depth_scale_error": 0.0,
+    "scale_session_std": 0.0015,
+    "thermal_drift_m_per_s": 3e-06,
+    "thermal_time_constant_s": 120.0,
+    "focal_relative_std": 0.0008,
+    "principal_point_std_px": 0.2,
+    "residual_radial_k1": 0.0005,
+    "extrinsic_translation_std_m": 0.0006,
+    "extrinsic_rotation_std_rad": 0.0009,
+    "vibration_translation_m": 8e-05,
+    "vibration_rotation_rad": 0.00015,
+    "vibration_hz": 18.0,
+    "lateral_std_px": 0.12,
+    "rgb_alignment_px": 0.3,
+    "rgb_read_noise_dn": 1.5,
+    "rgb_shot_noise_scale": 0.15,
+    "dropout_probability": 0.025,
+    "cluster_dropout_probability": 0.015,
+    "outlier_probability": 0.003,
+    "edge_dropout_probability": 0.25,
+    "edge_flying_probability": 0.08,
+    "edge_width_px": 2,
+    "texture_quality": 0.85,
+    "specular_fraction": 0.0,
+    "exposure_s": 0.004,
+    "transport_delay_s": 0.018,
+    "transport_jitter_s": 0.004,
+    "clock_offset_s": 0.0,
+    "clock_jitter_s": 0.0003,
+    "clock_drift_ppm": 10.0,
+    "reported_time_uncertainty_s": 0.01,
+    "profile_id": "c8365e5c81195dbda7188caa1555d953c021955136bef2e4c09b234dc443b965"
+  },
+  "joint_noise_profile": {
+    "encoder_step_rad": 0.0015339807878856412,
+    "white_std_rad": 0.0008,
+    "zero_std_rad": 0.002,
+    "backlash_rad": 0.005,
+    "drift_rad_s": 1e-05,
+    "timestamp_offset_s": 0.002,
+    "timestamp_jitter_s": 0.0005,
+    "transport_delay_s": 0.006,
+    "provenance": "engineering_scenario_not_measured_SO101"
+  },
+  "robot_mask_link_position_bound_m": 0.004
+}

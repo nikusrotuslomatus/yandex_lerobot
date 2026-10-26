@@ -1,0 +1,16 @@
+{
+  "checked": 828,
+  "valid_fits": 57,
+  "best_min_distance": 0.008299281910078903,
+  "selected": {
+    "g": 1.0499999999999998,
+    "gripper_body_cube_center": [
+      0.022,
+      0,
+      -0.083
+    ],
+    "tilt": -0.15,
+    "clearance": 0.00017675059142027277
+  },
+  "status": "geometric_fit_only"
+}

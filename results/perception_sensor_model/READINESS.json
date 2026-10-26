@@ -1,0 +1,15 @@
+{
+  "ready_for_hardware_deployment": false,
+  "software_tests_pass": true,
+  "hardware_accuracy_validated": false,
+  "sensor_model_fitted_to_user_device": false,
+  "legacy_view_library_passes_noisy_preflight": false,
+  "qualified_for_4mm_slip_detection": false,
+  "blockers": [
+    "No connected D455 or measured camera profile",
+    "Legacy held-object views fail conservative pose observability preflight",
+    "Independent camera-to-base/encoder/timing error budget unqualified",
+    "Physical contact grasp and complete hardware FSM not accepted"
+  ],
+  "important_scope": "Passing software assertions includes expected rejection; it does not mean a successful factory manipulation cycle."
+}

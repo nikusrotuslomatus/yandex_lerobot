@@ -1,0 +1,361 @@
+{
+  "success": true,
+  "failure": null,
+  "fsm": "DONE",
+  "simulation_level": "B",
+  "task_scope": "full_episode",
+  "stages": {
+    "pick_and_lift": true,
+    "view_sequence": true,
+    "flip": true,
+    "placement": true,
+    "regrasp": true
+  },
+  "captures": 6,
+  "regrasps": 1,
+  "coverage": {
+    "binary_coverage": 0.9953703703703703,
+    "any_visibility": 1.0,
+    "quality_weighted": 0.6785398563760685,
+    "multiview_coverage": 0.7476851851851852,
+    "per_face": {
+      "+X": {
+        "binary": 1.0,
+        "quality": 0.44004333160621073
+      },
+      "-X": {
+        "binary": 1.0,
+        "quality": 0.813893067782706
+      },
+      "+Y": {
+        "binary": 1.0,
+        "quality": 0.824778309976732
+      },
+      "-Y": {
+        "binary": 1.0,
+        "quality": 0.8602307666648801
+      },
+      "+Z": {
+        "binary": 0.9722222222222222,
+        "quality": 0.608431997922833
+      },
+      "-Z": {
+        "binary": 1.0,
+        "quality": 0.5238616643030489
+      }
+    }
+  },
+  "simulated_seconds": 37.998000000000474,
+  "wall_seconds": 21.290512899984606,
+  "planning_seconds": 3.3613634998328052,
+  "planning_breakdown": {
+    "grasp_geometry": 0.021328600007109344,
+    "grasp_search": 1.3252216999535449,
+    "joint_paths": 1.2676625999738462,
+    "cartesian_paths": 0.05694199999561533,
+    "view_search": 0.06014729995513335,
+    "view_selection": 0.0814006999717094,
+    "view_validation": 0.04919629998039454,
+    "placement_search": 0.48436930001480505,
+    "retreat_paths": 0.015094999980647117
+  },
+  "sim_plus_planning_seconds": 41.35936349983328,
+  "planning_calls": [
+    {
+      "kind": "grasp_geometry",
+      "seconds": 0.021328600007109344,
+      "simulation_time": 0.0
+    },
+    {
+      "kind": "grasp_search",
+      "seconds": 0.4713824999635108,
+      "simulation_time": 0.0
+    },
+    {
+      "kind": "joint_paths",
+      "seconds": 0.000680199998896569,
+      "simulation_time": 0.0
+    },
+    {
+      "kind": "cartesian_paths",
+      "seconds": 0.030749699973966926,
+      "simulation_time": 5.249999999999644
+    },
+    {
+      "kind": "view_search",
+      "seconds": 0.02396209997823462,
+      "simulation_time": 6.491999999999507
+    },
+    {
+      "kind": "view_selection",
+      "seconds": 0.04514579998794943,
+      "simulation_time": 6.491999999999507
+    },
+    {
+      "kind": "view_validation",
+      "seconds": 0.009284199972171336,
+      "simulation_time": 6.491999999999507
+    },
+    {
+      "kind": "view_validation",
+      "seconds": 0.00794579996727407,
+      "simulation_time": 6.491999999999507
+    },
+    {
+      "kind": "view_validation",
+      "seconds": 0.006564800045453012,
+      "simulation_time": 6.491999999999507
+    },
+    {
+      "kind": "view_validation",
+      "seconds": 0.005258099990896881,
+      "simulation_time": 6.491999999999507
+    },
+    {
+      "kind": "joint_paths",
+      "seconds": 0.005281999998260289,
+      "simulation_time": 6.491999999999507
+    },
+    {
+      "kind": "joint_paths",
+      "seconds": 0.00416329997824505,
+      "simulation_time": 7.795999999999363
+    },
+    {
+      "kind": "joint_paths",
+      "seconds": 0.006396299984771758,
+      "simulation_time": 9.115999999999714
+    },
+    {
+      "kind": "joint_paths",
+      "seconds": 0.0041328000370413065,
+      "simulation_time": 10.210000000000079
+    },
+    {
+      "kind": "placement_search",
+      "seconds": 0.4589443000149913,
+      "simulation_time": 13.06000000000103
+    },
+    {
+      "kind": "retreat_paths",
+      "seconds": 0.015094999980647117,
+      "simulation_time": 17.558000000001147
+    },
+    {
+      "kind": "grasp_search",
+      "seconds": 0.8538391999900341,
+      "simulation_time": 18.524000000000612
+    },
+    {
+      "kind": "joint_paths",
+      "seconds": 0.8650912999873981,
+      "simulation_time": 18.524000000000612
+    },
+    {
+      "kind": "cartesian_paths",
+      "seconds": 0.026192300021648407,
+      "simulation_time": 25.713999999996627
+    },
+    {
+      "kind": "view_search",
+      "seconds": 0.03618519997689873,
+      "simulation_time": 26.80799999999602
+    },
+    {
+      "kind": "view_selection",
+      "seconds": 0.03625489998375997,
+      "simulation_time": 26.80799999999602
+    },
+    {
+      "kind": "view_validation",
+      "seconds": 0.012880199996288866,
+      "simulation_time": 26.80799999999602
+    },
+    {
+      "kind": "view_validation",
+      "seconds": 0.007263200008310378,
+      "simulation_time": 26.80799999999602
+    },
+    {
+      "kind": "joint_paths",
+      "seconds": 0.005792499985545874,
+      "simulation_time": 26.80799999999602
+    },
+    {
+      "kind": "joint_paths",
+      "seconds": 0.005579099990427494,
+      "simulation_time": 28.023999999995347
+    },
+    {
+      "kind": "placement_search",
+      "seconds": 0.025424999999813735,
+      "simulation_time": 29.215999999994686
+    },
+    {
+      "kind": "joint_paths",
+      "seconds": 0.3705451000132598,
+      "simulation_time": 33.95399999999553
+    }
+  ],
+  "max_planning_call_seconds": 0.8650912999873981,
+  "planning_library": {
+    "enabled": true,
+    "preparation_mode": false,
+    "fingerprint": "2de571108bb0e8aeaa7d8a59720b3031250414d760e996fbcfa123218460c990",
+    "hits": 64,
+    "misses": 4,
+    "build_seconds": 0.0,
+    "certificate_hits": 38,
+    "certificate_rechecks": 5
+  },
+  "motion_segments": 23,
+  "joint_path_length": 30.53082059051058,
+  "tracking_max": 0.0020157689879762943,
+  "tracking_rms": 0.000511509878034127,
+  "measured_velocity_max": [
+    1.5100195407139443,
+    1.4768025001766012,
+    1.5682905354658176,
+    1.568601149151383,
+    2.1568602916410637
+  ],
+  "measured_acceleration_max": [
+    3.8784541165886033,
+    3.9281366849035493,
+    3.925738797380285,
+    3.9249444908285303,
+    5.107919634681157
+  ],
+  "actuator_force_max": [
+    1.7660659847058469,
+    2.15324931420912,
+    1.8429980607567131,
+    1.009700526698225,
+    0.23623643731161792,
+    0.25
+  ],
+  "force_saturation_fraction": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.10590031054266014
+  ],
+  "stop_result": null,
+  "forbidden_collision_steps": 0,
+  "settling_seconds": [
+    0.11999999999998678,
+    0.11999999999998723,
+    0.11999999999998678,
+    0.11999999999998678,
+    0.12000000000004007,
+    0.12000000000004007,
+    0.12000000000004007,
+    0.12000000000004007,
+    0.1199999999999335,
+    0.1199999999999335,
+    0.1199999999999335,
+    0.1199999999999335,
+    0.1199999999999335,
+    0.1199999999999335,
+    0.1199999999999335,
+    0.1199999999999335,
+    0.1199999999999335,
+    0.11999999999999034,
+    0.12000000000014666,
+    0.12000000000014666,
+    0.12000000000014666
+  ],
+  "weld_active_final": false,
+  "selected_grasps": [
+    {
+      "grasp_id": "fit_0_axis_0_rotation_3",
+      "contact_axis": 0,
+      "predicted_T_G_O": [
+        [
+          0.9887710779360419,
+          -7.885169514923926e-19,
+          -0.14943813247359916,
+          3.469446951953614e-17
+        ],
+        [
+          -8.322566893596537e-19,
+          0.9999999999999997,
+          -2.301580714099903e-19,
+          1.7347234759768061e-18
+        ],
+        [
+          0.14943813247359913,
+          -3.519445297603038e-19,
+          0.988771077936042,
+          -1.3877787807814457e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pregrasp_q": [
+        -0.001127120376735423,
+        -0.13414179598948905,
+        0.2404609593857525,
+        1.614477064634661,
+        0.04756859484683985
+      ],
+      "grasp_q": [
+        -0.001105169132702743,
+        -0.015041685010707951,
+        0.45547904455780114,
+        1.2803588415932783,
+        0.04759016109592694
+      ]
+    },
+    {
+      "grasp_id": "fit_6_axis_0_rotation_14",
+      "contact_axis": 2,
+      "predicted_T_G_O": [
+        [
+          -7.885169514923924e-19,
+          1.4456800893362873e-17,
+          -0.9999999999999994,
+          0.004000000000000035
+        ],
+        [
+          0.9999999999999994,
+          3.519445297603037e-19,
+          7.885169514923924e-19,
+          1.7315694081708367e-18
+        ],
+        [
+          -3.519445297603037e-19,
+          -0.9999999999999996,
+          1.4456800893362873e-17,
+          -1.3877787807814457e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pregrasp_q": [
+        -0.35590628540944413,
+        0.49636370023705967,
+        -0.5795594190039445,
+        1.6480629899902206,
+        0.12970904342490736
+      ],
+      "grasp_q": [
+        -0.3590950208807634,
+        0.6345670492222545,
+        -0.47228376723084675,
+        1.4085129350921968,
+        0.12655617265203606
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1512 @@
+{
+  "input_states": "results/factory_video/recorded_states.npz",
+  "input_states_sha256": "b957d0e447c2b4e852be0efe3f4652aac677b3520e960abf8f94a2577f568909",
+  "source_sha256": {
+    "src\\active_scan\\perception\\calibration.py": "3d85869f350d2d984b568520ae781917e8b92307237e391f4a4f2c45be0059ca",
+    "src\\active_scan\\perception\\cli.py": "41521f85125491078dc69b69c70e5c34248e143cde378b51abee0cdf0ed10b94",
+    "src\\active_scan\\perception\\feedback_noise.py": "bc32749b6df38c54f85d15c24bd60181cd93c7a1dc4403f17905a1c524914eea",
+    "src\\active_scan\\perception\\localizer.py": "9578983de32cb39fc44257299ef457780130cb78ec6b1bcbda6d7997610e9369",
+    "src\\active_scan\\perception\\mapping.py": "fe76607d9aee850d745330d692697d665dcd22a51986ad5252f9d9b604fab4b5",
+    "src\\active_scan\\perception\\noise_fit.py": "8ff20579c6dec75d8e362a42f6b76d9756ff8fca9abca44f54ed8faf77792b2d",
+    "src\\active_scan\\perception\\pipeline.py": "91c5c5af414dd454c013afd7d3dcebe2a0bf17be8efad75c9398cc25632f5106",
+    "src\\active_scan\\perception\\realsense.py": "a4422ab63fe998b921638b6f2d9f6affcf19c429c824b60d27fab947fa94e81a",
+    "src\\active_scan\\perception\\recording.py": "e5ec27f00a4f4e4f72667db0f3ec90fbf4d750eab1bc4d271cbb31c2c84e6a1c",
+    "src\\active_scan\\perception\\robot_mask.py": "9045ae656597046636ec2b4fcf9322e9088ebd1f8ae54c710ddfca485e81cf54",
+    "src\\active_scan\\perception\\runtime.py": "c3ddd9c3d5d998380bfd76ef9b9899ed36b3399a83f46c5dd2177e6ca52fbc86",
+    "src\\active_scan\\perception\\scene.py": "a741aba7069e65e56cb544cdcf33ad77180a85d4f6fbb7ea3f36540b2fafb470",
+    "src\\active_scan\\perception\\sensor_noise.py": "cd4ede121d5a060544a5c5db7e2cf108d0cb3abd393ff55a191e12a3dc86a370",
+    "src\\active_scan\\perception\\sim_source.py": "00120706b7d49a3052a0c3dbe6dbb9536894f1f6dcb05d0ebd6cfaa6368f429f",
+    "src\\active_scan\\perception\\snapshot.py": "a0821a2f89a86e553513a2b94980f52bc3183a7d2cb503982fe9c8b1f6af1ff9",
+    "src\\active_scan\\perception\\sync.py": "f3a328394b848bfb5daab2f0e779905decfedc4ae47729b68e59ebb4b1d86204",
+    "src\\active_scan\\perception\\synthetic.py": "5767a7be065860785c403ace8443911359f5ae68aba4bd3b3f075e925be0bf69",
+    "src\\active_scan\\perception\\types.py": "4f9e319f4a235ecd43f83175f5a0d0a2eed5cc2e7fb5d07f196a4d95c54f5619",
+    "src\\active_scan\\perception\\uncertainty.py": "3130956054a2b0097779b62e5f0d70aec2a11b72872f2493f441bfe9432407ba",
+    "src\\active_scan\\perception\\__init__.py": "d071172db7bd41a4f1c23bc28ac2455c779f92478c67db78e7c184f03e34261b",
+    "C:\\Users\\user\\Downloads\\yandex_lerobot\\scripts\\replay_cycle_sensor_noise.py": "38077d4091ae81007a2d870fee42c475f51f8b232c66a9f19c77efdf6e56b50e"
+  },
+  "source_unchanged": true,
+  "renderer_config": {
+    "seed": 42,
+    "robot": {
+      "model": "third_party/robotstudio_so101/so101.xml",
+      "joint_names": [
+        "shoulder_pan",
+        "shoulder_lift",
+        "elbow_flex",
+        "wrist_flex",
+        "wrist_roll"
+      ],
+      "tcp_local": [
+        0.022,
+        0.0,
+        -0.083
+      ],
+      "home": [
+        0.0,
+        -0.5,
+        1.0,
+        -0.5,
+        0.0
+      ],
+      "open": 1.4,
+      "closed": -0.12,
+      "force_limit": 2.94,
+      "gripper_force_limit": 0.25,
+      "kp": 998.22,
+      "kv": 2.731,
+      "remove_wrist_camera": true,
+      "base_collision_position": [
+        0.0,
+        0.0,
+        0.018
+      ],
+      "base_collision_halfsize": [
+        0.04,
+        0.045,
+        0.018
+      ]
+    },
+    "scene": {
+      "cube_size": 0.06,
+      "cube_mass": 0.12,
+      "cube_position": [
+        0.22,
+        0.0,
+        0.031
+      ],
+      "cube_rpy": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "table_halfsize": [
+        0.65,
+        0.65,
+        0.025
+      ],
+      "camera_position": [
+        0.55,
+        -0.18,
+        0.32
+      ],
+      "camera_target": [
+        0.19,
+        0.0,
+        0.14
+      ],
+      "pole_position": [
+        0.59,
+        -0.18,
+        0.17
+      ],
+      "pole_radius": 0.012,
+      "pole_halfheight": 0.17
+    },
+    "camera": {
+      "width": 640,
+      "height": 480,
+      "fovy": 59.84044400898544,
+      "near": 0.04,
+      "far": 2.0
+    },
+    "visibility": {
+      "grid": 12,
+      "quality_threshold": 0.35,
+      "diversity_deg": 20.0,
+      "angle_power": 1.0,
+      "min_distance": 0.1,
+      "max_distance": 1.0,
+      "min_pixels_per_element": 16.0,
+      "ray_tolerance": 0.0001
+    },
+    "frame_quality": {
+      "enabled": true,
+      "max_distance_m": 0.5,
+      "min_bbox_short_px": 100.0,
+      "min_visible_pixels": 8000,
+      "min_visible_fraction": 0.75,
+      "border_padding_px": 12.0,
+      "planning_pixel_safety": 1.08
+    },
+    "regrasp": {
+      "flip_before_second_grasp": true,
+      "placement_positions": [
+        [
+          0.3,
+          0.1,
+          0.031
+        ],
+        [
+          0.3,
+          -0.1,
+          0.031
+        ],
+        [
+          0.36,
+          0.0,
+          0.031
+        ]
+      ],
+      "support_faces": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "ik_starts": 8,
+      "support_residual_tolerance": 0.01,
+      "retreat_height": 0.06
+    },
+    "planning": {
+      "query_kinematics_only": true,
+      "candidates": 6000,
+      "max_views": 6,
+      "min_gain": 0.01,
+      "target_coverage": 0.95,
+      "joint_margin": 0.035,
+      "collision_margin": 0.001,
+      "max_contact_penetration": 0.0015,
+      "min_cube_height": 0.075,
+      "max_cube_height": 0.34,
+      "movement_weight": 0.004,
+      "time_normalized_gain": true,
+      "grasp_depths": [
+        -0.074,
+        -0.083,
+        -0.092
+      ],
+      "grasp_x": [
+        0.018,
+        0.022,
+        0.026,
+        0.03
+      ],
+      "aperture_samples": 91,
+      "aperture_z": [
+        -0.065,
+        -0.075,
+        -0.085,
+        -0.095
+      ],
+      "aperture_y": [
+        -0.004,
+        0.0,
+        0.004
+      ],
+      "pregrasp_distance": 0.045,
+      "pregrasp_lateral": -0.01,
+      "fit_penetration_tolerance": 0.0002,
+      "fit_finger_proximity": 0.008,
+      "fit_tilts": [
+        0.0,
+        -0.15,
+        0.15
+      ],
+      "fit_gripper_range": [
+        0.3,
+        1.4
+      ],
+      "fit_gripper_samples": 23,
+      "lift_distance": 0.1,
+      "ik_position_tolerance": 0.002,
+      "ik_orientation_tolerance": 0.1,
+      "ik_max_evaluations": 180,
+      "ik_joint_margin": 0.01,
+      "ik_starts": 10,
+      "aabb_broadphase": true
+    },
+    "motion": {
+      "blend_cartesian": true,
+      "blend_joint_waypoints": true,
+      "safe_waypoint_graph": true,
+      "spline_timing_safety": 1.03,
+      "adaptive_waits": true,
+      "gripper_stable_time": 0.08,
+      "gripper_timeout": 4.5,
+      "gripper_position_tolerance": 0.03,
+      "gripper_speed_tolerance": 0.1,
+      "ideal_hold_duration": 0.2,
+      "safe_configurations": [
+        [
+          0.0,
+          -0.5,
+          1.0,
+          -0.5,
+          0.0
+        ],
+        [
+          -0.7,
+          -0.5,
+          1.0,
+          1.2,
+          0.0
+        ],
+        [
+          0.7,
+          -0.5,
+          1.0,
+          1.2,
+          0.0
+        ]
+      ],
+      "dt": 0.002,
+      "control_dt": 0.02,
+      "velocity": [
+        1.6,
+        1.6,
+        1.6,
+        1.6,
+        2.2
+      ],
+      "acceleration": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        5.2
+      ],
+      "path_joint_step": 0.025,
+      "path_joint_step_near": 0.0025,
+      "path_near_clearance": 0.005,
+      "min_duration": 0.12,
+      "tracking_tolerance": 0.04,
+      "tracking_abort": 0.25,
+      "speed_tolerance": 0.035,
+      "cube_speed_tolerance": 0.025,
+      "cube_angular_speed_tolerance": 0.15,
+      "settle_time": 0.12,
+      "settle_timeout": 5.0,
+      "gripper_duration": 1.0,
+      "placement_timeout": 2.0,
+      "continuous_reference": true,
+      "reference_limit_fraction": 0.98,
+      "enforce_measured_velocity": true,
+      "reference_reconcile_time": 0.12,
+      "contact_close": true,
+      "controlled_stop": true,
+      "stop_deceleration": [
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    "physics": {
+      "table_friction": 0.5,
+      "finger_friction": 0.7,
+      "spin_friction": 0.005,
+      "roll_friction": 0.0001,
+      "solver_iterations": 80,
+      "grip_translation_tolerance": 0.012,
+      "grip_rotation_tolerance": 0.2,
+      "min_lift": 0.045,
+      "hold_duration": 1.0,
+      "placement_angle_tolerance": 0.1,
+      "placement_height_tolerance": 0.004,
+      "grasp_alignment_tolerance": 0.02,
+      "contact_distance_tolerance": 0.001
+    },
+    "controller": {
+      "empty": {
+        "kp": [
+          900,
+          1000,
+          800,
+          600,
+          350
+        ],
+        "kv": [
+          10,
+          12,
+          9,
+          6,
+          4
+        ]
+      },
+      "loaded": {
+        "kp": [
+          900,
+          1000,
+          800,
+          600,
+          350
+        ],
+        "kv": [
+          11,
+          13,
+          10,
+          7,
+          4.5
+        ]
+      },
+      "velocity_feedforward": true,
+      "bias_feedforward": true,
+      "gripper_kp": 60,
+      "gripper_kv": 0.5
+    },
+    "grasp": {
+      "closure_feedback": "position_stall",
+      "test_lift": true,
+      "test_lift_distance": 0.01,
+      "test_min_lift": 0.006,
+      "test_max_slip": 0.004,
+      "test_hold_seconds": 0.08
+    },
+    "library": {
+      "enabled": true,
+      "prepare": false,
+      "directory": ".planning_library"
+    }
+  },
+  "frames": 48,
+  "statuses": {
+    "DEGENERATE": 48
+  },
+  "saved_views": [
+    {
+      "record_index": 188,
+      "timestamp": 7.833999999999359,
+      "capture_counter": 1,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05425587296485901,
+          0.044363781809806824,
+          0.05792728811502457
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 25.41260002180934
+      },
+      "robot_mask_pixels": 31131
+    },
+    {
+      "record_index": 219,
+      "timestamp": 9.125999999999717,
+      "capture_counter": 2,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.02747821807861328,
+          0.057771846652030945,
+          0.05627425014972687
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 23.56810006313026
+      },
+      "robot_mask_pixels": 25536
+    },
+    {
+      "record_index": 246,
+      "timestamp": 10.250000000000092,
+      "capture_counter": 3,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1154,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05544065311551094,
+          0.05892586708068848,
+          0.017018496990203857
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 33.51580002345145
+      },
+      "robot_mask_pixels": 25744
+    },
+    {
+      "record_index": 314,
+      "timestamp": 13.084000000001039,
+      "capture_counter": 4,
+      "phase": 2,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.01199185848236084,
+          0.05614122003316879,
+          0.05280664563179016
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 21.988200023770332
+      },
+      "robot_mask_pixels": 33617
+    },
+    {
+      "record_index": 673,
+      "timestamp": 28.041999999995337,
+      "capture_counter": 5,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.016522258520126343,
+          0.0568474605679512,
+          0.05067916214466095
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 48.628599965013564
+      },
+      "robot_mask_pixels": 33028
+    },
+    {
+      "record_index": 702,
+      "timestamp": 29.249999999994667,
+      "capture_counter": 6,
+      "phase": 5,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 757,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.04854811728000641,
+          0.059236153960227966,
+          0.0164031982421875
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 30.865099979564548
+      },
+      "robot_mask_pixels": 29098
+    }
+  ],
+  "tracked_saved_views": 0,
+  "control_requests_refused": 48,
+  "unqualified_control_always_refused": true,
+  "view_library_qualified_under_this_sensor_scenario": false,
+  "validation_scope": "Recorded ideal-weld B poses re-rendered with a noisy camera and noisy encoders; no fresh manipulation run",
+  "hardware_accuracy_validated": false,
+  "robot_acceptance": false,
+  "wall_seconds": 18.72773739998229,
+  "detail": [
+    {
+      "record_index": 184,
+      "timestamp": 7.6679999999993775,
+      "capture_counter": 0,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05446718633174896,
+          0.04502257704734802,
+          0.05813755840063095
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 31.1329000396654
+      },
+      "robot_mask_pixels": 31076
+    },
+    {
+      "record_index": 185,
+      "timestamp": 7.709999999999373,
+      "capture_counter": 0,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05382993817329407,
+          0.044224515557289124,
+          0.05774691700935364
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 38.30870008096099
+      },
+      "robot_mask_pixels": 31098
+    },
+    {
+      "record_index": 186,
+      "timestamp": 7.7499999999993685,
+      "capture_counter": 0,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.042383402585983276,
+          0.05443128943443298,
+          0.058115504682064056
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 30.179099994711578
+      },
+      "robot_mask_pixels": 30985
+    },
+    {
+      "record_index": 187,
+      "timestamp": 7.791999999999364,
+      "capture_counter": 0,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05337528884410858,
+          0.041885823011398315,
+          0.05747781693935394
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 25.148199987597764
+      },
+      "robot_mask_pixels": 30984
+    },
+    {
+      "record_index": 188,
+      "timestamp": 7.833999999999359,
+      "capture_counter": 1,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05425587296485901,
+          0.044363781809806824,
+          0.05792728811502457
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 25.41260002180934
+      },
+      "robot_mask_pixels": 31131
+    },
+    {
+      "record_index": 189,
+      "timestamp": 7.875999999999355,
+      "capture_counter": 1,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.0543990433216095,
+          0.04417695105075836,
+          0.05726978927850723
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 25.58120002504438
+      },
+      "robot_mask_pixels": 31068
+    },
+    {
+      "record_index": 190,
+      "timestamp": 7.91799999999935,
+      "capture_counter": 1,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05454657971858978,
+          0.04417189955711365,
+          0.057461097836494446
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 25.713999988511205
+      },
+      "robot_mask_pixels": 30996
+    },
+    {
+      "record_index": 191,
+      "timestamp": 7.959999999999345,
+      "capture_counter": 1,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 3,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05435249209403992,
+          0.043514251708984375,
+          0.05776512622833252
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 24.014299968257546
+      },
+      "robot_mask_pixels": 30847
+    },
+    {
+      "record_index": 215,
+      "timestamp": 8.959999999999662,
+      "capture_counter": 1,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.0269334614276886,
+          0.05701649188995361,
+          0.05701129883527756
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 27.02109992969781
+      },
+      "robot_mask_pixels": 25646
+    },
+    {
+      "record_index": 216,
+      "timestamp": 8.999999999999675,
+      "capture_counter": 1,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.029215484857559204,
+          0.05711062625050545,
+          0.05596904456615448
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 27.841400005854666
+      },
+      "robot_mask_pixels": 25684
+    },
+    {
+      "record_index": 217,
+      "timestamp": 9.041999999999689,
+      "capture_counter": 1,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.027608752250671387,
+          0.057176705449819565,
+          0.05631051957607269
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 35.97349999472499
+      },
+      "robot_mask_pixels": 25391
+    },
+    {
+      "record_index": 218,
+      "timestamp": 9.083999999999703,
+      "capture_counter": 1,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.030743896961212158,
+          0.05674594268202782,
+          0.055843107402324677
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 22.671799990348518
+      },
+      "robot_mask_pixels": 25495
+    },
+    {
+      "record_index": 219,
+      "timestamp": 9.125999999999717,
+      "capture_counter": 2,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.02747821807861328,
+          0.057771846652030945,
+          0.05627425014972687
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 23.56810006313026
+      },
+      "robot_mask_pixels": 25536
+    },
+    {
+      "record_index": 220,
+      "timestamp": 9.167999999999731,
+      "capture_counter": 2,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.027940839529037476,
+          0.05683380365371704,
+          0.056659407913684845
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 22.22100005019456
+      },
+      "robot_mask_pixels": 25594
+    },
+    {
+      "record_index": 221,
+      "timestamp": 9.209999999999745,
+      "capture_counter": 2,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.029362916946411133,
+          0.05673270672559738,
+          0.05567921698093414
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 22.325499914586544
+      },
+      "robot_mask_pixels": 25730
+    },
+    {
+      "record_index": 222,
+      "timestamp": 9.249999999999758,
+      "capture_counter": 2,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.02399301528930664,
+          0.05667658895254135,
+          0.05516041815280914
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 22.159899934194982
+      },
+      "robot_mask_pixels": 25773
+    },
+    {
+      "record_index": 242,
+      "timestamp": 10.084000000000037,
+      "capture_counter": 2,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1129,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.055220454931259155,
+          0.05868871510028839,
+          0.017539411783218384
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 43.02159999497235
+      },
+      "robot_mask_pixels": 25754
+    },
+    {
+      "record_index": 243,
+      "timestamp": 10.126000000000051,
+      "capture_counter": 2,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1115,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05471048876643181,
+          0.05787128210067749,
+          0.017758309841156006
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 27.987799956463277
+      },
+      "robot_mask_pixels": 25860
+    },
+    {
+      "record_index": 244,
+      "timestamp": 10.168000000000065,
+      "capture_counter": 2,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1117,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05473282188177109,
+          0.05867363512516022,
+          0.017573505640029907
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 31.9155000615865
+      },
+      "robot_mask_pixels": 25768
+    },
+    {
+      "record_index": 245,
+      "timestamp": 10.210000000000079,
+      "capture_counter": 2,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1141,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.055926598608493805,
+          0.05822782218456268,
+          0.017762213945388794
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 28.107000049203634
+      },
+      "robot_mask_pixels": 25830
+    },
+    {
+      "record_index": 246,
+      "timestamp": 10.250000000000092,
+      "capture_counter": 3,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1154,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05544065311551094,
+          0.05892586708068848,
+          0.017018496990203857
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 33.51580002345145
+      },
+      "robot_mask_pixels": 25744
+    },
+    {
+      "record_index": 247,
+      "timestamp": 10.292000000000106,
+      "capture_counter": 3,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1118,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05479501932859421,
+          0.05730602145195007,
+          0.015992596745491028
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 29.87820003181696
+      },
+      "robot_mask_pixels": 25834
+    },
+    {
+      "record_index": 248,
+      "timestamp": 10.33400000000012,
+      "capture_counter": 3,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1057,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.05304341018199921,
+          0.05875284969806671,
+          0.017326146364212036
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 39.445600006729364
+      },
+      "robot_mask_pixels": 25719
+    },
+    {
+      "record_index": 249,
+      "timestamp": 10.376000000000134,
+      "capture_counter": 3,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1052,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.055447377264499664,
+          0.058638229966163635,
+          0.01697714626789093
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 28.18149991799146
+      },
+      "robot_mask_pixels": 25750
+    },
+    {
+      "record_index": 310,
+      "timestamp": 12.918000000000983,
+      "capture_counter": 3,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.030900180339813232,
+          0.05653604120016098,
+          0.05253946781158447
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 24.19599995482713
+      },
+      "robot_mask_pixels": 33636
+    },
+    {
+      "record_index": 311,
+      "timestamp": 12.960000000000997,
+      "capture_counter": 3,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.03454980254173279,
+          0.05605451762676239,
+          0.05257844924926758
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 32.57999999914318
+      },
+      "robot_mask_pixels": 33602
+    },
+    {
+      "record_index": 312,
+      "timestamp": 13.00000000000101,
+      "capture_counter": 3,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.030118286609649658,
+          0.05650261044502258,
+          0.05275347828865051
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 21.79739996790886
+      },
+      "robot_mask_pixels": 33694
+    },
+    {
+      "record_index": 313,
+      "timestamp": 13.042000000001025,
+      "capture_counter": 3,
+      "phase": 1,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.033494070172309875,
+          0.056302495300769806,
+          0.05262455344200134
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 21.980099962092936
+      },
+      "robot_mask_pixels": 33682
+    },
+    {
+      "record_index": 314,
+      "timestamp": 13.084000000001039,
+      "capture_counter": 4,
+      "phase": 2,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.01199185848236084,
+          0.05614122003316879,
+          0.05280664563179016
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 21.988200023770332
+      },
+      "robot_mask_pixels": 33617
+    },
+    {
+      "record_index": 315,
+      "timestamp": 13.126000000001053,
+      "capture_counter": 4,
+      "phase": 2,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.03471316397190094,
+          0.05585675686597824,
+          0.05262079834938049
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 21.75740001257509
+      },
+      "robot_mask_pixels": 33698
+    },
+    {
+      "record_index": 316,
+      "timestamp": 13.168000000001067,
+      "capture_counter": 4,
+      "phase": 2,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.03242260217666626,
+          0.056215934455394745,
+          0.053055912256240845
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 24.302400066517293
+      },
+      "robot_mask_pixels": 33645
+    },
+    {
+      "record_index": 317,
+      "timestamp": 13.21000000000108,
+      "capture_counter": 4,
+      "phase": 2,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.030260637402534485,
+          0.056037984788417816,
+          0.05303964018821716
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 40.95449997112155
+      },
+      "robot_mask_pixels": 33640
+    },
+    {
+      "record_index": 669,
+      "timestamp": 27.87599999999543,
+      "capture_counter": 4,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.018538743257522583,
+          0.057169996201992035,
+          0.05108221620321274
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 21.785799995996058
+      },
+      "robot_mask_pixels": 33004
+    },
+    {
+      "record_index": 670,
+      "timestamp": 27.917999999995406,
+      "capture_counter": 4,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.018076717853546143,
+          0.05704905092716217,
+          0.05120754987001419
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 21.005699993111193
+      },
+      "robot_mask_pixels": 32950
+    },
+    {
+      "record_index": 671,
+      "timestamp": 27.959999999995382,
+      "capture_counter": 4,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.017043501138687134,
+          0.05715389549732208,
+          0.05086912214756012
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 21.778700058348477
+      },
+      "robot_mask_pixels": 33019
+    },
+    {
+      "record_index": 672,
+      "timestamp": 27.99999999999536,
+      "capture_counter": 4,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.020656943321228027,
+          0.05727340281009674,
+          0.050614796578884125
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 32.54059993196279
+      },
+      "robot_mask_pixels": 33020
+    },
+    {
+      "record_index": 673,
+      "timestamp": 28.041999999995337,
+      "capture_counter": 5,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.016522258520126343,
+          0.0568474605679512,
+          0.05067916214466095
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 48.628599965013564
+      },
+      "robot_mask_pixels": 33028
+    },
+    {
+      "record_index": 674,
+      "timestamp": 28.083999999995314,
+      "capture_counter": 5,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.021992385387420654,
+          0.05695536732673645,
+          0.050775885581970215
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 22.416200023144484
+      },
+      "robot_mask_pixels": 32982
+    },
+    {
+      "record_index": 675,
+      "timestamp": 28.12599999999529,
+      "capture_counter": 5,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.019489288330078125,
+          0.05744326859712601,
+          0.051564812660217285
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 23.839899920858443
+      },
+      "robot_mask_pixels": 33021
+    },
+    {
+      "record_index": 676,
+      "timestamp": 28.167999999995267,
+      "capture_counter": 5,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 1800,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.018678396940231323,
+          0.056751810014247894,
+          0.051209136843681335
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 23.043100023642182
+      },
+      "robot_mask_pixels": 33123
+    },
+    {
+      "record_index": 698,
+      "timestamp": 29.08399999999476,
+      "capture_counter": 5,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 832,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.04981864243745804,
+          0.05913148820400238,
+          0.017953425645828247
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 32.98739995807409
+      },
+      "robot_mask_pixels": 29081
+    },
+    {
+      "record_index": 699,
+      "timestamp": 29.125999999994736,
+      "capture_counter": 5,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 792,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.04557754099369049,
+          0.05880458652973175,
+          0.01752457022666931
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 27.12510002311319
+      },
+      "robot_mask_pixels": 29024
+    },
+    {
+      "record_index": 700,
+      "timestamp": 29.167999999994713,
+      "capture_counter": 5,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 702,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.048543401062488556,
+          0.05875606834888458,
+          0.017952799797058105
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 47.35050001181662
+      },
+      "robot_mask_pixels": 29124
+    },
+    {
+      "record_index": 701,
+      "timestamp": 29.20999999999469,
+      "capture_counter": 5,
+      "phase": 4,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 766,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.04764460027217865,
+          0.05836637318134308,
+          0.018350422382354736
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 29.248700011521578
+      },
+      "robot_mask_pixels": 29117
+    },
+    {
+      "record_index": 702,
+      "timestamp": 29.249999999994667,
+      "capture_counter": 6,
+      "phase": 5,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 757,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.04854811728000641,
+          0.059236153960227966,
+          0.0164031982421875
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 30.865099979564548
+      },
+      "robot_mask_pixels": 29098
+    },
+    {
+      "record_index": 703,
+      "timestamp": 29.291999999994644,
+      "capture_counter": 6,
+      "phase": 5,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 788,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.04842039942741394,
+          0.058750346302986145,
+          0.016971826553344727
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 27.909999946132302
+      },
+      "robot_mask_pixels": 29118
+    },
+    {
+      "record_index": 704,
+      "timestamp": 29.33399999999462,
+      "capture_counter": 6,
+      "phase": 5,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 704,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.028796255588531494,
+          0.05901680141687393,
+          0.019230633974075317
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 33.56119990348816
+      },
+      "robot_mask_pixels": 29144
+    },
+    {
+      "record_index": 705,
+      "timestamp": 29.375999999994598,
+      "capture_counter": 6,
+      "phase": 5,
+      "held_by_ideal_weld": true,
+      "status": "DEGENERATE",
+      "metrics": {
+        "points": 631,
+        "visible_planes": 2,
+        "size_prior_m": 0.06,
+        "support_span_m": [
+          0.02449851483106613,
+          0.05863220989704132,
+          0.019395530223846436
+        ],
+        "reason": "insufficient_size_support",
+        "processing_ms": 29.171800008043647
+      },
+      "robot_mask_pixels": 29122
+    }
+  ]
+}

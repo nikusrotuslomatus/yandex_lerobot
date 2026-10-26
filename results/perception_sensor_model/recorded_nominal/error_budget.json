@@ -1,0 +1,21 @@
+{
+  "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+  "qualified": false,
+  "evidence_sha256": "",
+  "provenance": "engineering_bounds_require_bench_validation",
+  "depth_scale_bound": 0.02,
+  "depth_bias_bound_m": 0.001,
+  "extrinsic_translation_bound_m": 0.002,
+  "extrinsic_rotation_bound_rad": 0.003,
+  "intrinsic_relative_bound": 0.003,
+  "pixel_calibration_bound_px": 0.5,
+  "disparity_std_px": 0.1,
+  "baseline_m": 0.095,
+  "correlation_length_px": 3.0,
+  "max_effective_samples": 20,
+  "motion_speed_bound_m_s": 0.5,
+  "motion_acceleration_bound_m_s2": 15.0,
+  "unknown_exposure_bound_s": 0.033,
+  "relative_motion_bound_m": 0.03,
+  "tool_position_bound_m": 0.002
+}

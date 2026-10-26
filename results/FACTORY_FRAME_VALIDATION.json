@@ -1,0 +1,229 @@
+{
+  "status": "verified",
+  "episode": "results\\factory_acceptance\\run_00",
+  "simulation_level": "B",
+  "contact_grasp_validated": false,
+  "baseline": {
+    "episode": "C:\\Users\\user\\Downloads\\yandex_lerobot\\results\\acceptance_B",
+    "simulated_seconds": 147.5459999999764,
+    "first_capture_seconds": 24.809999999997128,
+    "captures": 13,
+    "min_visible_pixels": 844
+  },
+  "improved": {
+    "simulated_seconds": 37.998000000000474,
+    "planning_seconds": 3.3613634998328052,
+    "planning_breakdown": {
+      "grasp_geometry": 0.021328600007109344,
+      "grasp_search": 1.3252216999535449,
+      "joint_paths": 1.2676625999738462,
+      "cartesian_paths": 0.05694199999561533,
+      "view_search": 0.06014729995513335,
+      "view_selection": 0.0814006999717094,
+      "view_validation": 0.04919629998039454,
+      "placement_search": 0.48436930001480505,
+      "retreat_paths": 0.015094999980647117
+    },
+    "sim_plus_planning_seconds": 41.35936349983328,
+    "wall_seconds": 21.290512899984606,
+    "tracking_max": 0.0020157689879762943,
+    "captures": 6,
+    "coverage": {
+      "binary_coverage": 0.9953703703703703,
+      "any_visibility": 1.0,
+      "quality_weighted": 0.6785398563760685,
+      "multiview_coverage": 0.7476851851851852,
+      "per_face": {
+        "+X": {
+          "binary": 1.0,
+          "quality": 0.44004333160621073
+        },
+        "-X": {
+          "binary": 1.0,
+          "quality": 0.813893067782706
+        },
+        "+Y": {
+          "binary": 1.0,
+          "quality": 0.824778309976732
+        },
+        "-Y": {
+          "binary": 1.0,
+          "quality": 0.8602307666648801
+        },
+        "+Z": {
+          "binary": 0.9722222222222222,
+          "quality": 0.608431997922833
+        },
+        "-Z": {
+          "binary": 1.0,
+          "quality": 0.5238616643030489
+        }
+      }
+    },
+    "measured_velocity_max": [
+      1.5100195407139443,
+      1.4768025001766012,
+      1.5682905354658176,
+      1.568601149151383,
+      2.1568602916410637
+    ],
+    "measured_acceleration_max": [
+      3.8784541165886033,
+      3.9281366849035493,
+      3.925738797380285,
+      3.9249444908285303,
+      5.107919634681157
+    ],
+    "actuator_force_max": [
+      1.7660659847058469,
+      2.15324931420912,
+      1.8429980607567131,
+      1.009700526698225,
+      0.23623643731161792,
+      0.25
+    ],
+    "force_saturation_fraction": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.10590031054266014
+    ],
+    "first_capture_seconds": 7.795999999999363,
+    "min_visible_pixels": 8691.0,
+    "min_visible_fraction": 0.8904177375616513,
+    "max_camera_distance_m": 0.4127099357297647,
+    "min_bbox_short_px": 105.4411344523036
+  },
+  "cycle_speedup": 3.882993841780477,
+  "first_image_speedup": 3.18240123140061,
+  "quality_definition_changed": "Minimum pixels per surface cell raised from 1 to 16; old/new coverage is not directly comparable.",
+  "clock_note": "Simulation time excludes planning. sim_plus_planning is a serial estimate, not measured hardware takt.",
+  "flip_event": {
+    "time": 17.558000000001147,
+    "kind": "flip_verified",
+    "before": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.22
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.031
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "after": [
+      [
+        -0.4231976239880264,
+        2.8640145810499007e-11,
+        -0.9060374004702509,
+        0.29992657714362025
+      ],
+      [
+        0.9060374004702509,
+        1.0908440817303244e-11,
+        -0.4231976239880264,
+        0.09997647934300712
+      ],
+      [
+        -2.2369328611659967e-12,
+        -1.0000000000000004,
+        -3.0565494579803953e-11,
+        0.029892244579783872
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "old_support_axis": 2,
+    "new_support_axis": 1
+  },
+  "accepted_frame_quality": [
+    {
+      "distance_m": 0.39973316106898,
+      "bbox_short_px": 123.51881972997774,
+      "bbox_width_px": 123.51881972997774,
+      "bbox_height_px": 123.64389452336718,
+      "silhouette_pixels": 12144.69171032061,
+      "visible_pixels": 12138.0,
+      "visible_fraction": 0.9994490012196091,
+      "border_padding_px": 12.615723193924282,
+      "pixel_measurement": "segmentation"
+    },
+    {
+      "distance_m": 0.3792323090170744,
+      "bbox_short_px": 105.4411344523036,
+      "bbox_width_px": 132.35037509485872,
+      "bbox_height_px": 105.4411344523036,
+      "silhouette_pixels": 10569.19646027199,
+      "visible_pixels": 9411.0,
+      "visible_fraction": 0.8904177375616513,
+      "border_padding_px": 103.41614661211489,
+      "pixel_measurement": "segmentation"
+    },
+    {
+      "distance_m": 0.4127099357297647,
+      "bbox_short_px": 135.5993548590287,
+      "bbox_width_px": 136.0472216685808,
+      "bbox_height_px": 135.5993548590287,
+      "silhouette_pixels": 9607.948063498607,
+      "visible_pixels": 8691.0,
+      "visible_fraction": 0.9045635907439833,
+      "border_padding_px": 44.709690139167805,
+      "pixel_measurement": "segmentation"
+    },
+    {
+      "distance_m": 0.41244632043055046,
+      "bbox_short_px": 128.42758817998327,
+      "bbox_width_px": 128.42758817998327,
+      "bbox_height_px": 131.01108393697052,
+      "silhouette_pixels": 10058.704561992872,
+      "visible_pixels": 9073.0,
+      "visible_fraction": 0.902004820211403,
+      "border_padding_px": 14.380955223522506,
+      "pixel_measurement": "segmentation"
+    },
+    {
+      "distance_m": 0.4034826424899759,
+      "bbox_short_px": 128.09216308756396,
+      "bbox_width_px": 139.0352619771063,
+      "bbox_height_px": 128.09216308756396,
+      "silhouette_pixels": 9611.877769920306,
+      "visible_pixels": 8715.0,
+      "visible_fraction": 0.9066906809065944,
+      "border_padding_px": 76.89662857000462,
+      "pixel_measurement": "segmentation"
+    },
+    {
+      "distance_m": 0.39111391191235617,
+      "bbox_short_px": 136.85417453149267,
+      "bbox_width_px": 136.85417453149267,
+      "bbox_height_px": 138.88487689411906,
+      "silhouette_pixels": 9844.209024692855,
+      "visible_pixels": 9023.0,
+      "visible_fraction": 0.9165794811311946,
+      "border_padding_px": 18.592313487059727,
+      "pixel_measurement": "segmentation"
+    }
+  ]
+}

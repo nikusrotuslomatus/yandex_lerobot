@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "configs\\default.yaml": "64f0d7adf4057f63ede7ce275cd82e575721ad58dd39f46e0f441a6dfa6e3d47",
+    "configs\\legacy.yaml": "3e157ba0182d830b015698c3d1de1c230a7f47302a252769bba70f9a9dcfc187",
+    "src\\active_scan\\__init__.py": "2bcb0d23d6e80a0a4ae381dc8595e080a73f2551452f00fbc1961b7ea9dd1b24",
+    "src\\active_scan\\cli.py": "ffe565e9ba6cecfa0fc4071c8656a496452abf122f8d27f1ef8bd5f9a0e597ed",
+    "src\\active_scan\\control.py": "40cf3498f87f0e28083b09eecbd9087c7a85b8cff197cdbb8d523b7f49bb0ff6",
+    "src\\active_scan\\core.py": "b5cfcef51e906d6d3c94a8e92647e03895d6eedc5a5e5f3e6e899141b8403372",
+    "src\\active_scan\\geometry.py": "38ebb806400650db0817a74dc4f57ce27f7522fe3876a5f52a58461a900623ef",
+    "src\\active_scan\\grasp.py": "cb8fc0089b3a73cd427d6c53a6c3b5cb6ba14a77d3f4103614f67390f034a82b",
+    "src\\active_scan\\library.py": "88335fc4ce567bccd35d66b94ba2e66e99f8067d5f51634aff401887ad5ffd4c",
+    "src\\active_scan\\planning.py": "a4943dda3308e7b7f7b6c2c06d0fb9c67326cef234187a2317eb72420dd1d331",
+    "src\\active_scan\\simulation.py": "07a9c767a94fa2c4b8997ab477b621ce90fddaff6e6aecb36604fe1b290295f2"
+  }
+}

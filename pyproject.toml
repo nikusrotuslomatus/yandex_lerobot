@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "so101-active-scan"
+version = "0.1.0"
+description = "Reproducible geometry-based active view planning for SO-101"
+requires-python = ">=3.12,<3.13"
+dependencies = ["mujoco==3.16.0", "numpy==2.5.4", "scipy==1.18.1", "PyYAML==6.0.3", "Pillow==13.0.0"]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+perception = ["opencv-python-headless==4.14.0.94", "open3d==0.19.0", "pyrealsense2==2.59.1.11053"]
+
+[project.scripts]
+active-scan = "active_scan.cli:main"
+active-perception = "active_scan.perception.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = ["hardware: requires a physically connected RealSense device", "integration: independent renderer or reconstruction backend"]

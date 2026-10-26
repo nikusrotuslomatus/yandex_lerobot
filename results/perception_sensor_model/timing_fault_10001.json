@@ -1,0 +1,377 @@
+{
+  "frames": 24,
+  "statuses": {
+    "STALE": 24
+  },
+  "tracking_fraction": 0.0,
+  "position_error_mm": null,
+  "rotation_error_deg": null,
+  "processing_ms": {
+    "p50": 0.016799953300505877,
+    "p95": 0.03468503127805888,
+    "p99": 0.03900406416505575,
+    "max": 0.04020007327198982
+  },
+  "generation_ms_excluded_from_processing": {
+    "p50": 692.97390000429,
+    "p95": 752.0008800143842,
+    "p99": 801.5809009701479,
+    "max": 816.2712999619544
+  },
+  "position_envelope_coverage": null,
+  "angle_envelope_coverage": null,
+  "control_refusals": 24,
+  "all_control_requests_refused": true,
+  "detail": [
+    {
+      "sequence": 10,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.0350000336766243
+      },
+      "generation_ms": 752.3999999975786,
+      "valid_depth_fraction": 0.6326478970125786
+    },
+    {
+      "sequence": 11,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.0168998958542943
+      },
+      "generation_ms": 693.0053000105545,
+      "valid_depth_fraction": 0.6318150550314465
+    },
+    {
+      "sequence": 12,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.013499986380338669
+      },
+      "generation_ms": 682.0611000293866,
+      "valid_depth_fraction": 0.6340605345911949
+    },
+    {
+      "sequence": 13,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.0241999514400959
+      },
+      "generation_ms": 655.161099974066,
+      "valid_depth_fraction": 0.6328125
+    },
+    {
+      "sequence": 14,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.031200004741549492
+      },
+      "generation_ms": 599.4160999543965,
+      "valid_depth_fraction": 0.6318838443396226
+    },
+    {
+      "sequence": 15,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.04020007327198982
+      },
+      "generation_ms": 749.7392001096159,
+      "valid_depth_fraction": 0.633313679245283
+    },
+    {
+      "sequence": 16,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.016200006939470768
+      },
+      "generation_ms": 693.1430000113323,
+      "valid_depth_fraction": 0.6315865762578616
+    },
+    {
+      "sequence": 17,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.022499938495457172
+      },
+      "generation_ms": 665.9598000114784,
+      "valid_depth_fraction": 0.6327289701257862
+    },
+    {
+      "sequence": 18,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.014999997802078724
+      },
+      "generation_ms": 685.2175999665633,
+      "valid_depth_fraction": 0.6283264544025158
+    },
+    {
+      "sequence": 19,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.017200014553964138
+      },
+      "generation_ms": 692.9424999980256,
+      "valid_depth_fraction": 0.6342718160377359
+    },
+    {
+      "sequence": 20,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.032100011594593525
+      },
+      "generation_ms": 693.3374999789521,
+      "valid_depth_fraction": 0.6301051493710692
+    },
+    {
+      "sequence": 21,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.014399993233382702
+      },
+      "generation_ms": 669.8387999786064,
+      "valid_depth_fraction": 0.6335470715408805
+    },
+    {
+      "sequence": 22,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.012899981811642647
+      },
+      "generation_ms": 680.8566999388859,
+      "valid_depth_fraction": 0.6318936713836478
+    },
+    {
+      "sequence": 23,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.03060000017285347
+      },
+      "generation_ms": 738.9399000676349,
+      "valid_depth_fraction": 0.6318150550314465
+    },
+    {
+      "sequence": 24,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.016300007700920105
+      },
+      "generation_ms": 816.2712999619544,
+      "valid_depth_fraction": 0.6311443592767295
+    },
+    {
+      "sequence": 25,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.03290001768618822
+      },
+      "generation_ms": 667.9028000216931,
+      "valid_depth_fraction": 0.6315276139937107
+    },
+    {
+      "sequence": 26,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.02059992402791977
+      },
+      "generation_ms": 729.9335999414325,
+      "valid_depth_fraction": 0.6348761792452831
+    },
+    {
+      "sequence": 27,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.015600002370774746
+      },
+      "generation_ms": 715.3965999605134,
+      "valid_depth_fraction": 0.6330532625786164
+    },
+    {
+      "sequence": 28,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.016700010746717453
+      },
+      "generation_ms": 721.9009000109509,
+      "valid_depth_fraction": 0.6322007665094339
+    },
+    {
+      "sequence": 29,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.015500001609325409
+      },
+      "generation_ms": 704.3525000335649,
+      "valid_depth_fraction": 0.6299405463836478
+    },
+    {
+      "sequence": 30,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.02410006709396839
+      },
+      "generation_ms": 698.0131999589503,
+      "valid_depth_fraction": 0.6321147798742138
+    },
+    {
+      "sequence": 31,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.015300000086426735
+      },
+      "generation_ms": 664.8892000084743,
+      "valid_depth_fraction": 0.6343627161949685
+    },
+    {
+      "sequence": 32,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.011299969628453255
+      },
+      "generation_ms": 671.5757999336347,
+      "valid_depth_fraction": 0.6320656446540881
+    },
+    {
+      "sequence": 33,
+      "status": "STALE",
+      "metrics": {
+        "processing_ms": 0.01179997343569994
+      },
+      "generation_ms": 665.7645999221131,
+      "valid_depth_fraction": 0.6318543632075472
+    }
+  ],
+  "kind": "timing_fault",
+  "seed": 10001,
+  "calibration": {
+    "width": 848,
+    "height": 480,
+    "K": [
+      [
+        446.80277311912806,
+        0.0,
+        423.5
+      ],
+      [
+        0.0,
+        446.80277311912806,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_B_C": [
+      [
+        0.7875050010075859,
+        0.354074791553987,
+        -0.504447138334675,
+        0.5660000000000001
+      ],
+      [
+        0.6163082616581106,
+        -0.45242890031898353,
+        0.6445713434276404,
+        -0.3895
+      ],
+      [
+        0.0,
+        -0.8184980953808969,
+        -0.5745092408811577,
+        0.42074999999999996
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "depth_scale": 0.001,
+    "min_depth": 0.35,
+    "max_depth": 1.2,
+    "serial": "unassigned",
+    "profile": "fixture_848x480_FOV_approximation_SDK_K_required",
+    "provenance": "synthetic",
+    "table_z": 0.0,
+    "workspace": [
+      0.08,
+      0.46,
+      -0.22,
+      0.22,
+      0.003,
+      0.35
+    ],
+    "distortion_model": "none",
+    "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388"
+  },
+  "noise_profile": {
+    "name": "clock_and_transport_fault",
+    "provenance": "engineering_assumption_not_device_calibration",
+    "baseline_m": 0.095,
+    "disparity_white_px": 0.07,
+    "disparity_correlated_px": 0.045,
+    "correlation_length_px": 2.0,
+    "temporal_correlation": 0.65,
+    "temporal_reference_dt_s": 0.03333333333333333,
+    "fixed_pattern_m": 0.00035,
+    "depth_offset_m": 0.0,
+    "offset_session_std_m": 0.0005,
+    "depth_scale_error": 0.0,
+    "scale_session_std": 0.0015,
+    "thermal_drift_m_per_s": 3e-06,
+    "thermal_time_constant_s": 120.0,
+    "focal_relative_std": 0.0008,
+    "principal_point_std_px": 0.2,
+    "residual_radial_k1": 0.0005,
+    "extrinsic_translation_std_m": 0.0006,
+    "extrinsic_rotation_std_rad": 0.0009,
+    "vibration_translation_m": 8e-05,
+    "vibration_rotation_rad": 0.00015,
+    "vibration_hz": 18.0,
+    "lateral_std_px": 0.12,
+    "rgb_alignment_px": 0.3,
+    "rgb_read_noise_dn": 1.5,
+    "rgb_shot_noise_scale": 0.15,
+    "dropout_probability": 0.025,
+    "cluster_dropout_probability": 0.015,
+    "outlier_probability": 0.003,
+    "edge_dropout_probability": 0.25,
+    "edge_flying_probability": 0.08,
+    "edge_width_px": 2,
+    "texture_quality": 0.85,
+    "specular_fraction": 0.0,
+    "exposure_s": 0.004,
+    "transport_delay_s": 0.1,
+    "transport_jitter_s": 0.02,
+    "clock_offset_s": -0.06,
+    "clock_jitter_s": 0.0003,
+    "clock_drift_ppm": 10.0,
+    "reported_time_uncertainty_s": 0.06,
+    "profile_id": "2edec3d38cb43f147b43909577a0358c15c4cc5110bb642236704f083b36308b"
+  },
+  "error_budget": {
+    "calibration_id": "56c3b0b7b12efb59da2eb151e690ef25f5d6863a2d8984425a96b53c483e8388",
+    "qualified": false,
+    "evidence_sha256": "",
+    "provenance": "engineering_bounds_require_bench_validation",
+    "depth_scale_bound": 0.02,
+    "depth_bias_bound_m": 0.001,
+    "extrinsic_translation_bound_m": 0.002,
+    "extrinsic_rotation_bound_rad": 0.003,
+    "intrinsic_relative_bound": 0.003,
+    "pixel_calibration_bound_px": 0.5,
+    "disparity_std_px": 0.1,
+    "baseline_m": 0.095,
+    "correlation_length_px": 3.0,
+    "max_effective_samples": 20,
+    "motion_speed_bound_m_s": 0.5,
+    "motion_acceleration_bound_m_s2": 15.0,
+    "unknown_exposure_bound_s": 0.033,
+    "relative_motion_bound_m": 0.03,
+    "tool_position_bound_m": 0.002
+  },
+  "scene_reference_failure": null,
+  "reference_frames": 10
+}

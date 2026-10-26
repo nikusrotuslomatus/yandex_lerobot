@@ -1,0 +1,26 @@
+{
+  "robotstudio": {
+    "repo": "https://github.com/TheRobotStudio/SO-ARM100",
+    "commit": "a758567c3978dfeefe282ede0500085a48fe8f78",
+    "file": "Simulation/SO101/so101_new_calib.xml",
+    "bytes": 13921
+  },
+  "hiwonder": {
+    "repo": "https://github.com/Hiwonder-official/hiwonder-SoArm-101",
+    "commit": "a24998f7ba3c77ea445b48c92ad15c14a50e492a",
+    "file": "README.md",
+    "bytes": 5625
+  },
+  "classical": {
+    "repo": "https://github.com/yayabash/so101-classical-robotics",
+    "commit": "c376a737244780e5803ee887f2ba9c821456cf5d",
+    "file": "README.md",
+    "bytes": 6545
+  },
+  "hf": {
+    "repo": "https://huggingface.co/lerobot/so101-tabletop-mujoco",
+    "commit": "12e504e860c369aad1a9a9eab3fdfbac658ed6dd",
+    "file": "README.md",
+    "selection": "Four 30mm cubes and randomized camera; not used. References Menagerie SO101."
+  }
+}

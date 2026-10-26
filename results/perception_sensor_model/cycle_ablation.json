@@ -1,0 +1,303 @@
+{
+  "cases": [
+    {
+      "name": "noiseless_no_robot_mask_diagnostic",
+      "tracked_saved_views": 0,
+      "views": [
+        {
+          "view": 1,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1430,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "inlier_fraction": 0.7034965034965035,
+            "processing_ms": 21.49769989773631
+          }
+        },
+        {
+          "view": 2,
+          "status": "LOST",
+          "metrics": {
+            "reason": "no_geometric_candidate",
+            "processing_ms": 15.2708999812603
+          }
+        },
+        {
+          "view": 3,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 946,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "inlier_fraction": 0.6945031712473573,
+            "processing_ms": 21.86420001089573
+          }
+        },
+        {
+          "view": 4,
+          "status": "LOST",
+          "metrics": {
+            "reason": "no_geometric_candidate",
+            "processing_ms": 16.010700026527047
+          }
+        },
+        {
+          "view": 5,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "inlier_fraction": 0.6683333333333333,
+            "processing_ms": 21.6509000165388
+          }
+        },
+        {
+          "view": 6,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 1,
+            "size_prior_m": 0.06,
+            "processing_ms": 19.84169997740537
+          }
+        }
+      ]
+    },
+    {
+      "name": "noiseless_exact_joint_CAD_mask",
+      "tracked_saved_views": 2,
+      "views": [
+        {
+          "view": 1,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 3,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.05816631019115448,
+              0.05163887143135071,
+              0.058601126074790955
+            ],
+            "reason": "insufficient_size_support",
+            "processing_ms": 24.562699953094125
+          }
+        },
+        {
+          "view": 2,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.042191922664642334,
+              0.05741997808218002,
+              0.05931203439831734
+            ],
+            "reason": "insufficient_size_support",
+            "processing_ms": 25.098799960687757
+          }
+        },
+        {
+          "view": 3,
+          "status": "TRACKING",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.05837865173816681,
+              0.08143992722034454,
+              0.05860348045825958
+            ],
+            "surface_rmse_m": 2.930476035527274e-05,
+            "inlier_fraction": 0.9761111111111112,
+            "evaluations": 7,
+            "uncertainty_model": "heuristic_floor_not_statistically_calibrated",
+            "translation_jump_m": 8.454120528090527e-06,
+            "angular_jump_rad": 4.358278328276503e-05,
+            "velocity_B": [
+              0.00011943192095363772,
+              4.5350682309818045e-05,
+              -0.00016837288398374657,
+              9.842643720661338e-06,
+              0.000860324832942343,
+              0.0006685104175433519
+            ],
+            "processing_ms": 49.73099997732788
+          }
+        },
+        {
+          "view": 4,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.046017810702323914,
+              0.05719010531902313,
+              0.05608746409416199
+            ],
+            "reason": "insufficient_size_support",
+            "processing_ms": 21.98150008916855
+          }
+        },
+        {
+          "view": 5,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.049120813608169556,
+              0.057780951261520386,
+              0.05601470172405243
+            ],
+            "reason": "insufficient_size_support",
+            "processing_ms": 22.674100007861853
+          }
+        },
+        {
+          "view": 6,
+          "status": "TRACKING",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.057313062250614166,
+              0.05846460163593292,
+              0.058592766523361206
+            ],
+            "surface_rmse_m": 5.754457345761145e-06,
+            "inlier_fraction": 0.9911111111111112,
+            "evaluations": 8,
+            "uncertainty_model": "heuristic_floor_not_statistically_calibrated",
+            "translation_jump_m": 1.693206400188498e-05,
+            "angular_jump_rad": 4.659354925253915e-05,
+            "velocity_B": [
+              3.1268709775617694e-05,
+              -0.0001509186184194999,
+              -0.00039424622129574297,
+              0.00020914170041337276,
+              0.001096581934676203,
+              -0.0003325914606163772
+            ],
+            "processing_ms": 35.81450006458908
+          }
+        }
+      ]
+    },
+    {
+      "name": "noiseless_4mm_robot_mask_envelope",
+      "tracked_saved_views": 0,
+      "views": [
+        {
+          "view": 1,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 3,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.04461820423603058,
+              0.05580070614814758,
+              0.058619774878025055
+            ],
+            "reason": "insufficient_size_support",
+            "processing_ms": 23.286699899472296
+          }
+        },
+        {
+          "view": 2,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.03307563066482544,
+              0.05746670812368393,
+              0.058863893151283264
+            ],
+            "reason": "insufficient_size_support",
+            "processing_ms": 27.605499955825508
+          }
+        },
+        {
+          "view": 3,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1252,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.05453389883041382,
+              0.05924506485462189,
+              0.017641335725784302
+            ],
+            "reason": "insufficient_size_support",
+            "processing_ms": 33.25179999228567
+          }
+        },
+        {
+          "view": 4,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.035752296447753906,
+              0.057055190205574036,
+              0.054139792919158936
+            ],
+            "reason": "insufficient_size_support",
+            "processing_ms": 22.57520006969571
+          }
+        },
+        {
+          "view": 5,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1800,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.0360473096370697,
+              0.05757246911525726,
+              0.05152036249637604
+            ],
+            "reason": "insufficient_size_support",
+            "processing_ms": 24.515399942174554
+          }
+        },
+        {
+          "view": 6,
+          "status": "DEGENERATE",
+          "metrics": {
+            "points": 1004,
+            "visible_planes": 2,
+            "size_prior_m": 0.06,
+            "support_span_m": [
+              0.0510634109377861,
+              0.05945448577404022,
+              0.018795251846313477
+            ],
+            "reason": "insufficient_size_support",
+            "processing_ms": 31.42660006415099
+          }
+        }
+      ]
+    }
+  ],
+  "input_sha256": "b957d0e447c2b4e852be0efe3f4652aac677b3520e960abf8f94a2577f568909",
+  "script_sha256": "4d3b3f33a9302fb49c1341bd687fe61c711824dba1e768da005286b054c5a850",
+  "scope": "Noiseless recorded-B replay; no-mask is an oracle diagnostic, never a deployment mode",
+  "robot_acceptance": false
+}

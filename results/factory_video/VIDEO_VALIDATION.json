@@ -1,0 +1,54 @@
+{
+  "status": "verified",
+  "duration_seconds": 40.041667,
+  "frames_decoded": 961,
+  "size": [
+    1600,
+    900
+  ],
+  "fps": 24,
+  "simulation_level": "B",
+  "captures": 6,
+  "coverage": 0.9953703703703703,
+  "final_cube_position": [
+    0.29985776920326773,
+    0.099952151327957,
+    0.029892244579783848
+  ],
+  "final_weld_active": false,
+  "all_source_reproduction_checks_passed": true,
+  "chapters": [
+    {
+      "title": "\u041f\u0435\u0440\u0432\u044b\u0439 \u0437\u0430\u0445\u0432\u0430\u0442",
+      "start_seconds": 0.0,
+      "end_seconds": 6.5
+    },
+    {
+      "title": "\u0421\u044a\u0451\u043c\u043a\u0430 \u00b7 1",
+      "start_seconds": 6.5,
+      "end_seconds": 13.083333333333334
+    },
+    {
+      "title": "\u041f\u0435\u0440\u0435\u0432\u043e\u0440\u043e\u0442",
+      "start_seconds": 13.083333333333334,
+      "end_seconds": 18.541666666666668
+    },
+    {
+      "title": "\u041f\u0435\u0440\u0435\u0445\u0432\u0430\u0442",
+      "start_seconds": 18.541666666666668,
+      "end_seconds": 26.833333333333332
+    },
+    {
+      "title": "\u0421\u044a\u0451\u043c\u043a\u0430 \u00b7 2",
+      "start_seconds": 26.833333333333332,
+      "end_seconds": 29.25
+    },
+    {
+      "title": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442 \u043d\u0430 \u0441\u0442\u043e\u043b",
+      "start_seconds": 29.25,
+      "end_seconds": 40.041666666666664
+    }
+  ],
+  "file_sha256": "d5866a77809b4f208e4f4a752d2e8cba8d9fe3b9331c715d8fd3e75463b1d67a",
+  "file_bytes": 3028555
+}

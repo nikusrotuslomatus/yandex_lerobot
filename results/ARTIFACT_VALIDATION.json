@@ -1,0 +1,27 @@
+{
+  "episodes": [
+    {
+      "path": "results\\acceptance_A",
+      "captures": 12,
+      "success": true,
+      "coverage_recomputed": 1.0,
+      "status": "verified"
+    },
+    {
+      "path": "results\\acceptance_B",
+      "captures": 13,
+      "success": true,
+      "coverage_recomputed": 1.0,
+      "status": "verified"
+    },
+    {
+      "path": "results\\acceptance_C",
+      "captures": 0,
+      "success": false,
+      "coverage_recomputed": 0.0,
+      "status": "verified"
+    }
+  ],
+  "model_hashes_checked": 22,
+  "physical_cases_checked": 6
+}

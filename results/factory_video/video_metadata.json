@@ -1,0 +1,25 @@
+{
+  "video": "results\\factory_video\\full_process.mp4",
+  "recorded_frames": 913,
+  "static_final_frames": 48,
+  "fps": 24,
+  "speed": 1.0,
+  "simulation_duration": 37.998000000000474,
+  "size": [
+    1600,
+    900
+  ],
+  "simulation_level": "B",
+  "artificial_attachment": "explicit equality weld",
+  "recording": "actual post-step states; no pose interpolation or object teleportation",
+  "source_episode": "results\\factory_acceptance\\run_00",
+  "reproduction_checks": {
+    "simulated_seconds": true,
+    "tracking_max": true,
+    "tracking_rms": true,
+    "captures": true,
+    "regrasps": true,
+    "binary_coverage": true,
+    "success": true
+  }
+}

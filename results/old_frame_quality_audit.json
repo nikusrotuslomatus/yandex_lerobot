@@ -1,0 +1,106 @@
+[
+  {
+    "frame": 1,
+    "time": 24.809999999997128,
+    "distance": 0.34716349016987186,
+    "bbox_short_px": 139.67036710207154,
+    "visible_pixels": 17021,
+    "visible_fraction": 1.0007921370546404
+  },
+  {
+    "frame": 2,
+    "time": 29.275999999994653,
+    "distance": 0.4641062702394279,
+    "bbox_short_px": 76.6640024729069,
+    "visible_pixels": 5247,
+    "visible_fraction": 0.9996611215998128
+  },
+  {
+    "frame": 3,
+    "time": 31.919999999993188,
+    "distance": 0.5128773043724799,
+    "bbox_short_px": 95.11705191178376,
+    "visible_pixels": 4808,
+    "visible_fraction": 0.8770168141225113
+  },
+  {
+    "frame": 4,
+    "time": 35.17799999999703,
+    "distance": 0.5057057185624856,
+    "bbox_short_px": 88.30126685506323,
+    "visible_pixels": 6001,
+    "visible_fraction": 1.0002267759256163
+  },
+  {
+    "frame": 5,
+    "time": 40.340000000003336,
+    "distance": 0.22011945454716914,
+    "bbox_short_px": 173.59749872988613,
+    "visible_pixels": 26064,
+    "visible_fraction": 0.9999998687049763
+  },
+  {
+    "frame": 6,
+    "time": 43.212000000006846,
+    "distance": 0.41257404762166333,
+    "bbox_short_px": 128.38411177141018,
+    "visible_pixels": 9068,
+    "visible_fraction": 0.9024150935519453
+  },
+  {
+    "frame": 7,
+    "time": 45.59800000000976,
+    "distance": 0.4767010045443011,
+    "bbox_short_px": 76.13060943206702,
+    "visible_pixels": 4525,
+    "visible_fraction": 0.825968632101596
+  },
+  {
+    "frame": 8,
+    "time": 47.7580000000124,
+    "distance": 0.6175133071240326,
+    "bbox_short_px": 85.99289479902524,
+    "visible_pixels": 4327,
+    "visible_fraction": 0.80924687841597
+  },
+  {
+    "frame": 9,
+    "time": 55.17000000002146,
+    "distance": 0.6260603191890576,
+    "bbox_short_px": 74.29251975719217,
+    "visible_pixels": 3373,
+    "visible_fraction": 0.8628814080843986
+  },
+  {
+    "frame": 10,
+    "time": 63.578000000031736,
+    "distance": 0.770742616731156,
+    "bbox_short_px": 66.62745401416501,
+    "visible_pixels": 2066,
+    "visible_fraction": 0.7157720633165586
+  },
+  {
+    "frame": 11,
+    "time": 109.99599999992505,
+    "distance": 0.5056440349029436,
+    "bbox_short_px": 79.83056158665423,
+    "visible_pixels": 6018,
+    "visible_fraction": 1.000350943111533
+  },
+  {
+    "frame": 12,
+    "time": 115.58799999991201,
+    "distance": 0.796110956237576,
+    "bbox_short_px": 59.13432153404398,
+    "visible_pixels": 844,
+    "visible_fraction": 0.4143902188796041
+  },
+  {
+    "frame": 13,
+    "time": 119.10799999990381,
+    "distance": 0.821270527464972,
+    "bbox_short_px": 59.65632543976466,
+    "visible_pixels": 1066,
+    "visible_fraction": 0.4683950340012287
+  }
+]

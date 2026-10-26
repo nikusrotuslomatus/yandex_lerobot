@@ -1,0 +1,328 @@
+{
+  "seed": 42,
+  "robot": {
+    "model": "third_party/robotstudio_so101/so101.xml",
+    "joint_names": [
+      "shoulder_pan",
+      "shoulder_lift",
+      "elbow_flex",
+      "wrist_flex",
+      "wrist_roll"
+    ],
+    "tcp_local": [
+      0.022,
+      0.0,
+      -0.083
+    ],
+    "home": [
+      0.0,
+      -0.5,
+      1.0,
+      -0.5,
+      0.0
+    ],
+    "open": 1.4,
+    "closed": -0.12,
+    "force_limit": 2.94,
+    "gripper_force_limit": 0.25,
+    "kp": 998.22,
+    "kv": 2.731,
+    "remove_wrist_camera": true,
+    "base_collision_position": [
+      0.0,
+      0.0,
+      0.018
+    ],
+    "base_collision_halfsize": [
+      0.04,
+      0.045,
+      0.018
+    ]
+  },
+  "scene": {
+    "cube_size": 0.06,
+    "cube_mass": 0.12,
+    "cube_position": [
+      0.22,
+      0.0,
+      0.031
+    ],
+    "cube_rpy": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "table_halfsize": [
+      0.65,
+      0.65,
+      0.025
+    ],
+    "camera_position": [
+      0.55,
+      -0.18,
+      0.32
+    ],
+    "camera_target": [
+      0.19,
+      0.0,
+      0.14
+    ],
+    "pole_position": [
+      0.59,
+      -0.18,
+      0.17
+    ],
+    "pole_radius": 0.012,
+    "pole_halfheight": 0.17
+  },
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "fovy": 52.0,
+    "near": 0.04,
+    "far": 2.0
+  },
+  "visibility": {
+    "grid": 12,
+    "quality_threshold": 0.35,
+    "diversity_deg": 20.0,
+    "angle_power": 1.0,
+    "min_distance": 0.1,
+    "max_distance": 1.0,
+    "min_pixels_per_element": 16.0,
+    "ray_tolerance": 0.0001
+  },
+  "frame_quality": {
+    "enabled": true,
+    "max_distance_m": 0.5,
+    "min_bbox_short_px": 100.0,
+    "min_visible_pixels": 8000,
+    "min_visible_fraction": 0.75,
+    "border_padding_px": 12.0,
+    "planning_pixel_safety": 1.08
+  },
+  "regrasp": {
+    "flip_before_second_grasp": true,
+    "placement_positions": [
+      [
+        0.3,
+        0.1,
+        0.031
+      ],
+      [
+        0.3,
+        -0.1,
+        0.031
+      ],
+      [
+        0.36,
+        0.0,
+        0.031
+      ]
+    ],
+    "support_faces": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "ik_starts": 8,
+    "support_residual_tolerance": 0.01,
+    "retreat_height": 0.06
+  },
+  "planning": {
+    "query_kinematics_only": true,
+    "candidates": 6000,
+    "max_views": 6,
+    "min_gain": 0.01,
+    "target_coverage": 0.95,
+    "joint_margin": 0.035,
+    "collision_margin": 0.001,
+    "max_contact_penetration": 0.0015,
+    "min_cube_height": 0.075,
+    "max_cube_height": 0.34,
+    "movement_weight": 0.004,
+    "time_normalized_gain": true,
+    "grasp_depths": [
+      -0.074,
+      -0.083,
+      -0.092
+    ],
+    "grasp_x": [
+      0.018,
+      0.022,
+      0.026,
+      0.03
+    ],
+    "aperture_samples": 91,
+    "aperture_z": [
+      -0.065,
+      -0.075,
+      -0.085,
+      -0.095
+    ],
+    "aperture_y": [
+      -0.004,
+      0.0,
+      0.004
+    ],
+    "pregrasp_distance": 0.045,
+    "pregrasp_lateral": -0.01,
+    "fit_penetration_tolerance": 0.0002,
+    "fit_finger_proximity": 0.008,
+    "fit_tilts": [
+      0.0,
+      -0.15,
+      0.15
+    ],
+    "fit_gripper_range": [
+      0.3,
+      1.4
+    ],
+    "fit_gripper_samples": 23,
+    "lift_distance": 0.1,
+    "ik_position_tolerance": 0.002,
+    "ik_orientation_tolerance": 0.1,
+    "ik_max_evaluations": 180,
+    "ik_joint_margin": 0.01,
+    "ik_starts": 10
+  },
+  "motion": {
+    "blend_cartesian": true,
+    "blend_joint_waypoints": true,
+    "safe_waypoint_graph": true,
+    "spline_timing_safety": 1.03,
+    "adaptive_waits": true,
+    "gripper_stable_time": 0.08,
+    "gripper_timeout": 4.5,
+    "gripper_position_tolerance": 0.03,
+    "gripper_speed_tolerance": 0.1,
+    "ideal_hold_duration": 0.2,
+    "safe_configurations": [
+      [
+        0.0,
+        -0.5,
+        1.0,
+        -0.5,
+        0.0
+      ],
+      [
+        -0.7,
+        -0.5,
+        1.0,
+        1.2,
+        0.0
+      ],
+      [
+        0.7,
+        -0.5,
+        1.0,
+        1.2,
+        0.0
+      ]
+    ],
+    "dt": 0.002,
+    "control_dt": 0.02,
+    "velocity": [
+      1.6,
+      1.6,
+      1.6,
+      1.6,
+      2.2
+    ],
+    "acceleration": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      5.2
+    ],
+    "path_joint_step": 0.025,
+    "path_joint_step_near": 0.0025,
+    "path_near_clearance": 0.005,
+    "min_duration": 0.12,
+    "tracking_tolerance": 0.04,
+    "tracking_abort": 0.25,
+    "speed_tolerance": 0.035,
+    "cube_speed_tolerance": 0.025,
+    "cube_angular_speed_tolerance": 0.15,
+    "settle_time": 0.12,
+    "settle_timeout": 5.0,
+    "gripper_duration": 1.0,
+    "placement_timeout": 2.0,
+    "continuous_reference": true,
+    "reference_limit_fraction": 0.98,
+    "enforce_measured_velocity": true,
+    "reference_reconcile_time": 0.12,
+    "contact_close": true,
+    "controlled_stop": true,
+    "stop_deceleration": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ]
+  },
+  "physics": {
+    "table_friction": 0.5,
+    "finger_friction": 0.7,
+    "spin_friction": 0.005,
+    "roll_friction": 0.0001,
+    "solver_iterations": 80,
+    "grip_translation_tolerance": 0.012,
+    "grip_rotation_tolerance": 0.2,
+    "min_lift": 0.045,
+    "hold_duration": 1.0,
+    "placement_angle_tolerance": 0.1,
+    "placement_height_tolerance": 0.004,
+    "grasp_alignment_tolerance": 0.02,
+    "contact_distance_tolerance": 0.001
+  },
+  "controller": {
+    "empty": {
+      "kp": [
+        900,
+        1000,
+        800,
+        600,
+        350
+      ],
+      "kv": [
+        10,
+        12,
+        9,
+        6,
+        4
+      ]
+    },
+    "loaded": {
+      "kp": [
+        900,
+        1000,
+        800,
+        600,
+        350
+      ],
+      "kv": [
+        11,
+        13,
+        10,
+        7,
+        4.5
+      ]
+    },
+    "velocity_feedforward": true,
+    "bias_feedforward": true,
+    "gripper_kp": 60,
+    "gripper_kv": 0.5
+  },
+  "grasp": {
+    "closure_feedback": "position_stall",
+    "test_lift": true,
+    "test_lift_distance": 0.01,
+    "test_min_lift": 0.006,
+    "test_max_slip": 0.004,
+    "test_hold_seconds": 0.08
+  }
+}

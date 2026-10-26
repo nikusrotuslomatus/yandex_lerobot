@@ -1,0 +1,67 @@
+{"time": 0.0, "kind": "transition", "source": "INITIALIZE", "target": "READ_STATE"}
+{"time": 0.0, "kind": "gripper_compatibility", "audit": {"checked": 828, "valid_fits": 57, "best_min_distance": 0.008299281910078903, "selected": {"g": 1.0499999999999998, "gripper_body_cube_center": [0.022, 0, -0.083], "tilt": -0.15, "clearance": 0.00017675059142027277}, "status": "geometric_fit_only"}}
+{"time": 0.0, "kind": "transition", "source": "READ_STATE", "target": "PLAN_TASK"}
+{"time": 0.0, "kind": "grasp_search", "counts": {"library_hit": 1}}
+{"time": 0.0, "kind": "selected_grasp", "grasp_id": "fit_0_axis_0_rotation_3", "contact_axis": 0, "predicted_T_G_O": [[0.9887710779360419, -7.885169514923926e-19, -0.14943813247359916, 3.469446951953614e-17], [-8.322566893596537e-19, 0.9999999999999997, -2.301580714099903e-19, 1.7347234759768061e-18], [0.14943813247359913, -3.519445297603038e-19, 0.988771077936042, -1.3877787807814457e-17], [0.0, 0.0, 0.0, 1.0]], "pregrasp_q": [-0.001127120376735423, -0.13414179598948905, 0.2404609593857525, 1.614477064634661, 0.04756859484683985], "grasp_q": [-0.001105169132702743, -0.015041685010707951, 0.45547904455780114, 1.2803588415932783, 0.04759016109592694]}
+{"time": 0.0, "kind": "transition", "source": "PLAN_TASK", "target": "MOVE_PREGRASP"}
+{"time": 3.211999999999868, "kind": "transition", "source": "MOVE_PREGRASP", "target": "APPROACH"}
+{"time": 4.0639999999997745, "kind": "transition", "source": "APPROACH", "target": "CLOSE_GRIPPER"}
+{"time": 5.249999999999644, "kind": "transition", "source": "CLOSE_GRIPPER", "target": "VERIFY_GRASP"}
+{"time": 5.249999999999644, "kind": "transition", "source": "VERIFY_GRASP", "target": "LIFT"}
+{"time": 6.491999999999507, "kind": "grasp_verification", "lift": 0.09991076341436282, "slip_translation": [-2.930634533317852e-05, -3.236843026832197e-08, -7.630479507133637e-05], "slip_rotation": 3.514734545320902e-10, "bilateral_contact": false, "success": true}
+{"time": 6.491999999999507, "kind": "transition", "source": "LIFT", "target": "PLAN_VIEW_SEQUENCE"}
+{"time": 6.491999999999507, "kind": "view_pool_potential", "binary": 0.8981481481481481, "per_face": {"0": 1.0, "1": 0.9583333333333334, "2": 1.0, "3": 1.0, "4": 0.4305555555555556, "5": 1.0}}
+{"time": 6.491999999999507, "kind": "view_plan", "statistics": {"library_hit": true, "sampled": 0, "accepted": 258, "fingerprint": "2de571108bb0e8aeaa7d8a59720b3031250414d760e996fbcfa123218460c990"}, "targets": [[-0.4236998620503396, -0.8107247334257834, 0.2948785961698741, 0.6563512987962552, -0.45117931316156845], [0.5418106021285432, -0.2534527386290035, 0.08885102427564551, 1.2196679029100017, -1.721384829874608], [0.7310887559685855, -0.8958439829495833, -0.0630921630654484, 1.3632884971655588, -2.1841366725329294], [-0.37941600699093203, -0.16600843342402172, 0.42892023315653227, 0.02882742973282748, 0.9537700226713435]], "deferred_until_flip_face": 4}
+{"time": 6.491999999999507, "kind": "transition", "source": "PLAN_VIEW_SEQUENCE", "target": "MOVE_TO_VIEW"}
+{"time": 7.795999999999363, "kind": "transition", "source": "MOVE_TO_VIEW", "target": "SETTLE"}
+{"time": 7.795999999999363, "kind": "transition", "source": "SETTLE", "target": "CAPTURE"}
+{"time": 7.795999999999363, "kind": "transition", "source": "CAPTURE", "target": "UPDATE_COVERAGE", "coverage": 0.5}
+{"time": 7.795999999999363, "kind": "transition", "source": "UPDATE_COVERAGE", "target": "MOVE_TO_VIEW"}
+{"time": 9.115999999999714, "kind": "transition", "source": "MOVE_TO_VIEW", "target": "SETTLE"}
+{"time": 9.115999999999714, "kind": "transition", "source": "SETTLE", "target": "CAPTURE"}
+{"time": 9.115999999999714, "kind": "transition", "source": "CAPTURE", "target": "UPDATE_COVERAGE", "coverage": 0.7696759259259259}
+{"time": 9.115999999999714, "kind": "transition", "source": "UPDATE_COVERAGE", "target": "MOVE_TO_VIEW"}
+{"time": 10.210000000000079, "kind": "transition", "source": "MOVE_TO_VIEW", "target": "SETTLE"}
+{"time": 10.210000000000079, "kind": "transition", "source": "SETTLE", "target": "CAPTURE"}
+{"time": 10.210000000000079, "kind": "transition", "source": "CAPTURE", "target": "UPDATE_COVERAGE", "coverage": 0.8136574074074074}
+{"time": 10.210000000000079, "kind": "transition", "source": "UPDATE_COVERAGE", "target": "MOVE_TO_VIEW"}
+{"time": 13.06000000000103, "kind": "transition", "source": "MOVE_TO_VIEW", "target": "SETTLE"}
+{"time": 13.06000000000103, "kind": "transition", "source": "SETTLE", "target": "CAPTURE"}
+{"time": 13.06000000000103, "kind": "transition", "source": "CAPTURE", "target": "UPDATE_COVERAGE", "coverage": 0.8252314814814815}
+{"time": 13.06000000000103, "kind": "transition", "source": "UPDATE_COVERAGE", "target": "MOVE_PREPLACE"}
+{"time": 13.06000000000103, "kind": "placement_plan", "target_cube_pose": [[-0.42319760692778613, -1.5543122344752192e-15, -0.9060374084388539, 0.2999999999999999], [0.9060374084388539, -1.27675647831893e-15, -0.42319760692778624, 0.10000000000000007], [-4.440892098500626e-16, -0.9999999999999998, 1.942890293094024e-15, 0.03100000000000006], [0.0, 0.0, 0.0, 1.0]], "flip": true}
+{"time": 15.18600000000174, "kind": "transition", "source": "MOVE_PREPLACE", "target": "REORIENT"}
+{"time": 15.18600000000174, "kind": "transition", "source": "REORIENT", "target": "PLACE"}
+{"time": 16.23600000000188, "kind": "transition", "source": "PLACE", "target": "RELEASE"}
+{"time": 17.558000000001147, "kind": "transition", "source": "RELEASE", "target": "VERIFY_PLACEMENT"}
+{"time": 17.558000000001147, "kind": "flip_verified", "before": [[1.0, 0.0, 0.0, 0.22], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.031], [0.0, 0.0, 0.0, 1.0]], "after": [[-0.4231976239880264, 2.8640145810499007e-11, -0.9060374004702509, 0.29992657714362025], [0.9060374004702509, 1.0908440817303244e-11, -0.4231976239880264, 0.09997647934300712], [-2.2369328611659967e-12, -1.0000000000000004, -3.0565494579803953e-11, 0.029892244579783872], [0.0, 0.0, 0.0, 1.0]], "old_support_axis": 2, "new_support_axis": 1}
+{"time": 17.558000000001147, "kind": "transition", "source": "VERIFY_PLACEMENT", "target": "RETREAT"}
+{"time": 18.524000000000612, "kind": "transition", "source": "RETREAT", "target": "PLAN_REGRASP"}
+{"time": 18.524000000000612, "kind": "grasp_search", "counts": {"library_hit": 1}}
+{"time": 18.524000000000612, "kind": "selected_grasp", "grasp_id": "fit_6_axis_0_rotation_14", "contact_axis": 2, "predicted_T_G_O": [[-7.885169514923924e-19, 1.4456800893362873e-17, -0.9999999999999994, 0.004000000000000035], [0.9999999999999994, 3.519445297603037e-19, 7.885169514923924e-19, 1.7315694081708367e-18], [-3.519445297603037e-19, -0.9999999999999996, 1.4456800893362873e-17, -1.3877787807814457e-17], [0.0, 0.0, 0.0, 1.0]], "pregrasp_q": [-0.35590628540944413, 0.49636370023705967, -0.5795594190039445, 1.6480629899902206, 0.12970904342490736], "grasp_q": [-0.3590950208807634, 0.6345670492222545, -0.47228376723084675, 1.4085129350921968, 0.12655617265203606]}
+{"time": 18.524000000000612, "kind": "transition", "source": "PLAN_REGRASP", "target": "MOVE_PREGRASP"}
+{"time": 23.94199999999761, "kind": "transition", "source": "MOVE_PREGRASP", "target": "APPROACH"}
+{"time": 24.6799999999972, "kind": "transition", "source": "APPROACH", "target": "CLOSE_GRIPPER"}
+{"time": 25.713999999996627, "kind": "transition", "source": "CLOSE_GRIPPER", "target": "VERIFY_GRASP"}
+{"time": 25.713999999996627, "kind": "transition", "source": "VERIFY_GRASP", "target": "LIFT"}
+{"time": 26.80799999999602, "kind": "grasp_verification", "lift": 0.10089414307115616, "slip_translation": [1.823181157798994e-06, 7.851316300853741e-05, 2.2663603480752373e-05], "slip_rotation": 6.860152215458873e-10, "bilateral_contact": false, "success": true}
+{"time": 26.80799999999602, "kind": "transition", "source": "LIFT", "target": "PLAN_VIEW_SEQUENCE"}
+{"time": 26.80799999999602, "kind": "view_pool_potential", "binary": 0.8333333333333334, "per_face": {"0": 1.0, "1": 1.0, "2": 1.0, "3": 0.0, "4": 1.0, "5": 1.0}}
+{"time": 26.80799999999602, "kind": "view_plan", "statistics": {"library_hit": true, "sampled": 0, "accepted": 257, "fingerprint": "2de571108bb0e8aeaa7d8a59720b3031250414d760e996fbcfa123218460c990"}, "targets": [[-0.28772887589871887, -0.30668682048739426, -0.016127971801906726, 1.0425177083016504, 1.187807884822686], [-0.021210774146206646, -0.6474154121285438, -0.3433987042773514, 1.378494691518942, 2.200258496766749]], "deferred_until_flip_face": null}
+{"time": 26.80799999999602, "kind": "transition", "source": "PLAN_VIEW_SEQUENCE", "target": "MOVE_TO_VIEW"}
+{"time": 28.023999999995347, "kind": "transition", "source": "MOVE_TO_VIEW", "target": "SETTLE"}
+{"time": 28.023999999995347, "kind": "transition", "source": "SETTLE", "target": "CAPTURE"}
+{"time": 28.023999999995347, "kind": "transition", "source": "CAPTURE", "target": "UPDATE_COVERAGE", "coverage": 0.9467592592592593}
+{"time": 28.023999999995347, "kind": "transition", "source": "UPDATE_COVERAGE", "target": "MOVE_TO_VIEW"}
+{"time": 29.215999999994686, "kind": "transition", "source": "MOVE_TO_VIEW", "target": "SETTLE"}
+{"time": 29.215999999994686, "kind": "transition", "source": "SETTLE", "target": "CAPTURE"}
+{"time": 29.215999999994686, "kind": "transition", "source": "CAPTURE", "target": "UPDATE_COVERAGE", "coverage": 0.9953703703703703}
+{"time": 29.215999999994686, "kind": "transition", "source": "UPDATE_COVERAGE", "target": "MOVE_PREPLACE"}
+{"time": 29.215999999994686, "kind": "placement_plan", "target_cube_pose": [[-0.42319763382048614, 9.815370738408546e-12, -0.9060373958776433, 0.2999265774219125], [0.9060373958776433, 3.739619724996146e-12, -0.42319763382048614, 0.0999764794490218], [-7.65609797781508e-13, -0.9999999999999998, -1.0475675882304358e-11, 0.029892244579783844], [0.0, 0.0, 0.0, 1.0]], "flip": false}
+{"time": 31.13799999999362, "kind": "transition", "source": "MOVE_PREPLACE", "target": "REORIENT"}
+{"time": 31.13799999999362, "kind": "transition", "source": "REORIENT", "target": "PLACE"}
+{"time": 32.03199999999318, "kind": "transition", "source": "PLACE", "target": "RELEASE"}
+{"time": 33.21599999999463, "kind": "transition", "source": "RELEASE", "target": "VERIFY_PLACEMENT"}
+{"time": 33.21599999999463, "kind": "transition", "source": "VERIFY_PLACEMENT", "target": "RETREAT"}
+{"time": 33.95399999999553, "kind": "transition", "source": "RETREAT", "target": "FINISH"}
+{"time": 37.998000000000474, "kind": "transition", "source": "FINISH", "target": "DONE"}

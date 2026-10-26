@@ -1,0 +1,4 @@
+# Preserve exact bytes: experiment manifests include SHA256 of source files.
+* -text
+third_party/** linguist-vendored=true
+results/** linguist-generated=true

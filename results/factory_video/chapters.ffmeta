@@ -1,0 +1,33 @@
+;FFMETADATA1
+title=SO-101: полный цикл сканирования
+comment=MuJoCo level B: explicit ideal weld attachment; not validated contact grasp.
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=6500
+title=Первый захват
+[CHAPTER]
+TIMEBASE=1/1000
+START=6500
+END=13083
+title=Съёмка · 1
+[CHAPTER]
+TIMEBASE=1/1000
+START=13083
+END=18541
+title=Переворот
+[CHAPTER]
+TIMEBASE=1/1000
+START=18541
+END=26833
+title=Перехват
+[CHAPTER]
+TIMEBASE=1/1000
+START=26833
+END=29250
+title=Съёмка · 2
+[CHAPTER]
+TIMEBASE=1/1000
+START=29250
+END=40041
+title=Возврат на стол

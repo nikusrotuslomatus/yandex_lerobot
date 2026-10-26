@@ -1,0 +1,215 @@
+{
+  "scope": "geometric snapshots only; ten-frame cap; two-grasp method excludes manipulation cost; fixed poses are not optimized; grid24 changes both sampling density and pixel-scale quality",
+  "cases": {
+    "fixed_script_grid_12": {
+      "frames": 10,
+      "metrics": {
+        "binary_coverage": 0.8125,
+        "any_visibility": 0.8298611111111112,
+        "quality_weighted": 0.6139858674887323,
+        "multiview_coverage": 0.7754629629629629,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.5689112143979452
+          },
+          "-X": {
+            "binary": 0.875,
+            "quality": 0.6808688146613358
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.7685152979995331
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.7738008726532002
+          },
+          "+Z": {
+            "binary": 0.0,
+            "quality": 0.0
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.8918190052203795
+          }
+        }
+      }
+    },
+    "optimized_single_grid_12": {
+      "frames": 10,
+      "metrics": {
+        "binary_coverage": 0.9907407407407407,
+        "any_visibility": 0.9907407407407407,
+        "quality_weighted": 0.8895003493424398,
+        "multiview_coverage": 0.9074074074074074,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.9304625522778915
+          },
+          "-X": {
+            "binary": 0.9444444444444444,
+            "quality": 0.877064311621619
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.995332274069288
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.9923285326747973
+          },
+          "+Z": {
+            "binary": 1.0,
+            "quality": 0.5540021457972996
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.9878122796137446
+          }
+        }
+      }
+    },
+    "optimized_two_5_plus_5_grid_12": {
+      "frames": 10,
+      "metrics": {
+        "binary_coverage": 1.0,
+        "any_visibility": 1.0,
+        "quality_weighted": 0.9019588251742379,
+        "multiview_coverage": 0.8333333333333334,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.5496033486508813
+          },
+          "-X": {
+            "binary": 1.0,
+            "quality": 0.9854085254904175
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.9499415817786677
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.9512071388333229
+          },
+          "+Z": {
+            "binary": 1.0,
+            "quality": 0.9877800766783934
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.9878122796137446
+          }
+        }
+      }
+    },
+    "fixed_script_grid_24": {
+      "frames": 10,
+      "metrics": {
+        "binary_coverage": 0.8125,
+        "any_visibility": 0.8304398148148148,
+        "quality_weighted": 0.6140040751037911,
+        "multiview_coverage": 0.7774884259259259,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.5689112823003545
+          },
+          "-X": {
+            "binary": 0.875,
+            "quality": 0.6809840745407385
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.7685109324461303
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.7737964588486465
+          },
+          "+Z": {
+            "binary": 0.0,
+            "quality": 0.0
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.8918217024868773
+          }
+        }
+      }
+    },
+    "optimized_single_grid_24": {
+      "frames": 10,
+      "metrics": {
+        "binary_coverage": 0.9901620370370371,
+        "any_visibility": 0.9913194444444444,
+        "quality_weighted": 0.8898387651988828,
+        "multiview_coverage": 0.9059606481481481,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.9281619897731272
+          },
+          "-X": {
+            "binary": 0.9479166666666666,
+            "quality": 0.8861095950330985
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.9953232986993668
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.9923226175359482
+          },
+          "+Z": {
+            "binary": 0.9930555555555556,
+            "quality": 0.5493428694226302
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.9877722207291263
+          }
+        }
+      }
+    },
+    "optimized_two_5_plus_5_grid_24": {
+      "frames": 10,
+      "metrics": {
+        "binary_coverage": 1.0,
+        "any_visibility": 1.0,
+        "quality_weighted": 0.9025361036008107,
+        "multiview_coverage": 0.8333333333333334,
+        "per_face": {
+          "+X": {
+            "binary": 1.0,
+            "quality": 0.5496035864783991
+          },
+          "-X": {
+            "binary": 1.0,
+            "quality": 0.9853934424236156
+          },
+          "+Y": {
+            "binary": 1.0,
+            "quality": 0.9521828893033195
+          },
+          "-Y": {
+            "binary": 1.0,
+            "quality": 0.952490952824895
+          },
+          "+Z": {
+            "binary": 1.0,
+            "quality": 0.987773529845509
+          },
+          "-Z": {
+            "binary": 1.0,
+            "quality": 0.9877722207291263
+          }
+        }
+      }
+    }
+  }
+}

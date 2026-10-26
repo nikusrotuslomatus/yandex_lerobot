@@ -1,0 +1,118 @@
+{
+  "status": "verified",
+  "simulation_level": "B",
+  "hardware_validated": false,
+  "contact_cycle_validated": false,
+  "acceleration_profile_changed": false,
+  "force_caps_changed": false,
+  "baseline_planning_seconds": 28.15764429984847,
+  "nominal_planning_seconds": 3.3613634998328052,
+  "nominal_planning_speedup": 8.376851923705674,
+  "planning_min_seconds": 3.0724463999504223,
+  "planning_median_seconds": 3.719331150088692,
+  "planning_max_seconds": 5.022104799747467,
+  "largest_planning_operation_seconds": 0.9998848999966867,
+  "successful_scenarios": 6,
+  "total_scenarios": 6,
+  "nominal_motion_seconds": 37.998000000000474,
+  "nominal_serial_motion_plus_planning_seconds": 41.35936349983328,
+  "nominal_tracking_max": 0.0020157689879762943,
+  "nominal_tracking_rms": 0.000511509878034127,
+  "nominal_arm_force_saturation_fraction": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "nominal_coverage": {
+    "binary_coverage": 0.9953703703703703,
+    "any_visibility": 1.0,
+    "quality_weighted": 0.6785398563760685,
+    "multiview_coverage": 0.7476851851851852,
+    "per_face": {
+      "+X": {
+        "binary": 1.0,
+        "quality": 0.44004333160621073
+      },
+      "-X": {
+        "binary": 1.0,
+        "quality": 0.813893067782706
+      },
+      "+Y": {
+        "binary": 1.0,
+        "quality": 0.824778309976732
+      },
+      "-Y": {
+        "binary": 1.0,
+        "quality": 0.8602307666648801
+      },
+      "+Z": {
+        "binary": 0.9722222222222222,
+        "quality": 0.608431997922833
+      },
+      "-Z": {
+        "binary": 1.0,
+        "quality": 0.5238616643030489
+      }
+    }
+  },
+  "cold_preparation": 22.00078369973926,
+  "contact_failure": {
+    "code": "TEST_LIFT_FAILED",
+    "details": {
+      "lift": 0.00017708468874426397,
+      "slip": 0.009824265831686716,
+      "angle": 0.0012249057096810631,
+      "source": "simulation_ground_truth"
+    }
+  },
+  "stop_probe": {
+    "stop": {
+      "method": "controlled_brake",
+      "duration": 0.4000000000000003,
+      "initial_velocity": [
+        0.5999999999932585,
+        1.275262193657605e-10,
+        -9.235924761410061e-10,
+        -1.783144417049684e-10,
+        -2.4208295768690734e-07
+      ],
+      "final_velocity": [
+        0.0008449812220461712,
+        1.8333839308784088e-06,
+        -2.0968723150401886e-06,
+        -6.413470987320411e-08,
+        -1.1240664839821053e-05
+      ]
+    },
+    "initial_speed": [
+      0.5999999999932585,
+      1.275262193657605e-10,
+      -9.235924761410061e-10,
+      -1.783144417049684e-10,
+      -2.4208295768690734e-07
+    ],
+    "final_speed": [
+      0.0008449812220461712,
+      1.8333839308784088e-06,
+      -2.0968723150401886e-06,
+      -6.413470987320411e-08,
+      -1.1240664839821053e-05
+    ],
+    "force_max": [
+      2.94,
+      0.2991304214743309,
+      0.4151325760179816,
+      0.11437633819019766,
+      0.0009509303737923577,
+      0.0006661551914248776
+    ],
+    "forbidden_collision_steps": 0,
+    "gripper_before": 1.3999921568091243,
+    "gripper_after": 1.3999889342671032
+  },
+  "tests_passed": 48,
+  "timing_note": "Wall-clock planning measurements depend on machine load; six simulations do not qualify hardware reliability.",
+  "camera_note": "CameraObserver integration contract tested; real-image pose estimation and hardware driver are not implemented."
+}

@@ -1,0 +1,225 @@
+{
+  "status": "verified",
+  "episode": "C:\\Users\\user\\Downloads\\yandex_lerobot\\results\\efficient_smooth_B",
+  "simulation_level": "B",
+  "contact_grasp_validated": false,
+  "baseline": {
+    "episode": "C:\\Users\\user\\Downloads\\yandex_lerobot\\results\\acceptance_B",
+    "simulated_seconds": 147.5459999999764,
+    "first_capture_seconds": 24.809999999997128,
+    "captures": 13,
+    "min_visible_pixels": 844
+  },
+  "improved": {
+    "simulated_seconds": 38.15800000000067,
+    "planning_seconds": 28.15764429984847,
+    "planning_breakdown": {
+      "grasp_search": 7.144321599975228,
+      "joint_paths": 3.931511199916713,
+      "cartesian_paths": 2.7060584999853745,
+      "view_search": 12.040279400011059,
+      "placement_search": 2.335473599960096
+    },
+    "sim_plus_planning_seconds": 66.31564429984914,
+    "wall_seconds": 46.20541850000154,
+    "tracking_max": 0.0029606135602591177,
+    "captures": 6,
+    "coverage": {
+      "binary_coverage": 0.9953703703703703,
+      "any_visibility": 1.0,
+      "quality_weighted": 0.678606464394143,
+      "multiview_coverage": 0.7488425925925926,
+      "per_face": {
+        "+X": {
+          "binary": 1.0,
+          "quality": 0.43995078289680184
+        },
+        "-X": {
+          "binary": 1.0,
+          "quality": 0.8141646291922946
+        },
+        "+Y": {
+          "binary": 1.0,
+          "quality": 0.8247221330782077
+        },
+        "-Y": {
+          "binary": 1.0,
+          "quality": 0.8604902686532078
+        },
+        "+Z": {
+          "binary": 0.9722222222222222,
+          "quality": 0.6092100187968192
+        },
+        "-Z": {
+          "binary": 1.0,
+          "quality": 0.5231009537475264
+        }
+      }
+    },
+    "measured_velocity_max": [
+      1.509828704004305,
+      1.479143949011032,
+      1.5681502649475267,
+      1.5683238894608251,
+      2.15631514610876
+    ],
+    "measured_acceleration_max": [
+      3.8775891042459043,
+      5.112630203269828,
+      7.841113933942602,
+      3.922589489518291,
+      5.100198109449893
+    ],
+    "actuator_force_max": [
+      2.0603882105802995,
+      2.154761834485896,
+      2.4637342515689795,
+      2.254092530556818,
+      2.94,
+      0.25
+    ],
+    "force_saturation_fraction": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0035641280989569682,
+      0.11614864510718591
+    ],
+    "first_capture_seconds": 7.8139999999993615,
+    "min_visible_pixels": 8678.0,
+    "min_visible_fraction": 0.8903972444635805,
+    "max_camera_distance_m": 0.4128351792490773,
+    "min_bbox_short_px": 105.4618989930334
+  },
+  "cycle_speedup": 3.8667120918280258,
+  "first_image_speedup": 3.175070386485687,
+  "quality_definition_changed": "Minimum pixels per surface cell raised from 1 to 16; old/new coverage is not directly comparable.",
+  "clock_note": "Simulation time excludes planning. sim_plus_planning is a serial estimate, not measured hardware takt.",
+  "flip_event": {
+    "time": 17.634000000001105,
+    "kind": "flip_verified",
+    "before": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.22
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.031
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "after": [
+      [
+        -0.42355491845962856,
+        3.046157770469904e-11,
+        -0.9058704272955695,
+        0.2998626060872953
+      ],
+      [
+        0.9058704272955695,
+        9.765077635393027e-12,
+        -0.4235549184596285,
+        0.09995851002693977
+      ],
+      [
+        -4.056255331619241e-12,
+        -1.0,
+        -3.1730285066089436e-11,
+        0.029892244579783806
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "old_support_axis": 2,
+    "new_support_axis": 1
+  },
+  "accepted_frame_quality": [
+    {
+      "distance_m": 0.3997218191470928,
+      "bbox_short_px": 123.54005848616845,
+      "bbox_width_px": 123.54005848616845,
+      "bbox_height_px": 123.63474581503513,
+      "silhouette_pixels": 12143.598931033508,
+      "visible_pixels": 12141.0,
+      "visible_fraction": 0.9997859834594119,
+      "border_padding_px": 12.676171209719655,
+      "pixel_measurement": "segmentation"
+    },
+    {
+      "distance_m": 0.3793578906348338,
+      "bbox_short_px": 105.4618989930334,
+      "bbox_width_px": 132.33487231887636,
+      "bbox_height_px": 105.4618989930334,
+      "silhouette_pixels": 10568.316623294417,
+      "visible_pixels": 9410.0,
+      "visible_fraction": 0.8903972444635805,
+      "border_padding_px": 103.3851390248139,
+      "pixel_measurement": "segmentation"
+    },
+    {
+      "distance_m": 0.4128351792490773,
+      "bbox_short_px": 135.53778697219636,
+      "bbox_width_px": 135.99106201617863,
+      "bbox_height_px": 135.53778697219636,
+      "silhouette_pixels": 9599.582625167455,
+      "visible_pixels": 8678.0,
+      "visible_fraction": 0.9039976360272872,
+      "border_padding_px": 44.77705615231335,
+      "pixel_measurement": "segmentation"
+    },
+    {
+      "distance_m": 0.412573894600444,
+      "bbox_short_px": 128.38415343754411,
+      "bbox_width_px": 128.38415343754411,
+      "bbox_height_px": 130.94749441309105,
+      "silhouette_pixels": 10048.59662259776,
+      "visible_pixels": 9068.0,
+      "visible_fraction": 0.9024145699716367,
+      "border_padding_px": 14.536024996715582,
+      "pixel_measurement": "segmentation"
+    },
+    {
+      "distance_m": 0.4036062703421037,
+      "bbox_short_px": 128.0588132748934,
+      "bbox_width_px": 138.99410375967273,
+      "bbox_height_px": 128.0588132748934,
+      "silhouette_pixels": 9601.79087057612,
+      "visible_pixels": 8710.0,
+      "visible_fraction": 0.9071224438652441,
+      "border_padding_px": 76.9860657305046,
+      "pixel_measurement": "segmentation"
+    },
+    {
+      "distance_m": 0.39133125821637815,
+      "bbox_short_px": 136.78089511122766,
+      "bbox_width_px": 136.78089511122766,
+      "bbox_height_px": 138.80709119200375,
+      "silhouette_pixels": 9832.764299423203,
+      "visible_pixels": 9005.0,
+      "visible_fraction": 0.915815708155258,
+      "border_padding_px": 18.625003391232298,
+      "pixel_measurement": "segmentation"
+    }
+  ]
+}
