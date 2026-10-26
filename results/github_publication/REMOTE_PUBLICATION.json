@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "repository": "nikusrotuslomatus/yandex_lerobot",
+  "validation_commit": "8ce02f581dbfa423037037f88d655280efed13b3",
+  "tag": "v0.1.0-research-snapshot-2026-10-26",
+  "workflow_url": "https://github.com/nikusrotuslomatus/yandex_lerobot/actions/runs/40329321974",
+  "hardware_acceptance": false,
+  "error": "RuntimeError: Repository visibility changed"
+}
