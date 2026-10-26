@@ -10,15 +10,15 @@
 
 Основная величина шума — disparity в пикселях, а не постоянная ошибка Z:
 
-\[
+```math
 d=\frac{f_xB}{z},\qquad
 \delta d=s(\theta,m)(\sigma_w\epsilon+\sigma_c\xi(u,v,t)),
-\]
-\[
+```
+```math
 z_{obs}=Q_{depth\_scale}\left[
 \frac{f_xB}{d+\delta d}(1+\alpha_{session})+
 \beta_{session}+F(u,v)+b_{thermal}(t)\right].
-\]
+```
 
 В первом приближении `sigma_z = z² sigma_d / (fx B)`. Цветной во времени
 компонент использует AR(1), коэффициент пересчитывается по фактическому dt.
